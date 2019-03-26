@@ -6,6 +6,7 @@ def load_api_key(filename='twitter_api_key.yaml'):
     with open(filename) as f:
         return yaml.load(f)
         
+#never push up your API keys!!! 
 key = load_api_key()
 consumer_key = key['consumer_key']
 consumer_secret = key['consumer_secret']
