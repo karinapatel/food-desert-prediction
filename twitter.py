@@ -1,9 +1,16 @@
 import tweepy
+import yaml
 
-consumer_key = 
-consumer_secret = 
-access_token = 
-access_token_secret = 
+def load_api_key(filename='twitter_api_key.yaml'):
+    """Load Yelp API client ID and client secret and return them as a dictionary."""
+    with open(filename) as f:
+        return yaml.load(f)
+        
+key = load_api_key()
+consumer_key = key['consumer_key']
+consumer_secret = key['consumer_secret']
+access_token = key['access_token']
+access_token_secret = key['access_token_secret']
 
 # Creating the authentication object
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
@@ -17,6 +24,7 @@ public_tweets = api.home_timeline()
 # foreach through all tweets pulled
 for tweet in public_tweets:
    # printing the text stored inside the tweet object
-   print tweet.text
-   print tweet.user.location
+   print("Content: ",tweet.text)
+   print()
+   print("Location: ",tweet.user.location)
 
