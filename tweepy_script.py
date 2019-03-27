@@ -1,3 +1,4 @@
+#tweepy simple script
 import tweepy
 import yaml
 
@@ -28,4 +29,3 @@ for tweet in public_tweets:
    print("Content: ",tweet.text)
    print()
    print("Location: ",tweet.user.location)
-
