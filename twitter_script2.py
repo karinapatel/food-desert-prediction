@@ -34,16 +34,29 @@ sid=SentimentIntensityAnalyzer()
 
 #actual script to query and store in mongo, keep track of req_count so you don't exceed rate limit...sleep before you do it
 
+
 #words = ['safeway','albertsons','ralphs','kroger','trader joe\'s','whole foods','jewel-osco', 'pavilions', 'food 4 less']
 words=['randalls','tom thumb','star market','vons','united supermarkets','amigos','acme markets', 'carrs']
+#keep count of requests made so I don't keep hitting rate limit
 req_count = 0
+#iterate through words of interest
 for query in words:
+    
+    #find current time and keep track of how far back to query
     current = datetime.now()
     Prior = datetime.now() - timedelta(days=1)
+    
+    #initialize lists
+    #check if it is initial query
     c = 0
+    #tweet text for current query
     lst = []
+    #tweet ids
     s = []
+    # filter out RT to avoid duplicates
     q = query + " -filter:retweets"
+    
+
     while current>Prior:
         if c == 0:
             Query = t.search.tweets(q=q,result_type='recent',count=100,tweet_mode='extended')
