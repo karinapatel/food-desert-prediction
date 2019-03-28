@@ -7,10 +7,11 @@ import nltk
 from twitter import *
 nltk.download('vader_lexicon')
 
+
 #start up mongo server and connect to the client
 client = MongoClient()
 db = client['capstone']
-coll=db['twitter']
+coll=db['twitter']  
 
 #function to pull secret data
 def load_api_key(filename='twitter_api_key.yaml'):
@@ -34,7 +35,6 @@ sid=SentimentIntensityAnalyzer()
 
 #actual script to query and store in mongo, keep track of req_count so you don't exceed rate limit...sleep before you do it
 
-
 #words = ['safeway','albertsons','ralphs','kroger','trader joe\'s','whole foods','jewel-osco', 'pavilions', 'food 4 less']
 words=['randalls','tom thumb','star market','vons','united supermarkets','amigos','acme markets', 'carrs']
 #keep count of requests made so I don't keep hitting rate limit
@@ -55,8 +55,6 @@ for query in words:
     s = []
     # filter out RT to avoid duplicates
     q = query + " -filter:retweets"
-    
-
     while current>Prior:
         if c == 0:
             Query = t.search.tweets(q=q,result_type='recent',count=100,tweet_mode='extended')
@@ -79,5 +77,6 @@ for query in words:
         if req_count>450*99:
             time.sleep(60*15)
             req_count = 0
+
 
 #mongo query for coord data: db.twitter.find({"full_data.geo" : {$exists : true,$ne : null}}).count()
