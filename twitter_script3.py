@@ -8,6 +8,9 @@ from datetime import datetime,timedelta
 import nltk
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 import pandas as pd
+import re
+import unicodedata
+from unidecode import unidecode
 
 #450 rate limit
 #grabs API keys from secret yaml file so I don't put my keys on github
@@ -15,6 +18,17 @@ def load_api_key(filename='twitter_api_key.yaml'):
         """Load Yelp API client ID and client secret and return them as a dictionary."""
         with open(filename) as f:
             return yaml.load(f)
+
+#clean emojis and remove url
+def clean_text(inputString):
+    final = ""
+    for letter in inputString:
+        try:
+         letter.encode("ascii")
+         final += letter
+        except UnicodeEncodeError:
+         final += ''
+    return re.sub(r"http\S+", "", final)
 
 #pulls twitter data and stores in mongo
 def twitter_pull(coll_name,query_list, time_back):
@@ -97,18 +111,20 @@ def twitter_pull(coll_name,query_list, time_back):
                     current = datetime.strptime(date, '%a %b %d %H:%M:%S +0000 %Y')
                     
                     #lst of tweet texts
-                    lst.append(tweet['full_text'])
+                    tweet_clean = clean_text(tweet['full_text'])
+                    
+                    lst.append(tweet_clean)
                     
                     #list of tweet ids
                     s.append(tweet['id'])
                     
                     #calculate polarity of tweet
-                    ss = sid.polarity_scores(tweet['full_text'])
+                    ss = sid.polarity_scores(tweet_clean)
                     #here should check if the tweet[id] has already been inserted into mongo to avoid duplicates
                     #also should clean data before calculating sentiment and inserting, can do this later though
                     
                     #insert data into mongo collection
-                    coll.insert_one({'full_data': tweet,'text': tweet['full_text'],'keyword':query, 'sentiment':ss})
+                    coll.insert_one({'full_data': tweet,'text': tweet_clean,'keyword':query, 'sentiment':ss})
             #update request count
             req_count+=1
             #just to keep track of where I am in the loop
@@ -175,7 +191,13 @@ if __name__ == "__main__":
     client = MongoClient()
     db = client['capstone']
     #pull the data
-    twitter_pull('whole_foods',['whole foods', 'trader_joes'], 1)
+    twitter_pull('whole_foods',['whole foods', 'trader joe\'s'], 1)
+
+    time.sleep(15*60)
+
+    #pull more data
+    twitter_pull('whole_foods',['ralphs', 'safeway'], 1)
+
     
 
     

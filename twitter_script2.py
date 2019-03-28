@@ -7,7 +7,7 @@ import nltk
 from twitter import *
 nltk.download('vader_lexicon')
 
-
+#180 rate limit
 #start up mongo server and connect to the client
 client = MongoClient()
 db = client['capstone']
