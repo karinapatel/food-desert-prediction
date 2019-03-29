@@ -1,4 +1,4 @@
-from cleaning_script import prep_data
+from model_prep import prep_data
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier,GradientBoostingClassifier
 from sklearn.tree import DecisionTreeClassifier

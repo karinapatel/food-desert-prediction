@@ -210,9 +210,4 @@ if __name__ == "__main__":
     #twitter_pull('unhealthy',unhealthy_foods[20:30], 2)
     #twitter_pull('grocery_stores',words, 44)
 
-    twitter_pull('ff_stores',fast_foods[:10], 2)
-
-
-    
-
-    
+    twitter_pull('ff_stores',fast_foods[30:], 2)
