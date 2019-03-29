@@ -36,7 +36,7 @@ def twitter_pull(coll_name,query_list, time_back):
     coll=db[coll_name]
    
     #keep track of how many requests I make to avoid hitting rate limit 
-    req_count = 8
+    req_count = 0
 
     #iterate through each word I want to pull data for
     for query in query_list:
@@ -187,7 +187,16 @@ if __name__ == "__main__":
     #unhealthy foods list
     unhealthy = pd.read_csv('data/unhealthy.csv', header = None)
     unhealthy_foods = list(unhealthy[0])
-    #start up mongo and
+
+    words = ['safeway','albertsons','ralphs','kroger','trader joe\'s','whole foods','jewel-osco', 'pavilions', 'food 4 less','randalls','tom thumb','star market','vons','united supermarkets','acme markets', 'carrs']
+
+    fast_foods = ["mcdonald's",'starbucks','subway',"wendy's",'burger king','taco bell',"dunkin donuts",'chick fil-a','pizza hut',"domino's",'panera bread','sonic',
+    'kfc','chipotle',"carl's jr",'dairy queen',"arby's",'little caesars','jack in the box','popeyes louisiana kitchen',"papa john's",'panda express',
+    'whataburger',"jimmy john's","zaxby's",'five guys',"culver's","bojangles'",'steak n shake','wingstop',"papa murphy's","checkers","jersey mike's",
+    'qdoba mexican',"church's chicken",'el pollo loco','del taco','white castle','tim hortons',"moe's southwest grill",'firehouse subs','boston market',
+    "jason's deli",'in-n-out','baskin-robbins',"mcalister's deli","auntie anne's","captain d's",'jamba juice']
+
+
     client = MongoClient()
     db = client['capstone']
     #pull the data
@@ -198,7 +207,10 @@ if __name__ == "__main__":
     #pull more data
     #twitter_pull('healthy',healthy_foods[35:], 2)
 
-    twitter_pull('unhealthy',unhealthy_foods[3:10], 2)
+    #twitter_pull('unhealthy',unhealthy_foods[20:30], 2)
+    #twitter_pull('grocery_stores',words, 44)
+
+    twitter_pull('ff_stores',fast_foods[:10], 2)
 
 
     
