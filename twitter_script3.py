@@ -15,9 +15,9 @@ from unidecode import unidecode
 #450 rate limit
 #grabs API keys from secret yaml file so I don't put my keys on github
 def load_api_key(filename='twitter_api_key.yaml'):
-        """Load Yelp API client ID and client secret and return them as a dictionary."""
-        with open(filename) as f:
-            return yaml.load(f)
+    """Load Yelp API client ID and client secret and return them as a dictionary."""
+    with open(filename) as f:
+        return yaml.load(f)
 
 #clean emojis and remove url
 def clean_text(inputString):
@@ -36,7 +36,7 @@ def twitter_pull(coll_name,query_list, time_back):
     coll=db[coll_name]
    
     #keep track of how many requests I make to avoid hitting rate limit 
-    req_count = 0
+    req_count = 8
 
     #iterate through each word I want to pull data for
     for query in query_list:
@@ -77,7 +77,7 @@ def twitter_pull(coll_name,query_list, time_back):
                 #Query = t.search.tweets(q=q,result_type='recent',count=100,tweet_mode='extended')
                 
                 #set the cursor to the next item in my result (cursor)
-                next_cursor = Query['search_metadata']['next_results']
+                #next_cursor = Query['search_metadata']['next_results']
                 c+=1
             else:
                 #in this case, I am not on my first query so I can use max:id to start from a certain twitter id
@@ -98,7 +98,7 @@ def twitter_pull(coll_name,query_list, time_back):
                 Query = json.loads( search_resp.content )
                             
                 #Query = t.search.tweets(q=q,result_type='recent',count=100,max_id=max_id,tweet_mode='extended')
-                next_cursor = Query['search_metadata']['next_results']
+                #next_cursor = Query['search_metadata']['next_results']
                 c+=1
 
             #once I have my Query, I want to store the data into mongo collection  
@@ -191,12 +191,15 @@ if __name__ == "__main__":
     client = MongoClient()
     db = client['capstone']
     #pull the data
-    twitter_pull('whole_foods',['whole foods', 'trader joe\'s'], 1)
+    #twitter_pull('test',['safeway', 'albertsons'], 1)
 
-    time.sleep(15*60)
+    #time.sleep(15*60)
 
     #pull more data
-    twitter_pull('whole_foods',['ralphs', 'safeway'], 1)
+    #twitter_pull('healthy',healthy_foods[35:], 2)
+
+    twitter_pull('unhealthy',unhealthy_foods[3:10], 2)
+
 
     
 
