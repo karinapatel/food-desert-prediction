@@ -1,6 +1,6 @@
-# Food Desert Prediction
-Prediction and analysis of food deserts from health behavioral data and twitter sentiment in the US. 
+# Food Desert Prediction 
 =============
+Prediction and analysis of food deserts from health behavioral data and twitter sentiment in the US.
 
 ## Inspiration
 Nutrition and overall access to food is a critical component to well-being and the overall health of an individual. Unfortunately, many regions around the world lack access and ability to consume fresh and quality foods and as a result are suffering to consume the essential components of a healthy diet. Food deserts are the areas across the United States, often low-income, where there is limited access to nutritious and affordable food, especially fruits vegetables, whole grains, and low-fat milk. More specifically, food deserts are census tracts where more than 500 people or over 33 percent of the population in that tract must travel over a mile for fresh groceries. 
