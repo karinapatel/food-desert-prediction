@@ -1,5 +1,6 @@
 # Food Desert Prediction 
 =============
+
 Prediction and analysis of food deserts from health behavioral data and twitter sentiment in the US.
 
 ## Inspiration
