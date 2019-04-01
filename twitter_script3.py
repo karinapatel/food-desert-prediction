@@ -46,7 +46,7 @@ def twitter_pull(coll_name,query_list, time_back):
         current = datetime.now()
         Prior = datetime.now() - timedelta(days=time_back)
         #keep track of first query
-        c = 0
+        c = 0 
         #lst to store tweet text
         lst = []
         #lst to store tweet id
@@ -210,4 +210,4 @@ if __name__ == "__main__":
     #twitter_pull('unhealthy',unhealthy_foods[20:30], 2)
     #twitter_pull('grocery_stores',words, 44)
 
-    twitter_pull('ff_stores',fast_foods[30:], 2)
+    twitter_pull('healthy2',healthy_foods, 3)
