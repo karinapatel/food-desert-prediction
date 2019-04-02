@@ -16,9 +16,13 @@ I am predicting food deserts using health behavioral statistics in order to prov
 I utilized health behavioral data from the Population Health Division of the Centers for Disease Control and Prevention. This dataset contains statistics regarding overall health for census tracts across the United States.
 
 I additionally pulled social media twitter data through the Twitter API to analyze patterns of healthy vs. unhealthy consumption. To accomplish this filtered search, I created lists for the following 4 topics and pulled any mention of any of the words in these lists over a span of 1.5 weeks:
+
     - Common fast food restaurants
+    
     - Top grocery stores/supermarkets
+    
     - Unhealthy foods
+    
     - Healthy foods
 
 ## Data Processing
