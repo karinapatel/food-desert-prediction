@@ -28,7 +28,7 @@ def clean(df):
 #prepping data for modeling
 def prep_data():
     #food desert data + poverty rates + SNAP counts
-    food_desert = pd.ExcelFile('../data/food_desert_data.xlsx')
+    food_desert = pd.ExcelFile('data/food_desert_data.xlsx')
 
     #just want  data, other sheets in the excel workbook are a readME and variable description
     desert_data = food_desert.parse(2)
@@ -39,7 +39,7 @@ def prep_data():
 
 
     #behavior and health data 
-    behav = pd.read_csv('../data/population_health.csv',)
+    behav = pd.read_csv('data/population_health.csv',)
     #account for the dropped 0 at the beginning of some census tracts by python default
     behav['TractFIPS']=behav['TractFIPS'].apply(lambda x: "0"+str(x) if len(str(x))==10 else str(x)) 
     #setting index to the same feature as desert_data
@@ -53,56 +53,76 @@ def prep_data():
     y=merge1.pop('LILATracts_halfAnd10')
     #feature matrix
     X=merge1
+    #add county column derived from census #
     X['county'] = [i[:5] for i in X.index]
     
     print("Preparing Healthy DF")
-    healthy_clean=pd.read_csv('../data/twitter_mongo/healthy_clean.csv',index_col=0)
+    #cleaned mongo data
+    healthy_clean=pd.read_csv('data/twitter_mongo/healthy_clean.csv',index_col=0)
+    #account for the dropped 0 at the beginning of some census tracts by python default
     healthy_clean['census']=healthy_clean['census'].apply(lambda x: "0"+str(x) if len(str(x))==10 else str(x)) 
+    #add county and pull sentiment score out as comp
     healthy_clean['county'] = healthy_clean['census'].apply(lambda x: x[:5])
     healthy_clean['sentiment']=healthy_clean['sentiment'].apply(ast.literal_eval)
     healthy_clean['comp_healthy']=healthy_clean['sentiment'].apply(lambda x: x['compound'])
+    #get avg sentiment by county
     county_sent_healthy = healthy_clean.groupby('county').mean()['comp_healthy']
     county_sent_healthy = county_sent_healthy.reset_index()
     
     print("Preparing Unealthy DF")
-    unhealthy_clean=pd.read_csv('../data/twitter_mongo/unhealthy_clean.csv',index_col=0)
-    unhealthy_clean['census']=unhealthy_clean['census'].apply(lambda x: "0"+str(x) if len(str(x))==10 else str(x)) 
+    #cleaned mongo data
+    unhealthy_clean=pd.read_csv('data/twitter_mongo/unhealthy_clean.csv',index_col=0)
+    unhealthy_clean['census']=unhealthy_clean['census'].apply(lambda x: "0"+str(x) if len(str(x))==10 else str(x))
+    #there is only 1 entry outside of US: drop it
     unhealthy_clean.dropna(axis=0, inplace=True)
+    #get all census tracts as 11 digit integers: 
     unhealthy_clean.census=unhealthy_clean.census.apply(float)
     unhealthy_clean.dropna(axis=0, inplace=True)
     unhealthy_clean.census=unhealthy_clean.census.apply(int)
+    #account for the dropped 0 at the beginning of some census tracts by python default
     unhealthy_clean['census']=unhealthy_clean['census'].apply(lambda x: "0"+str(x) if len(str(x))==10 else str(x)) 
+    #add county and pull sentiment score out as comp
     unhealthy_clean['county'] = unhealthy_clean['census'].apply(lambda x: x[:5])
     unhealthy_clean['sentiment']=unhealthy_clean['sentiment'].apply(ast.literal_eval)
     unhealthy_clean['comp_unhealthy']=unhealthy_clean['sentiment'].apply(lambda x: x['compound'])
+    #get avg sentiment by county
     county_sent_unhealthy = unhealthy_clean.groupby('county').mean()['comp_unhealthy']
     county_sent_unhealthy = county_sent_unhealthy.reset_index()
     
     print("Preparing Grocery DF")
-    grocery_stores_clean=pd.read_csv('../data/twitter_mongo/grocery_stores_clean.csv',index_col=0)
+    #cleaned mongo data
+    grocery_stores_clean=pd.read_csv('data/twitter_mongo/grocery_stores_clean.csv',index_col=0)
+    #account for the dropped 0 at the beginning of some census tracts by python default
     grocery_stores_clean['census']=grocery_stores_clean['census'].apply(lambda x: "0"+str(x) if len(str(x))==10 else str(x)) 
+    #add county and pull sentiment score out as comp
     grocery_stores_clean['county'] = grocery_stores_clean['census'].apply(lambda x: x[:5])
     grocery_stores_clean['sentiment']=grocery_stores_clean['sentiment'].apply(ast.literal_eval)
     grocery_stores_clean['comp_grocery']=grocery_stores_clean['sentiment'].apply(lambda x: x['compound'])
+    #get avg sentiment by county
     county_sent_grocery = grocery_stores_clean.groupby('county').mean()['comp_grocery']
     county_sent_grocery = county_sent_grocery.reset_index()
  
     print("Preparing FF DF")
-    ff_stores_clean=pd.read_csv('../data/twitter_mongo/ff_stores_clean.csv',index_col=0)
+    #cleaned mongo data
+    ff_stores_clean=pd.read_csv('data/twitter_mongo/ff_stores_clean.csv',index_col=0)
+    #account for the dropped 0 at the beginning of some census tracts by python default
     ff_stores_clean['census']=ff_stores_clean['census'].apply(lambda x: "0"+str(x) if len(str(x))==10 else str(x)) 
+    #add county and pull sentiment score out as comp
     ff_stores_clean['county'] = ff_stores_clean['census'].apply(lambda x: x[:5])
     ff_stores_clean['sentiment']=ff_stores_clean['sentiment'].apply(ast.literal_eval)
     ff_stores_clean['comp_ff']=ff_stores_clean['sentiment'].apply(lambda x: x['compound'])
+    #get avg sentiment by county
     county_sent_ff = ff_stores_clean.groupby('county').mean()['comp_ff']
     county_sent_ff = county_sent_ff.reset_index()
     
+    #add all sentiments (healthy, unhealthy, ff, grocery) to X df
     print("Merging county sentiment")
     X1 = pd.merge(X,county_sent_healthy,how='left',left_on='county', right_on='county')
     X2 = pd.merge(X1,county_sent_unhealthy,how='left',left_on='county', right_on='county')
     X3 = pd.merge(X2,county_sent_grocery,how='left',left_on='county', right_on='county')
     X4 = pd.merge(X3,county_sent_ff,how='left',left_on='county', right_on='county')
 
-
+    #fill nulls with -1
     X4.fillna(-1,inplace=True)
 
     #train test split

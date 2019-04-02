@@ -72,12 +72,6 @@ def twitter_pull(coll_name,query_list, time_back):
                 
                 Query = json.loads( search_resp.content )
                 
-                #using twitter wrapper, whould be a search as follows:
-                #Query = t.search.tweets(q=q,lang='en', count=100,tweet_mode='extended',geocode="41.878485,-87.627893,100mi")['statuses']
-                #Query = t.search.tweets(q=q,result_type='recent',count=100,tweet_mode='extended')
-                
-                #set the cursor to the next item in my result (cursor)
-                #next_cursor = Query['search_metadata']['next_results']
                 c+=1
             else:
                 #in this case, I am not on my first query so I can use max:id to start from a certain twitter id
@@ -97,8 +91,6 @@ def twitter_pull(coll_name,query_list, time_back):
                 
                 Query = json.loads( search_resp.content )
                             
-                #Query = t.search.tweets(q=q,result_type='recent',count=100,max_id=max_id,tweet_mode='extended')
-                #next_cursor = Query['search_metadata']['next_results']
                 c+=1
 
             #once I have my Query, I want to store the data into mongo collection  
@@ -181,20 +173,18 @@ if __name__ == "__main__":
     }
 
     #healthy foods list
-    healthy = pd.read_csv('data/healthy.csv', header = None)
+    healthy = pd.read_csv('data/twitter_queries/healthy.csv', header = None)
     healthy_foods = list(healthy[0])
 
     #unhealthy foods list
-    unhealthy = pd.read_csv('data/unhealthy.csv', header = None)
+    unhealthy = pd.read_csv('data/twitter_queries/unhealthy.csv', header = None)
     unhealthy_foods = list(unhealthy[0])
 
-    words = ['safeway','albertsons','ralphs','kroger','trader joe\'s','whole foods','jewel-osco', 'pavilions', 'food 4 less','randalls','tom thumb','star market','vons','united supermarkets','acme markets', 'carrs']
+    #grocery_list
+    grocery = pd.read_csv('data/twitter_queries/grocery_list.csv',header=None)[0]
 
-    fast_foods = ["mcdonald's",'starbucks','subway',"wendy's",'burger king','taco bell',"dunkin donuts",'chick fil-a','pizza hut',"domino's",'panera bread','sonic',
-    'kfc','chipotle',"carl's jr",'dairy queen',"arby's",'little caesars','jack in the box','popeyes louisiana kitchen',"papa john's",'panda express',
-    'whataburger',"jimmy john's","zaxby's",'five guys',"culver's","bojangles'",'steak n shake','wingstop',"papa murphy's","checkers","jersey mike's",
-    'qdoba mexican',"church's chicken",'el pollo loco','del taco','white castle','tim hortons',"moe's southwest grill",'firehouse subs','boston market',
-    "jason's deli",'in-n-out','baskin-robbins',"mcalister's deli","auntie anne's","captain d's",'jamba juice']
+    #fast_foods_list
+    fast_foods = pd.read_csv('data/twitter_queries/fast_foods.csv',header=None)[0]
 
 
     client = MongoClient()
