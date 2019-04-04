@@ -18,6 +18,7 @@ I am predicting food deserts using health behavioral statistics in order to prov
 I utilized health behavioral data from the Population Health Division of the Centers for Disease Control and Prevention. This dataset contains statistics regarding overall health for census tracts across the United States.
 
 I additionally pulled social media twitter data through the Twitter API to analyze patterns of healthy vs. unhealthy consumption. To accomplish this filtered search, I created lists for the following 4 topics and pulled any mention of any of the words in these lists over a span of 1.5 weeks:
+    - Top fat food restaurants
 
 |  |  | |  | |
 | ------ | ------ | ------ | ------ | ------ |
@@ -35,9 +36,44 @@ I additionally pulled social media twitter data through the Twitter API to analy
     
     - Top grocery stores/supermarkets
     
+|               |              |                       |                |                 |
+|---------------|--------------|-----------------------|----------------|-----------------| 
+| 'safeway'     | 'albertsons' | 'ralphs'              | 'kroger'       | 'trader joe\'s' | 
+| 'whole foods' | 'jewel-osco' | 'pavilions'           | 'food 4 less'  | 'randalls'      |  
+| 'star market' | 'vons'       | 'united supermarkets' | 'acme markets' | 'carrs'         | 
+|               |              |                       |                |                 |
+
     - Unhealthy foods
-    
+|              |           |          |               |              |  
+|--------------|-----------|----------|---------------|--------------|
+| bacon        | bagel     | bread    | burger        | burrito      |
+| butter       | cake      | candy    | caramel       | cheese       | 
+| cheeseburger | cupcake   | chili    | chips         | chocolate    |  
+| cookie       | dessert   | donut    | frosting      | hamburger    |  
+| hotdog       | ice cream | macaroni | margarine     | mayonnaise   |  
+| muffin       | oil       | pancake  | pastry        | pasta        |  
+| pie          | pizza     | popcorn  | soda          | strudel      |  
+| sundae       | waffle    | sugar    | french fries  | lasagna      |  
+| cream cheese | brownies  | cereal   | nutella       | quesadilla   |  
+| milkshake    | churro    | ramen    | fried chicken | french toast | 
+|              |           |          |               |              | 
+
     - Healthy foods
+
+|             |               |           |                  |           | 
+|-------------|---------------|-----------|------------------|-----------| 
+| almond      | apple         | asparagus | avocado          | banana    | 
+| bean        | beef          | blueberry | broccoli         | carrot    | 
+| cauliflower | celery        | cherry    | chicken          | corn      | 
+| egg         | eggplant      | fish      | kale             | kebab     | 
+| lamb        | lentils       | lettuce   | hummus           | mango     | 
+| meat        | melon         | milk      | mushroom         | omelet    | 
+| orange      | oats          | oatmeal   | grapes           | fruit     | 
+| vegetable   | peanut butter | pork      | quinoa           | raspberry | 
+| salami      | rice          | broccoli  | brussels sprouts | spinach   | 
+| zucchini    | turkey        | yogurt    | bellpepper       | cucumber  | 
+|             |               |           |                  |           | 
+
 
 ## Data Processing
 
