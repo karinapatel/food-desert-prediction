@@ -8,9 +8,7 @@ Nutrition and overall access to food is a critical component to well-being and t
 Over 23.5 million people reside in food deserts, and while there have been efforts to implement grocery stores in some areas to see how eating habits and overall health changes, it is sometimes too late to change pre-existing habits.
 The areas with relatively few grocery stores will also likely be areas that tend to be under-resourced and disadvantaged in other ways. Additionally, grocery stores are less likely to build in lower income neighborhoods and often veer away from areas where other businesses have not built due to concern of success. 
 
-Food desert data is only being released every 5 years (so far 2010 and 2015), but preventative action could be taken to reverse at-risk regions if we could catch these census tracts early on.
-
-Here is a map of the current food desert distribution in the United States:
+Food desert data is only being released every 5 years (so far 2010 and 2015), but preventative action could be taken to reverse at-risk regions if we could catch these census tracts early on. Here is a map of the current food desert distribution in the United States:
 ![US Deserts](images/US_desert.png)
 
 
@@ -30,8 +28,7 @@ I utilized health behavioral data from the Population Health Division of the Cen
 
 I additionally pulled social media twitter data through the Twitter API to analyze patterns of healthy vs. unhealthy consumption. To accomplish this filtered search, I created lists for the following 4 topics and pulled any mention of any of the words in these lists over a span of 1.5 weeks:
 
-##### Top fast food restaurants
-#
+#### Top fast food restaurants
 |  |  | |  | |
 | ------ | ------ | ------ | ------ | ------ |
 | mcdonald's | starbucks | subway | wendy's | burger king | 
@@ -46,8 +43,7 @@ I additionally pulled social media twitter data through the Twitter API to analy
 | mcalister's deli | auntie anne's | captain d's | jamba juice | |
 |  |  | |  | |
     
-##### Top grocery stores/supermarkets
-#
+#### Top grocery stores/supermarkets
 |               |              |                       |                |                 |
 |---------------|--------------|-----------------------|----------------|-----------------| 
 | 'safeway'     | 'albertsons' | 'ralphs'              | 'kroger'       | 'trader joe\'s' | 
@@ -55,8 +51,7 @@ I additionally pulled social media twitter data through the Twitter API to analy
 | 'star market' | 'vons'       | 'united supermarkets' | 'acme markets' | 'carrs'         | 
 |               |              |                       |                |                 |
 
-##### Unhealthy foods
-#
+#### Unhealthy foods
 |              |           |          |               |              |  
 |--------------|-----------|----------|---------------|--------------|
 | bacon        | bagel     | bread    | burger        | burrito      |
@@ -71,8 +66,7 @@ I additionally pulled social media twitter data through the Twitter API to analy
 | milkshake    | churro    | ramen    | fried chicken | french toast | 
 |              |           |          |               |              | 
 
-##### Healthy foods
-#
+#### Healthy foods
 |             |               |           |                  |           | 
 |-------------|---------------|-----------|------------------|-----------| 
 | almond      | apple         | asparagus | avocado          | banana    | 
