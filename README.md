@@ -1,4 +1,4 @@
-# Food Desert Prediction Across U.S. Census Tracts Using Population Health and Twitter Sentiment Analysis
+# Predicting Food Deserts Across United States Census Tracts Using Population Health Data and Twitter Sentiment Analysis
 
 ## Inspiration
 Nutrition and overall access to food is a critical component to well-being and the overall health of an individual. Unfortunately, many regions around the world lack access and/or the ability to consume fresh and quality foods. As a result, many Americans find it hard to check off essential components of a healthy diet. Food deserts are defined as areas across the United States, often low-income, where there is limited access to nutritious and affordable food, especially fruits vegetables, whole grains, and low-fat milk. More specifically, food deserts are census tracts where more than 500 people or over 33 percent of the population in that tract must travel over a mile for fresh groceries. 
@@ -7,6 +7,7 @@ Over 23.5 million people reside in food deserts, and while there have been effor
 The areas with relatively few grocery stores will also likely be areas that tend to be under-resourced and disadvantaged in other ways. Additionally, grocery stores are less likely to build in lower income neighborhoods and often veer away from areas where other businesses have not built due to concern of success. 
 
 Food desert data is only being released every 5 years (so far 2010 and 2015), but preventative action could be taken to reverse at-risk regions if we could catch these census tracts early on. Here is a map of the current food desert distribution in the United States:
+
 ![US Deserts](images/US_desert.png)
 
 
@@ -26,7 +27,7 @@ I utilized health behavioral data from the Population Health Division of the Cen
 
 I additionally pulled social media twitter data through the Twitter API to analyze patterns of healthy vs. unhealthy consumption. To accomplish this filtered search, I created lists for the following 4 topics and pulled any mention of any of the words in these lists over a span of 1.5 weeks:
 
-#### Top fast food restaurants
+#### Top fast food restaurants:
 <!-- |  |  | |  | |
 | ------ | ------ | ------ | ------ | ------ |
 | mcdonald's | starbucks | subway | wendy's | burger king | 
@@ -45,7 +46,7 @@ I additionally pulled social media twitter data through the Twitter API to analy
 <img src="images/fastfood_wc.png">
 </p>
 
-#### Top grocery stores/supermarkets
+#### Top grocery stores/supermarkets:
 <!-- |               |              |                       |                |                 |
 |---------------|--------------|-----------------------|----------------|-----------------| 
 | 'safeway'     | 'albertsons' | 'ralphs'              | 'kroger'       | 'trader joe\'s' | 
@@ -57,7 +58,7 @@ I additionally pulled social media twitter data through the Twitter API to analy
 <img src="images/grocery_wc.png">
 </p>
 
-#### Unhealthy foods
+#### Unhealthy foods:
 <!-- |              |           |          |               |              |  
 |--------------|-----------|----------|---------------|--------------|
 | bacon        | bagel     | bread    | burger        | burrito      |
@@ -77,7 +78,7 @@ I additionally pulled social media twitter data through the Twitter API to analy
 </p>
 
 
-#### Healthy foods
+#### Healthy foods:
 <!-- |             |               |           |                  |           | 
 |-------------|---------------|-----------|------------------|-----------| 
 | almond      | apple         | asparagus | avocado          | banana    | 
@@ -96,7 +97,7 @@ I additionally pulled social media twitter data through the Twitter API to analy
 <img src="images/healthy_wc.png">
 </p>
 
-## Data Pre-processing
+## Data Pre-Processing
 
 ** INSERT PROCESS VISUAL like a flowchart **
 
@@ -129,9 +130,10 @@ I additionally pulled social media twitter data through the Twitter API to analy
 </p>
 
 <p align="center"> 
-<img src="images/final_ppermimp.png">
+<img src="images/final_permimp.png">
 </p>
 
+### Description of features:
 | # | Feature | Description |
 | -- | -- | -- |
 | 1 | CHOLSCREEN_CrudePrev	|	Prevalence of cholesterol screening for adults over 18 |
