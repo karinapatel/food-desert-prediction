@@ -42,11 +42,10 @@ I additionally pulled social media twitter data through the Twitter API to analy
 | firehouse subs | boston market | jason's deli | in-n-out | baskin-robbins | 
 | mcalister's deli | auntie anne's | captain d's | jamba juice | |
 |  |  | |  | |
+
 <p align="center"> 
 <img src="images/fastfood_wc.png">
 </p>
-
-![FF WC](images/fastfood_wc.png)
 
 #### Top grocery stores/supermarkets
 |               |              |                       |                |                 |
@@ -56,7 +55,9 @@ I additionally pulled social media twitter data through the Twitter API to analy
 | 'star market' | 'vons'       | 'united supermarkets' | 'acme markets' | 'carrs'         | 
 |               |              |                       |                |                 |
 
-![Grocery WC](images/grocery_wc.png)
+<p align="center"> 
+<img src="images/grocery_wc.png">
+</p>
 
 #### Unhealthy foods
 |              |           |          |               |              |  
@@ -73,7 +74,9 @@ I additionally pulled social media twitter data through the Twitter API to analy
 | milkshake    | churro    | ramen    | fried chicken | french toast | 
 |              |           |          |               |              | 
 
-![Unheatlhy WC](images/unhealthy_wc.png)
+<p align="center"> 
+<img src="images/unhealthy_wc.png">
+</p>
 
 
 #### Healthy foods
@@ -91,7 +94,9 @@ I additionally pulled social media twitter data through the Twitter API to analy
 | zucchini    | turkey        | yogurt    | bellpepper       | cucumber  | 
 |             |               |           |                  |           | 
 
-![Heatlhy WC](images/healthy_wc.png)
+<p align="center"> 
+<img src="images/healthy_wc.png">
+</p>
 
 ## Data Pre-processing
 
