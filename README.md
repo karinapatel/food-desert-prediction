@@ -28,9 +28,9 @@ I additionally pulled social media twitter data through the Twitter API to analy
 | papa john's | panda express | whataburger | jimmy john's | zaxby's | 
 | five guys | culver's | bojangles | steak n shake | wingstop | 
 | papa murphy's | checkers | jersey mike's | qdoba mexican | church's chicken | 
- | el pollo loco | del taco | white castle | tim hortons | moe's southwest grill | 
- | firehouse subs | boston market | jason's deli | in-n-out | baskin-robbins | 
- | mcalister's deli | auntie anne's | captain d's | jamba juice | 
+| el pollo loco | del taco | white castle | tim hortons | moe's southwest grill | 
+| firehouse subs | boston market | jason's deli | in-n-out | baskin-robbins | 
+| mcalister's deli | auntie anne's | captain d's | jamba juice | 
 |  |  | |  | |
     
     - Top grocery stores/supermarkets
