@@ -8,6 +8,9 @@ Nutrition and overall access to food is a critical component to well-being and t
 
 With food desert data only being released every 5 years, preventative action could be taken to reverse at-risk regions if we could catch these regions in advanced.
 
+![US Deserts](images/US_desert.png)
+
+
 ## Goal/Scope
 I am predicting food deserts using health behavioral statistics in order to provide more up-to-date predicitons of risk census tracts. I perform additional analysis on the sentiment in social media to try to improve my model and uncover how the prevalence of grocery stores impacts what people talk about on twitter.
 
