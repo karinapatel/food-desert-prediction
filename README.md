@@ -42,7 +42,10 @@ I additionally pulled social media twitter data through the Twitter API to analy
 | firehouse subs | boston market | jason's deli | in-n-out | baskin-robbins | 
 | mcalister's deli | auntie anne's | captain d's | jamba juice | |
 |  |  | |  | |
-    
+<p align="center"> 
+<img src="images/fastfood_wc.png">
+</p>
+
 ![FF WC](images/fastfood_wc.png)
 
 #### Top grocery stores/supermarkets
