@@ -1,4 +1,4 @@
-# Predicting Food Deserts Across United States Census Tracts Using Population Health Data and Twitter Sentiment Analysis
+# Predicting Food Deserts Across United States Census Tracts Using Population Health and Twitter Sentiment Analysis
 
 ## Inspiration
 Nutrition and overall access to food is a critical component to well-being and the overall health of an individual. Unfortunately, many regions around the world lack access and/or the ability to consume fresh and quality foods. As a result, many Americans find it hard to check off essential components of a healthy diet. Food deserts are defined as areas across the United States, often low-income, where there is limited access to nutritious and affordable food, especially fruits vegetables, whole grains, and low-fat milk. More specifically, food deserts are census tracts where more than 500 people or over 33 percent of the population in that tract must travel over a mile for fresh groceries. 
