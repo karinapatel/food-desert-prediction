@@ -125,7 +125,7 @@ I additionally pulled social media twitter data through the Twitter API to analy
 
 ## Results
 
-I used a Gradient Boosting Model
+I ran a number of different models
 
 ### Receiver Operating Characteristic (ROC) Curve:
 <p align="center"> 
