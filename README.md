@@ -32,6 +32,18 @@ I additionally pulled social media twitter data through the Twitter API to analy
 | firehouse subs | boston market | jason's deli | in-n-out | baskin-robbins | 
 | mcalister's deli | auntie anne's | captain d's | jamba juice | |
 |  -| - | -|-  | -|
+
+|Name|Start Date|End Date|Twitter Handle|
+|----|----------|--------|--------------|
+|Donald Trump|2009-05-04|present|@realDonaldTrump|
+|Sean Spicer|2016-12-22|2017-07-21|@seanspicer|
+|Reince Priebus|2016-11-13|2017-07-27|@Reince|
+|Steve Bannon|2016-08-17|2017-08-18|@SteveKBannon|
+|Kellyanne Conway|2016-07-01|present|@KellyannePolls|
+|Anthony Scaramucci|2017-07-21|2017-07-31|@Scaramucci|
+|Dan Scavino|2015-06-01|present|@DanScavino|
+|John Dowd|2017-07-16|present|N/A|
+
     
     - Top grocery stores/supermarkets
     
