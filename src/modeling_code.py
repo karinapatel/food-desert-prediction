@@ -44,7 +44,7 @@ def plot_ROC(modelname,model,X_train,y_train,X_test,y_test,path_to_img):
     auc = roc_auc_score(y_test,y_pred)
     #plot ROC
     fig,ax = plt.subplots(1,1,figsize=(9,7))
-    ax.plot(fpr_gb,tpr_gb,label='{}: {}'.format(modelname,auc),marker='*', color='green')
+    ax.plot(fpr,tpr,label='{}: {}'.format(modelname,auc),marker='*', color='green')
     ax.plot([0,1],[0,1], 'k:')
     ax.set_xlabel("False Positive Rate (FPR)")
     ax.set_ylabel("True Positive Rate (TPR)")
@@ -95,6 +95,6 @@ if __name__ == "__main__":
             warm_start=False)
     my_model(model)
 
-    plot_ROC("Gradient Boosting",model,df_train,y_train,df_test,y_test,"../images/test_ROC.png")
+    plot_ROC("Gradient Boosting",model,df_train,y_train,df_test,y_test,"images/test_ROC.png")
 
 
