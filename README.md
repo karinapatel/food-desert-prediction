@@ -19,7 +19,7 @@ I utilized health behavioral data from the Population Health Division of the Cen
 
 I additionally pulled social media twitter data through the Twitter API to analyze patterns of healthy vs. unhealthy consumption. To accomplish this filtered search, I created lists for the following 4 topics and pulled any mention of any of the words in these lists over a span of 1.5 weeks:
 
-| - | - | -| - | -|
+|  |  | |  | |
 | ------ | ------ | ------ | ------ | ------ |
 | mcdonald's | starbucks | subway | wendy's | burger king | 
 | taco bell | dunkin donuts | chick fil-a | pizza hut | domino's | 
@@ -31,19 +31,7 @@ I additionally pulled social media twitter data through the Twitter API to analy
 | el pollo loco | del taco | white castle | tim hortons | moe's southwest grill | 
 | firehouse subs | boston market | jason's deli | in-n-out | baskin-robbins | 
 | mcalister's deli | auntie anne's | captain d's | jamba juice | |
-|  -| - | -|-  | -|
-
-|Name|Start Date|End Date|Twitter Handle|
-|----|----------|--------|--------------|
-|Donald Trump|2009-05-04|present|@realDonaldTrump|
-|Sean Spicer|2016-12-22|2017-07-21|@seanspicer|
-|Reince Priebus|2016-11-13|2017-07-27|@Reince|
-|Steve Bannon|2016-08-17|2017-08-18|@SteveKBannon|
-|Kellyanne Conway|2016-07-01|present|@KellyannePolls|
-|Anthony Scaramucci|2017-07-21|2017-07-31|@Scaramucci|
-|Dan Scavino|2015-06-01|present|@DanScavino|
-|John Dowd|2017-07-16|present|N/A|
-
+|  |  | |  | |
     
     - Top grocery stores/supermarkets
     
