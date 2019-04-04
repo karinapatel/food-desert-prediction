@@ -26,7 +26,6 @@ def clean(df):
     return data1
 
 #prepping data for modeling
-#prepping data for modeling
 def prep_data():
 
     #food desert data + poverty rates + SNAP counts
@@ -57,25 +56,33 @@ def prep_data():
     
     print("Preparing Healthy DF")
     healthy_clean=pd.read_csv('data/twitter_mongo/healthy_final.csv',index_col=0)
+    #pull out sentiment
     healthy_clean['comp_healthy']=healthy_clean['comp']
+    #fill Nulls with county mean
     county_sent_healthy = healthy_clean.groupby('county').mean()['comp_healthy']
     county_sent_healthy = county_sent_healthy.reset_index()
     
     print("Preparing Unealthy DF")
     unhealthy_clean=pd.read_csv('data/twitter_mongo/unhealthy_final.csv',index_col=0)
+    #pull sentiment
     unhealthy_clean['comp_unhealthy']=unhealthy_clean['comp']
+    #fill nulls with county mean
     county_sent_unhealthy = unhealthy_clean.groupby('county').mean()['comp_unhealthy']
     county_sent_unhealthy = county_sent_unhealthy.reset_index()
     
     print("Preparing Grocery DF")
     grocery_stores_clean=pd.read_csv('data/twitter_mongo/grocery_stores_final.csv',index_col=0)
+    #pull sentiment
     grocery_stores_clean['comp_grocery']=grocery_stores_clean['comp']
+    #fill nulls with county mean
     county_sent_grocery = grocery_stores_clean.groupby('county').mean()['comp_grocery']
     county_sent_grocery = county_sent_grocery.reset_index()
  
     print("Preparing FF DF")
     ff_stores_clean=pd.read_csv('data/twitter_mongo/ff_stores_final.csv',index_col=0)
+    #pull sentiment
     ff_stores_clean['comp_ff']=ff_stores_clean['comp']
+    #fill nulls with county mean
     county_sent_ff = ff_stores_clean.groupby('county').mean()['comp_ff']
     county_sent_ff = county_sent_ff.reset_index()
     

@@ -169,11 +169,12 @@ if __name__ == "__main__":
     sid = SentimentIntensityAnalyzer() 
     
     healthy = pull_to_csv('test_db',"data/twitter_mongo/test_data.csv","test")
+    unhealthy = pull_to_csv('unhealthy_clean',"data/twitter_mongo/unhealthy_final.csv","unhealthy")
+    grocery = pull_to_csv('grocery_stores_clean',"data/twitter_mongo/grocery_stores_final.csv")
+    fast_food = pull_to_csv('ff_stores_clean',"data/twitter_mongo/ff_stores_final.csv")
 
     coll=db['test_db_clean']
-
     clean_to_mongo('test_db_clean',"data/twitter_mongo/test_data.csv")
-
     coll.count()
 
     #combined csv with all data from mongo
