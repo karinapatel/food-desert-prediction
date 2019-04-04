@@ -1,6 +1,4 @@
-# Food Desert Prediction 
-
-Prediction and analysis of food deserts using population health and twitter sentiment data across US census tracts.
+# Food Desert Prediction Across U.S. Census Tracts Using Population Health and Twitter Sentiment Analysis
 
 ## Inspiration
 Nutrition and overall access to food is a critical component to well-being and the overall health of an individual. Unfortunately, many regions around the world lack access and/or the ability to consume fresh and quality foods. As a result, many Americans find it hard to check off essential components of a healthy diet. Food deserts are defined as areas across the United States, often low-income, where there is limited access to nutritious and affordable food, especially fruits vegetables, whole grains, and low-fat milk. More specifically, food deserts are census tracts where more than 500 people or over 33 percent of the population in that tract must travel over a mile for fresh groceries. 
@@ -22,14 +20,14 @@ Combining population health and social media sentiment, I aim to map how differe
 
 My model would help to inform the public of at-risk areas where there is room for growth. Action could be taken to reverse risk of food deserts through possible grocery store implementation plans or fresh food initiatives. These grocery stores could also benefit from this predictive modeling when deciding on areas to consider building. Opening in areas with fewer grocery stores present could result in additional profit given the low competition while also benefiting the census tract by providing access to nutritional meals.
 
-## Datasets
+## Data Overview
 
 I utilized health behavioral data from the Population Health Division of the Center for Disease Control and Prevention. This dataset contains statistics regarding overall health for census tracts across the United States.
 
 I additionally pulled social media twitter data through the Twitter API to analyze patterns of healthy vs. unhealthy consumption. To accomplish this filtered search, I created lists for the following 4 topics and pulled any mention of any of the words in these lists over a span of 1.5 weeks:
 
 #### Top fast food restaurants
-|  |  | |  | |
+<!-- |  |  | |  | |
 | ------ | ------ | ------ | ------ | ------ |
 | mcdonald's | starbucks | subway | wendy's | burger king | 
 | taco bell | dunkin donuts | chick fil-a | pizza hut | domino's | 
@@ -42,25 +40,25 @@ I additionally pulled social media twitter data through the Twitter API to analy
 | firehouse subs | boston market | jason's deli | in-n-out | baskin-robbins | 
 | mcalister's deli | auntie anne's | captain d's | jamba juice | |
 |  |  | |  | |
-
+ -->
 <p align="center"> 
 <img src="images/fastfood_wc.png">
 </p>
 
 #### Top grocery stores/supermarkets
-|               |              |                       |                |                 |
+<!-- |               |              |                       |                |                 |
 |---------------|--------------|-----------------------|----------------|-----------------| 
 | 'safeway'     | 'albertsons' | 'ralphs'              | 'kroger'       | 'trader joe\'s' | 
 | 'whole foods' | 'jewel-osco' | 'pavilions'           | 'food 4 less'  | 'randalls'      |  
 | 'star market' | 'vons'       | 'united supermarkets' | 'acme markets' | 'carrs'         | 
 |               |              |                       |                |                 |
-
+ -->
 <p align="center"> 
 <img src="images/grocery_wc.png">
 </p>
 
 #### Unhealthy foods
-|              |           |          |               |              |  
+<!-- |              |           |          |               |              |  
 |--------------|-----------|----------|---------------|--------------|
 | bacon        | bagel     | bread    | burger        | burrito      |
 | butter       | cake      | candy    | caramel       | cheese       | 
@@ -72,7 +70,7 @@ I additionally pulled social media twitter data through the Twitter API to analy
 | sundae       | waffle    | sugar    | french fries  | lasagna      |  
 | cream cheese | brownies  | cereal   | nutella       | quesadilla   |  
 | milkshake    | churro    | ramen    | fried chicken | french toast | 
-|              |           |          |               |              | 
+|              |           |          |               |              |  -->
 
 <p align="center"> 
 <img src="images/unhealthy_wc.png">
@@ -80,7 +78,7 @@ I additionally pulled social media twitter data through the Twitter API to analy
 
 
 #### Healthy foods
-|             |               |           |                  |           | 
+<!-- |             |               |           |                  |           | 
 |-------------|---------------|-----------|------------------|-----------| 
 | almond      | apple         | asparagus | avocado          | banana    | 
 | bean        | beef          | blueberry | broccoli         | carrot    | 
@@ -93,12 +91,14 @@ I additionally pulled social media twitter data through the Twitter API to analy
 | salami      | rice          | broccoli  | brussels sprouts | spinach   | 
 | zucchini    | turkey        | yogurt    | bellpepper       | cucumber  | 
 |             |               |           |                  |           | 
-
+ -->
 <p align="center"> 
 <img src="images/healthy_wc.png">
 </p>
 
 ## Data Pre-processing
+
+** INSERT PROCESS VISUAL like a flowchart **
 
 1. I first merged the food desert target data with population health records using census tract as the key. Because there are over 72,000 census tracts in the United States, I first filtered to census tracts in 500 largest US cities. This allowed me to scope down to about 29,000 tracts
 
@@ -122,23 +122,42 @@ I additionally pulled social media twitter data through the Twitter API to analy
     
 8. This was the final step of my pre-processing. My final feature matrix contained the population health features and 4 additional twitter sentiment features for each of my twitter pulls
 
-## Food Desert Prediction
-
 ## Results
 
+<p align="center"> 
+<img src="images/ROC_curve.png">
+</p>
 
+<p align="center"> 
+<img src="images/final_ppermimp.png">
+</p>
+
+| | | |
+| -- | -- | -- |
+| 1 | TEETHLOST_CrudePrev |	 Model-based estimate for crude prevalence of all teeth lost among adults aged >= 65 years |
+| 2 | CHOLSCREEN_CrudePrev	|	Model-based estimate for crude prevalence of cholesterol screening among adults aged >= 18 years 2015 |
+| 3 |OBESITY_CrudePrev |	 Model-based estimate for crude prevalence of obesity among adults aged >= 18 years 2016 |
+| 4 | MHLTH_CrudePrev	| Model-based estimate for crude prevalence of mental health not good for >= 14 days among adults aged >= 18 years 2016|
+| 5 | COREW_CrudePrev	| Model-based estimate for crude prevalence of older adult women aged >= 65 years who are up to date on a core set of clinical preventive services: Flu shot past year PPV shot ever Colorectal cancer screening and Mammogram past 2 years 2016|
+| 6 | KIDNEY_CrudePrev	|	Model-based estimate for crude prevalence of chronic kidney disease among adults aged >= 18 years 2016|
+| 7 | PHLTH_CrudePrev	| Model-based estimate for crude prevalence of physical health not good for >=14 days among adults aged >= 18 years 2016|
+| 8 | TractSeniors |	Tract seniors age 65+, number|
+| 9 | TractWhite	| Tract White population, number|
+| 10 | TractBlack |	Tract Black or African American population, number|
+| 11 | TractAsian |	Tract Asian population, number|
+| 12 | TractOMultir |	Tract Other/Multiple race population, number| 
+| 13 | POP2010 |	Population, tract total|
+| 14 |CASTHMA_CrudePrev |	 Model-based estimate for crude prevalence of current asthma among adults aged >=1 8 years 2016|
+| 15 | STROKE_CrudePrev |	 Model-based estimate for crude prevalence of stroke among adults aged >= 18 years 2016 |
+| | | |
 ## Interactive Visualizations
 
 
 ==============
-## Implementation Details ####
-
-
-
 ## Tools ####
 1. Twitter API
 2. FCC API
 3. MongoDB
-4. Amazon Web Services
-5. NLTK
-6. Mapping coordinate software (fill in with the tools used here)
+4. NLTK
+5. CartoDB
+6. Flask
