@@ -19,17 +19,19 @@ I utilized health behavioral data from the Population Health Division of the Cen
 
 I additionally pulled social media twitter data through the Twitter API to analyze patterns of healthy vs. unhealthy consumption. To accomplish this filtered search, I created lists for the following 4 topics and pulled any mention of any of the words in these lists over a span of 1.5 weeks:
 
-    - Common fast food restaurants
-|mcdonald's|starbucks|subway|wendy's|burger king|
-|taco bell|dunkin donuts|chick fil-a|pizza hut|domino's|
-|panera bread|sonic|kfc|chipotle|carl's jr|
-|dairy queen|arby's|little caesars|jack in the box|popeyes louisiana kitchen|
-|papa john's|panda express|whataburger|jimmy john's|zaxby's|
-|five guys|culver's|bojangles|steak n shake|wingstop|
-|papa murphy's|checkers|jersey mike's|qdoba mexican|church's chicken|
-|el pollo loco|del taco|white castle|tim hortons|moe's southwest grill|
-|firehouse subs|boston market|jason's deli|in-n-out|baskin-robbins|
-|mcalister's deli|auntie anne's|captain d's|jamba juice| |
+|  |  | |  | |
+| ------ | ------ | ------ | ------ | ------ |
+| mcdonald's | starbucks | subway | wendy's | burger king | 
+| taco bell | dunkin donuts | chick fil-a | pizza hut | domino's | 
+| panera bread | sonic | kfc | chipotle | carl's jr | 
+| dairy queen | arby's | little caesars | jack in the box | popeyes louisiana kitchen | 
+| papa john's | panda express | whataburger | jimmy john's | zaxby's | 
+| five guys | culver's | bojangles | steak n shake | wingstop | 
+| papa murphy's | checkers | jersey mike's | qdoba mexican | church's chicken | 
+ | el pollo loco | del taco | white castle | tim hortons | moe's southwest grill | 
+ | firehouse subs | boston market | jason's deli | in-n-out | baskin-robbins | 
+ | mcalister's deli | auntie anne's | captain d's | jamba juice | 
+|  |  | |  | |
     
     - Top grocery stores/supermarkets
     
