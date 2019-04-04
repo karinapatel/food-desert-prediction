@@ -30,7 +30,7 @@ I additionally pulled social media twitter data through the Twitter API to analy
 | papa murphy's | checkers | jersey mike's | qdoba mexican | church's chicken | 
 | el pollo loco | del taco | white castle | tim hortons | moe's southwest grill | 
 | firehouse subs | boston market | jason's deli | in-n-out | baskin-robbins | 
-| mcalister's deli | auntie anne's | captain d's | jamba juice | 
+| mcalister's deli | auntie anne's | captain d's | jamba juice | |
 |  |  | |  | |
     
     - Top grocery stores/supermarkets
