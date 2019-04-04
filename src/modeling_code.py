@@ -1,9 +1,12 @@
 from model_prep import prep_data
-from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier,GradientBoostingClassifier
+from sklearn.metrics import roc_auc_score, f1_score, accuracy_score,recall_score,precision_score,roc_curve
+from sklearn.model_selection import GridSearchCV
+from sklearn.svm import LinearSVC
+from sklearn.linear_model import LogisticRegression
+from sklearn.neighbors import KNeighborsClassifier
 from sklearn.tree import DecisionTreeClassifier
-from sklearn.metrics import roc_auc_score, f1_score, accuracy_score, precision_score,recall_score
-from sklearn.model_selection import train_test_split,cross_val_score, GridSearchCV
+import matplotlib.pyplot as plt
 
 #general modeling function:
 def my_model(model_name):
@@ -29,6 +32,25 @@ def my_model(model_name):
     print("recall score: ", recall_score(y_test,y_pred))
     print("precision score: ", precision_score(y_test,y_pred))
 
+def plot_ROC(modelname,model,X_train,y_train,X_test,y_test,path_to_img):
+    #fit and calc probas    
+    model.fit(X_train,y_train)
+    y_pred = model.predict(X_test)
+    y_predproba = model.predict_proba(X_test)
+    fpr,tpr,thresholds=roc_curve(y_test.values,y_predproba[:,1])
+    auc = roc_auc_score(y_test,y_pred)
+    #plot ROC
+    fig,ax = plt.subplots(1,1,figsize=(9,7))
+    ax.plot(fpr_gb,tpr_gb,label='{}: {}'.format(modelname,auc),marker='*', color='green')
+    ax.plot([0,1],[0,1], 'k:')
+    ax.set_xlabel("False Positive Rate (FPR)")
+    ax.set_ylabel("True Positive Rate (TPR)")
+    ax.set_title("ROC Curve for {} Model".format(modelname))
+    ax.legend(loc='lower right')
+    
+    #save to path
+    fig.savefig(path_to_img)
+
 
 
 if __name__ == "__main__":
@@ -37,14 +59,39 @@ if __name__ == "__main__":
 
     #REMEMBER: import  modules for any models you are using below 
     
-    #model logistic
-    #print("Logistic: ")
-    #my_model(LogisticRegression())
+    # #model logistic
+    # print("Logistic: ")
+    # my_model(LogisticRegression(penalty='l1'))
 
-    #model RF
-    #print("RandomForest")
-    #my_model(RandomForestClassifier())
+    # #model SVM
+    # print("SVM")
+    # my_model(LinearSVC(penalty='l2',loss='hinge'))
+    
+    # #model KNN
+    # print("KNN")
+    # my_model(KNeighborsClassifier(n_neighbors=5))
+    
+    # #model Decision Trees
+    # print("Decision Trees")
+    # my_model(DecisionTreeClassifier())
 
-    #any other models:
+    # #model RF
+    # print("RandomForest")
+    # my_model(RandomForestClassifier(max_depth= None,max_features='sqrt',n_estimators=400))
+    
+    
+    #model GB
     print("GradientBoosting")
-    my_model(GradientBoostingClassifier())
+    model = GradientBoostingClassifier(criterion='friedman_mse', init=None,
+            learning_rate=0.1, loss='deviance', max_depth=5,
+            max_features=20, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=13, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=100,
+            presort='auto', random_state=None, subsample=1.0, verbose=0,
+            warm_start=False)
+    my_model(model)
+
+    plot_ROC("Gradient Boosting",model,df_train,y_train,df_test,y_test,"../images/test_ROC.png")
+
+
