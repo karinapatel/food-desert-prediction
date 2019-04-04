@@ -1,4 +1,5 @@
 from model_prep import prep_data
+from sklearn.model_selection import train_test_split,cross_val_score
 from sklearn.ensemble import RandomForestClassifier,GradientBoostingClassifier
 from sklearn.metrics import roc_auc_score, f1_score, accuracy_score,recall_score,precision_score,roc_curve
 from sklearn.model_selection import GridSearchCV
@@ -7,6 +8,8 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.tree import DecisionTreeClassifier
 import matplotlib.pyplot as plt
+import warnings
+warnings.filterwarnings('ignore')
 
 #general modeling function:
 def my_model(model_name):
