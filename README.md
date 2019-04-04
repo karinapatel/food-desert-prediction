@@ -132,23 +132,24 @@ I additionally pulled social media twitter data through the Twitter API to analy
 <img src="images/final_ppermimp.png">
 </p>
 
-| | | |
+| # | Feature | Description |
 | -- | -- | -- |
-| 1 | TEETHLOST_CrudePrev |	 Model-based estimate for crude prevalence of all teeth lost among adults aged >= 65 years |
-| 2 | CHOLSCREEN_CrudePrev	|	Model-based estimate for crude prevalence of cholesterol screening among adults aged >= 18 years 2015 |
-| 3 |OBESITY_CrudePrev |	 Model-based estimate for crude prevalence of obesity among adults aged >= 18 years 2016 |
-| 4 | MHLTH_CrudePrev	| Model-based estimate for crude prevalence of mental health not good for >= 14 days among adults aged >= 18 years 2016|
-| 5 | COREW_CrudePrev	| Model-based estimate for crude prevalence of older adult women aged >= 65 years who are up to date on a core set of clinical preventive services: Flu shot past year PPV shot ever Colorectal cancer screening and Mammogram past 2 years 2016|
-| 6 | KIDNEY_CrudePrev	|	Model-based estimate for crude prevalence of chronic kidney disease among adults aged >= 18 years 2016|
-| 7 | PHLTH_CrudePrev	| Model-based estimate for crude prevalence of physical health not good for >=14 days among adults aged >= 18 years 2016|
-| 8 | TractSeniors |	Tract seniors age 65+, number|
-| 9 | TractWhite	| Tract White population, number|
-| 10 | TractBlack |	Tract Black or African American population, number|
-| 11 | TractAsian |	Tract Asian population, number|
-| 12 | TractOMultir |	Tract Other/Multiple race population, number| 
-| 13 | POP2010 |	Population, tract total|
-| 14 |CASTHMA_CrudePrev |	 Model-based estimate for crude prevalence of current asthma among adults aged >=1 8 years 2016|
-| 15 | STROKE_CrudePrev |	 Model-based estimate for crude prevalence of stroke among adults aged >= 18 years 2016 |
+| 1 | CHOLSCREEN_CrudePrev	|	Prevalence of cholesterol screening for adults over 18 |
+| 2 | TEETHLOST_CrudePrev |	 Prevalence of all teeth lost for adults over 65 years |
+| 3 |OBESITY_CrudePrev |	Prevalence of obesity among adults over 18 |
+| 4 | TractOMultir |	Other/Multiple race population normalized over tract population| 
+| 5 | TractKids | Children age 0-17 normalized over tract population |
+| 6 | TractSeniors |	Seniors age 65+ normalized over tract population|
+| 7 | comp_healthy | Average sentiment for healthy tweets per tract |
+| 8 | POP2010 |	Population, tract total|
+| 9 | MHLTH_CrudePrev	| Prevalence of poor mental health for over 2 weeks among adults over 18|
+| 10 | TractSNAP|	Housing units receiving SNAP benefits normalized over tract population|
+| 11 | PHLTH_CrudePrev	| Prevalence of poor physical health over 2 weeks among adults over 18|
+| 12 | TractWhite	| White population normalized over tract population|
+| 13 | comp_grocery	| Average sentiment for grocery store tweets per tract  |
+| 14 | STROKE_CrudePrev |	 Prevalence of stroke among adults over 18 |
+| 15 | TractAsian |	Asian population normalized over tract population|
+| 16 | ACCESS_CrudePrev |	Prevalence of current lack of health insurance among adults agess 18-64 |
 | | | |
 ## Interactive Visualizations
 
