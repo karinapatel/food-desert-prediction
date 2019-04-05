@@ -135,7 +135,7 @@ I ran a number of different models on my data to compare performance of differen
 The best model I found was using Gradient Boosting with a depth of 5, learning rate of 0.1, and number of estimators set to 100. Predicting food deserts for the test set based off this model, I was able to achieve the following results:
 
 | Metric | Score |
-| ------ | ------ | ------ | ------ | ------ |
+| ------ | ------ |
 | ROC-AUC score | 0.88 |
 | Accuracy | 0.89 |
 |F1 Score | 0.84 |
@@ -143,8 +143,9 @@ The best model I found was using Gradient Boosting with a depth of 5, learning r
 | Precision | 0.86 |
 |  |  |
 
+Looking further into the features, we see that the most to least important features are found through Permutation Importance as follows:
 
-### Permutation Importance Plot of Features in Gradient Boosting Model:
+### Permutation Importance of Features in Gradient Boosting Model:
 <p align="center"> 
 <img src="images/ final_permimp.png">
 </p>
