@@ -134,7 +134,7 @@ I ran a number of different models
 
 ### Permutation Importance Plot of Features in Gradient Boosting Model:
 <p align="center"> 
-<img src="images/final_permimp.png">
+<img src="images/ final_permimp.png">
 </p>
 
 ### Description of features:
@@ -162,10 +162,12 @@ I ran a number of different models
 ## Future Steps
 
 ==============
-## Tools ####
+## Top Tools Used ####
 1. Twitter API
 2. FCC API
+3. Amazon Web Services
 3. MongoDB
 4. NLTK
-5. CartoDB
-6. Flask
+5. Carto API
+6. Carto.js
+7. Flask
