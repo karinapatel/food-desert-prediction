@@ -125,12 +125,24 @@ I additionally pulled social media twitter data through the Twitter API to analy
 
 ## Results
 
-I ran a number of different models
+I ran a number of different models on my data to compare performance of different binary classifiers. Comparing ROC-AUC scores for SVM, KNN, Logistic Regression, Random Forest, and Gradient Boosting below, it is clear that certain models performed better than others.
 
 ### Receiver Operating Characteristic (ROC) Curve:
 <p align="center"> 
 <img src="images/ROC_compare.png">
 </p>
+
+The best model I found was using Gradient Boosting with a depth of 5, learning rate of 0.1, and number of estimators set to 100. Predicting food deserts for the test set based off this model, I was able to achieve the following results:
+
+| Metric | Score |
+| ------ | ------ | ------ | ------ | ------ |
+| ROC-AUC score | 0.88 |
+| Accuracy | 0.89 |
+|F1 Score | 0.84 |
+| Recall | 0.83 |
+| Precision | 0.86 |
+|  |  |
+
 
 ### Permutation Importance Plot of Features in Gradient Boosting Model:
 <p align="center"> 
