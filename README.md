@@ -172,7 +172,7 @@ Looking further into the features, we see that the most to least important featu
 | | | |
 ## Interactive Visualizations
 
-I created an interactive flask webapp to visualize the results of my twitter sentiment analysis. 
+I created an [interactive flask webapp](http://0.0.0.0:333/) to visualize the results of my twitter sentiment analysis. 
 1. Tweet Map: Map of all geotagged tweets with the category and the sentiment of the tweet
 2. State Map: Summarizing sentiment towards healthy foods, grocery stores, unhealthy foods, and fast food restaurants
     - Takes the weighted max between healthy foods/grocery stores and unhealthy foods/fast food restaurants to gauge the sentiment of the state as a whole
