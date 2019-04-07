@@ -2,12 +2,12 @@ body {
     background-color: lightblue;
   }
 
-
-#State_head {
+#County_head {
 font: 120 45px/1.3 'Atma', Helvetica, sans-serif;
 color: rgba(201, 157, 232, 0.904);
 text-shadow: 1px 1px 0px rgb(0, 0, 0);
 }
+
 /* Add a black background color to the top navigation */
 .topnav {
     background-color:  rgb(87, 87, 87);

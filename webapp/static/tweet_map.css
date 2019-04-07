@@ -2,6 +2,12 @@ body {
     background-color: lightblue;
   }
 
+#Twitter_head {
+font: 120 45px/1.3 'Atma', Helvetica, sans-serif;
+color: rgba(201, 157, 232, 0.904);
+text-shadow: 1px 1px 0px rgb(0, 0, 0);
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
     background-color:  rgb(87, 87, 87);
@@ -10,22 +16,24 @@ body {
   
   /* Style the links inside the navigation bar */
   .topnav a {
+    font: 10 17px/1.3 'Atma', Helvetica, sans-serif;
     float: left;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
   }
   
   /* Change the color of links on hover */
   .topnav a:hover {
+    font: 10 17px/1.3 'Atma', Helvetica, sans-serif;
     background-color: #ddd;
     color: black;
   }
   
   /* Add a color to the active/current link */
   .topnav a.active {
+    font: 10 17px/1.3 'Atma', Helvetica, sans-serif;
     background-color: rgba(201, 157, 232, 0.904);
     color: white;
   }

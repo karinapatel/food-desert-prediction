@@ -20,7 +20,10 @@ def tweet_map():
 def state_map():
     return render_template('state_map.html')
 
+@app.route('/county_map', methods = ['GET'])
 
+def county_map():
+    return render_template('county_map.html')
 
 #model = pickle.load(open('linreg.p','rb'))
 '''

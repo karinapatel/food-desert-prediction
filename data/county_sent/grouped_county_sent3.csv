@@ -1,0 +1,3243 @@
+,grocery_sent,unhealthy_sent,healthy_sent,FIPS,Name_x,State_x,final_sent,Name_y,State_y
+0,0.25,0.26,0.35,04013,Maricopa,AZ,healthy,Maricopa,AZ
+1,0.46,0.25,0.1,04019,Pima,AZ,unhealthy,Pima,AZ
+2,0.42,0.18,0.55,04021,Pinal,AZ,healthy,Pinal,AZ
+3,0.26,0.27,0.19,06001,Alameda,CA,unhealthy,Alameda,CA
+4,0.08,0.33,0.22,06013,Contra Costa,CA,unhealthy,Contra Costa,CA
+5,0.0,0.46,0.39,06017,El Dorado,CA,unhealthy,El Dorado,CA
+6,0.0,0.3,0.28,06029,Kern,CA,unhealthy,Kern,CA
+7,0.09,0.3,0.29,06037,Los Angeles,CA,unhealthy,Los Angeles,CA
+8,0.29,-0.02,0.28,06041,Marin,CA,healthy,Marin,CA
+9,0.0,no data,-0.12,06045,Mendocino,CA,healthy,Mendocino,CA
+10,0.0,0.31,0.2,06053,Monterey,CA,unhealthy,Monterey,CA
+11,0.1,0.25,0.42,06055,Napa,CA,healthy,Napa,CA
+12,0.13,0.27,0.24,06059,Orange,CA,unhealthy,Orange,CA
+13,0.42,0.42,0.33,06061,Placer,CA,unhealthy,Placer,CA
+14,0.24,0.35,0.29,06065,Riverside,CA,unhealthy,Riverside,CA
+15,0.18,0.17,0.2,06067,Sacramento,CA,healthy,Sacramento,CA
+16,0.35,0.31,0.29,06071,San Bernardino,CA,unhealthy,San Bernardino,CA
+17,0.2,0.3,0.22,06073,San Diego,CA,unhealthy,San Diego,CA
+18,0.04,0.27,0.21,06075,San Francisco,CA,unhealthy,San Francisco,CA
+19,0.44,0.3,0.63,06079,San Luis Obispo,CA,healthy,San Luis Obispo,CA
+20,0.11,0.17,0.28,06081,San Mateo,CA,healthy,San Mateo,CA
+21,0.3,0.36,0.54,06083,Santa Barbara,CA,healthy,Santa Barbara,CA
+22,0.22,0.27,0.23,06085,Santa Clara,CA,unhealthy,Santa Clara,CA
+23,0.53,0.31,0.47,06087,Santa Cruz,CA,healthy,Santa Cruz,CA
+24,-0.3,no data,0.62,06089,Shasta,CA,healthy,Shasta,CA
+25,0.19,0.44,0.16,06097,Sonoma,CA,unhealthy,Sonoma,CA
+26,0.21,0.26,0.25,06111,Ventura,CA,unhealthy,Ventura,CA
+27,0.76,0.21,0.34,06113,Yolo,CA,healthy,Yolo,CA
+28,0.96,0.26,0.39,08031,Denver,CO,healthy,Denver,CO
+29,0.44,0.25,0.4,08041,El Paso,CO,healthy,El Paso,CO
+30,0.14,0.46,0.39,09003,Hartford,CT,unhealthy,Hartford,CT
+31,0.42,0.38,0.35,11001,Washington,DC,unhealthy,Washington,DC
+32,0.19,0.41,0.3,12011,Broward,FL,unhealthy,Broward,FL
+33,0.25,0.31,0.3,12071,Lee,FL,unhealthy,Lee,FL
+34,0.36,0.38,0.43,12103,Pinellas,FL,healthy,Pinellas,FL
+35,0.32,0.83,0.62,12123,Taylor,FL,unhealthy,Taylor,FL
+36,0.0,0.2,0.48,13051,Chatham,GA,healthy,Chatham,GA
+37,0.0,0.27,0.15,13063,Clayton,GA,unhealthy,Clayton,GA
+38,-0.05,0.48,0.22,13067,Cobb,GA,unhealthy,Cobb,GA
+39,0.0,0.36,0.87,13077,Coweta,GA,healthy,Coweta,GA
+40,-0.05,0.22,0.32,13089,De Kalb,GA,healthy,De Kalb,GA
+41,0.58,no data,0.0,13097,Douglas,GA,healthy,Douglas,GA
+42,-0.21,0.73,0.0,13113,Fayette,GA,unhealthy,Fayette,GA
+43,0.45,0.27,0.3,13121,Fulton,GA,healthy,Fulton,GA
+44,0.0,0.47,0.22,13135,Gwinnett,GA,unhealthy,Gwinnett,GA
+45,-0.15,-0.06,0.22,13139,Hall,GA,healthy,Hall,GA
+46,0.01,0.36,0.27,15003,Honolulu,HI,unhealthy,Honolulu,HI
+47,0.0,0.23,0.39,15009,Maui,HI,healthy,Maui,HI
+48,0.39,0.34,0.38,16001,Ada,ID,healthy,Ada,ID
+49,0.4,0.48,0.54,16055,Kootenai,ID,healthy,Kootenai,ID
+50,0.1,0.29,0.31,17031,Cook,IL,healthy,Cook,IL
+51,-0.21,0.23,0.11,17043,Du Page,IL,unhealthy,Du Page,IL
+52,0.48,0.37,0.13,17089,Kane,IL,unhealthy,Kane,IL
+53,0.22,0.2,0.43,17097,Lake,IL,healthy,Lake,IL
+54,0.0,0.38,0.0,17115,Macon,IL,unhealthy,Macon,IL
+55,-0.13,no data,-0.13,18067,Howard,IN,healthy,Howard,IN
+56,0.0,0.26,0.36,18097,Marion,IN,healthy,Marion,IN
+57,0.0,0.34,0.27,18105,Monroe,IN,unhealthy,Monroe,IN
+58,0.0,0.11,0.49,18141,St Joseph,IN,healthy,St Joseph,IN
+59,0.0,0.34,-0.08,19049,Dallas,IA,unhealthy,Dallas,IA
+60,0.38,0.61,0.38,21059,Daviess,KY,unhealthy,Daviess,KY
+61,0.0,0.16,0.21,21067,Fayette,KY,healthy,Fayette,KY
+62,0.0,0.31,0.3,21111,Jefferson,KY,unhealthy,Jefferson,KY
+63,-0.53,0.0,0.0,21145,McCracken,KY,unhealthy,McCracken,KY
+64,0.0,0.07,0.3,21227,Warren,KY,healthy,Warren,KY
+65,0.18,0.18,0.21,22017,Caddo,LA,healthy,Caddo,LA
+66,0.32,0.21,0.46,22019,Calcasieu,LA,healthy,Calcasieu,LA
+67,0.0,0.5,0.14,22033,East Baton Rouge,LA,unhealthy,East Baton Rouge,LA
+68,0.67,0.1,0.05,22051,Jefferson,LA,unhealthy,Jefferson,LA
+69,0.0,0.65,0.22,22055,Lafayette,LA,unhealthy,Lafayette,LA
+70,0.84,0.33,0.21,22071,Orleans,LA,unhealthy,Orleans,LA
+71,0.49,no data,no data,22079,Rapides,LA,tie,Rapides,LA
+72,0.0,0.19,0.19,24005,Baltimore,MD,unhealthy,Baltimore,MD
+73,0.0,0.29,0.24,24031,Montgomery,MD,unhealthy,Montgomery,MD
+74,0.0,0.19,0.36,24510,Baltimore City,MD,healthy,Baltimore City,MD
+75,0.0,0.37,0.3,25017,Middlesex,MA,unhealthy,Middlesex,MA
+76,0.0,0.41,0.16,25021,Norfolk,MA,unhealthy,Norfolk,MA
+77,0.74,0.29,0.31,25025,Suffolk,MA,healthy,Suffolk,MA
+78,0.0,0.21,0.21,26093,Livingston,MI,healthy,Livingston,MI
+79,0.27,0.31,0.36,26099,Macomb,MI,healthy,Macomb,MI
+80,0.0,no data,no data,26115,Monroe,MI,tie,Monroe,MI
+81,0.0,0.32,0.4,26125,Oakland,MI,healthy,Oakland,MI
+82,0.17,0.27,0.28,26163,Wayne,MI,healthy,Wayne,MI
+83,0.39,0.28,0.24,27053,Hennepin,MN,unhealthy,Hennepin,MN
+84,0.85,-0.3,0.06,27137,St Louis,MN,healthy,St Louis,MN
+85,0.51,0.23,0.18,32003,Clark,NV,unhealthy,Clark,NV
+86,-0.06,0.37,0.36,34003,Bergen,NJ,unhealthy,Bergen,NJ
+87,0.0,0.04,0.41,34005,Burlington,NJ,healthy,Burlington,NJ
+88,0.21,0.08,0.21,34007,Camden,NJ,healthy,Camden,NJ
+89,0.0,0.35,0.31,36029,Erie,NY,unhealthy,Erie,NY
+90,0.0,0.26,0.32,36047,Kings,NY,healthy,Kings,NY
+91,0.66,0.24,0.21,36059,Nassau,NY,unhealthy,Nassau,NY
+92,-0.02,0.35,0.3,36061,New York,NY,unhealthy,New York,NY
+93,0.0,0.19,0.38,36119,Westchester,NY,healthy,Westchester,NY
+94,0.17,0.31,0.26,37119,Mecklenburg,NC,unhealthy,Mecklenburg,NC
+95,0.0,0.22,0.27,37183,Wake,NC,healthy,Wake,NC
+96,0.0,0.31,0.27,39017,Butler,OH,unhealthy,Butler,OH
+97,0.72,0.12,0.22,39041,Delaware,OH,healthy,Delaware,OH
+98,0.2,0.29,0.25,39049,Franklin,OH,unhealthy,Franklin,OH
+99,0.0,0.3,0.69,39057,Greene,OH,healthy,Greene,OH
+100,0.18,0.35,0.38,39061,Hamilton,OH,healthy,Hamilton,OH
+101,0.61,0.18,0.25,39083,Knox,OH,healthy,Knox,OH
+102,0.25,0.27,0.25,39095,Lucas,OH,unhealthy,Lucas,OH
+103,0.36,0.23,0.22,39113,Montgomery,OH,unhealthy,Montgomery,OH
+104,0.0,no data,no data,39145,Scioto,OH,tie,Scioto,OH
+105,0.69,0.32,0.28,39165,Warren,OH,unhealthy,Warren,OH
+106,0.09,0.9,no data,39173,Wood,OH,unhealthy,Wood,OH
+107,0.0,0.34,0.29,40109,Oklahoma,OK,unhealthy,Oklahoma,OK
+108,0.06,0.27,0.23,41051,Multnomah,OR,unhealthy,Multnomah,OR
+109,-0.46,0.38,0.56,41053,Polk,OR,healthy,Polk,OR
+110,0.0,0.31,0.13,41067,Washington,OR,unhealthy,Washington,OR
+111,0.0,0.3,0.13,42003,Allegheny,PA,unhealthy,Allegheny,PA
+112,0.9,0.38,0.45,42017,Bucks,PA,healthy,Bucks,PA
+113,0.0,0.2,0.35,42029,Chester,PA,healthy,Chester,PA
+114,-0.23,0.01,0.23,42091,Montgomery,PA,healthy,Montgomery,PA
+115,-0.22,0.38,0.31,42101,Philadelphia,PA,unhealthy,Philadelphia,PA
+116,-0.67,0.34,0.2,44007,Providence,RI,unhealthy,Providence,RI
+117,-0.06,0.28,0.39,45051,Horry,SC,healthy,Horry,SC
+118,0.54,0.45,0.32,45079,Richland,SC,unhealthy,Richland,SC
+119,0.24,0.33,0.28,47037,Davidson,TN,unhealthy,Davidson,TN
+120,0.0,0.34,0.24,47093,Knox,TN,unhealthy,Knox,TN
+121,0.92,0.42,0.49,47149,Rutherford,TN,healthy,Rutherford,TN
+122,0.0,0.47,0.32,47157,Shelby,TN,unhealthy,Shelby,TN
+123,-0.23,0.57,0.0,47179,Washington,TN,unhealthy,Washington,TN
+124,0.77,0.48,0.47,47187,Williamson,TN,unhealthy,Williamson,TN
+125,0.6,0.52,0.56,48039,Brazoria,TX,healthy,Brazoria,TX
+126,0.71,0.05,0.48,48041,Brazos,TX,healthy,Brazos,TX
+127,0.69,0.36,0.25,48085,Collin,TX,unhealthy,Collin,TX
+128,0.34,0.37,0.37,48113,Dallas,TX,healthy,Dallas,TX
+129,0.64,0.24,0.27,48121,Denton,TX,healthy,Denton,TX
+130,0.59,0.49,0.33,48139,Ellis,TX,unhealthy,Ellis,TX
+131,0.52,0.46,0.32,48157,Fort Bend,TX,unhealthy,Fort Bend,TX
+132,0.43,-0.01,0.0,48167,Galveston,TX,healthy,Galveston,TX
+133,0.5,0.36,0.29,48201,Harris,TX,unhealthy,Harris,TX
+134,0.71,no data,0.65,48203,Harrison,TX,healthy,Harrison,TX
+135,0.55,no data,0.26,48245,Jefferson,TX,healthy,Jefferson,TX
+136,0.74,0.29,no data,48251,Johnson,TX,unhealthy,Johnson,TX
+137,-0.31,0.25,0.0,48303,Lubbock,TX,unhealthy,Lubbock,TX
+138,0.59,0.38,0.12,48339,Montgomery,TX,unhealthy,Montgomery,TX
+139,0.55,no data,0.61,48361,Orange,TX,healthy,Orange,TX
+140,0.63,no data,no data,48401,Rusk,TX,tie,Rusk,TX
+141,0.63,0.29,0.34,48439,Tarrant,TX,healthy,Tarrant,TX
+142,0.22,0.28,0.17,48453,Travis,TX,unhealthy,Travis,TX
+143,0.55,no data,0.42,48471,Walker,TX,healthy,Walker,TX
+144,0.0,0.0,0.11,51041,Chesterfield,VA,healthy,Chesterfield,VA
+145,0.05,0.25,0.26,51059,Fairfax,VA,healthy,Fairfax,VA
+146,0.89,0.23,0.29,51087,Henrico,VA,healthy,Henrico,VA
+147,0.0,0.55,0.0,51740,Portsmouth City,VA,unhealthy,Portsmouth City,VA
+148,0.42,0.35,0.16,51810,Virginia Beach City,VA,unhealthy,Virginia Beach City,VA
+149,0.0,0.34,0.29,53033,King,WA,unhealthy,King,WA
+150,0.7,0.29,0.37,53035,Kitsap,WA,healthy,Kitsap,WA
+151,0.17,0.23,0.24,53053,Pierce,WA,healthy,Pierce,WA
+152,0.0,0.0,no data,53057,Skagit,WA,unhealthy,Skagit,WA
+153,0.12,0.35,0.39,53061,Snohomish,WA,healthy,Snohomish,WA
+154,-0.44,0.69,0.26,53067,Thurston,WA,unhealthy,Thurston,WA
+155,0.0,0.5,0.63,54039,Kanawha,WV,healthy,Kanawha,WV
+156,0.58,no data,no data,54061,Monongalia,WV,tie,Monongalia,WV
+157,0.0,0.19,0.14,55079,Milwaukee,WI,unhealthy,Milwaukee,WI
+158,-2.0,0.41,0.27,01003,Baldwin,AL,unhealthy,Baldwin,AL
+159,-2.0,0.36,0.0,01031,Coffee,AL,unhealthy,Coffee,AL
+160,-2.0,0.49,no data,01051,Elmore,AL,unhealthy,Elmore,AL
+161,-2.0,0.07,-0.13,01069,Houston,AL,unhealthy,Houston,AL
+162,-2.0,0.6,no data,01071,Jackson,AL,unhealthy,Jackson,AL
+163,-2.0,0.29,0.22,01073,Jefferson,AL,unhealthy,Jefferson,AL
+164,-2.0,0.14,-0.15,01081,Lee,AL,unhealthy,Lee,AL
+165,-2.0,0.0,0.0,01083,Limestone,AL,unhealthy,Limestone,AL
+166,-2.0,0.0,no data,01085,Lowndes,AL,unhealthy,Lowndes,AL
+167,-2.0,0.35,0.32,01089,Madison,AL,unhealthy,Madison,AL
+168,-2.0,0.36,0.4,01097,Mobile,AL,healthy,Mobile,AL
+169,-2.0,0.36,-0.15,01101,Montgomery,AL,unhealthy,Montgomery,AL
+170,-2.0,0.69,0.0,01117,Shelby,AL,unhealthy,Shelby,AL
+171,-2.0,0.02,0.01,01125,Tuscaloosa,AL,unhealthy,Tuscaloosa,AL
+172,-2.0,0.62,0.87,02020,Anchorage,AK,healthy,Anchorage,AK
+173,-2.0,0.49,no data,02130,Ketchikan Gateway,AK,unhealthy,Ketchikan Gateway,AK
+174,-2.0,-0.15,0.0,02170,Matanuska-Susitna,AK,healthy,Matanuska-Susitna,AK
+175,-2.0,0.87,no data,02220,Sitka,AK,unhealthy,Sitka,AK
+176,-2.0,0.0,no data,04003,Cochise,AZ,unhealthy,Cochise,AZ
+177,-2.0,0.79,0.95,04005,Coconino,AZ,healthy,Coconino,AZ
+178,-2.0,0.54,-0.61,04007,Gila,AZ,unhealthy,Gila,AZ
+179,-2.0,0.0,no data,04015,Mohave,AZ,unhealthy,Mohave,AZ
+180,-2.0,0.18,no data,04025,Yavapai,AZ,unhealthy,Yavapai,AZ
+181,-2.0,-0.01,no data,04027,Yuma,AZ,unhealthy,Yuma,AZ
+182,-2.0,0.28,0.14,05007,Benton,AR,unhealthy,Benton,AR
+183,-2.0,0.62,0.64,05031,Craighead,AR,healthy,Craighead,AR
+184,-2.0,0.84,no data,05033,Crawford,AR,unhealthy,Crawford,AR
+185,-2.0,0.12,0.06,05045,Faulkner,AR,unhealthy,Faulkner,AR
+186,-2.0,0.73,0.6,05051,Garland,AR,unhealthy,Garland,AR
+187,-2.0,0.89,no data,05085,Lonoke,AR,unhealthy,Lonoke,AR
+188,-2.0,0.46,0.46,05119,Pulaski,AR,unhealthy,Pulaski,AR
+189,-2.0,0.51,no data,05123,St Francis,AR,unhealthy,St Francis,AR
+190,-2.0,0.24,0.0,05139,Union,AR,unhealthy,Union,AR
+191,-2.0,0.03,no data,05141,Van Buren,AR,unhealthy,Van Buren,AR
+192,-2.0,0.65,0.4,05143,Washington,AR,unhealthy,Washington,AR
+193,-2.0,0.54,0.53,06007,Butte,CA,unhealthy,Butte,CA
+194,-2.0,0.89,no data,06009,Calaveras,CA,unhealthy,Calaveras,CA
+195,-2.0,0.24,0.18,06019,Fresno,CA,unhealthy,Fresno,CA
+196,-2.0,0.0,no data,06021,Glenn,CA,unhealthy,Glenn,CA
+197,-2.0,0.75,0.52,06023,Humboldt,CA,unhealthy,Humboldt,CA
+198,-2.0,0.36,0.38,06025,Imperial,CA,healthy,Imperial,CA
+199,-2.0,0.0,0.0,06027,Inyo,CA,unhealthy,Inyo,CA
+200,-2.0,0.29,0.62,06031,Kings,CA,healthy,Kings,CA
+201,-2.0,0.34,0.19,06051,Mono,CA,unhealthy,Mono,CA
+202,-2.0,0.39,0.43,06057,Nevada,CA,healthy,Nevada,CA
+203,-2.0,0.72,no data,06069,San Benito,CA,unhealthy,San Benito,CA
+204,-2.0,0.46,0.09,06077,San Joaquin,CA,unhealthy,San Joaquin,CA
+205,-2.0,0.46,0.51,06095,Solano,CA,healthy,Solano,CA
+206,-2.0,0.19,0.23,06099,Stanislaus,CA,healthy,Stanislaus,CA
+207,-2.0,0.0,0.9,06105,Trinity,CA,healthy,Trinity,CA
+208,-2.0,0.01,-0.03,06107,Tulare,CA,unhealthy,Tulare,CA
+209,-2.0,0.45,0.4,08001,Adams,CO,unhealthy,Adams,CO
+210,-2.0,-0.22,0.43,08005,Arapahoe,CO,healthy,Arapahoe,CO
+211,-2.0,0.48,0.27,08013,Boulder,CO,unhealthy,Boulder,CO
+212,-2.0,0.46,no data,08019,Clear Creek,CO,unhealthy,Clear Creek,CO
+213,-2.0,0.33,0.67,08035,Douglas,CO,healthy,Douglas,CO
+214,-2.0,0.26,0.21,08037,Eagle,CO,unhealthy,Eagle,CO
+215,-2.0,0.49,no data,08043,Fremont,CO,unhealthy,Fremont,CO
+216,-2.0,0.0,no data,08045,Garfield,CO,unhealthy,Garfield,CO
+217,-2.0,0.42,0.41,08059,Jefferson,CO,unhealthy,Jefferson,CO
+218,-2.0,0.51,no data,08067,La Plata,CO,unhealthy,La Plata,CO
+219,-2.0,0.52,0.3,08069,Larimer,CO,unhealthy,Larimer,CO
+220,-2.0,0.0,no data,08071,Las Animas,CO,unhealthy,Las Animas,CO
+221,-2.0,0.0,0.42,08077,Mesa,CO,healthy,Mesa,CO
+222,-2.0,0.05,no data,08093,Park,CO,unhealthy,Park,CO
+223,-2.0,0.64,0.4,08097,Pitkin,CO,unhealthy,Pitkin,CO
+224,-2.0,0.81,no data,08101,Pueblo,CO,unhealthy,Pueblo,CO
+225,-2.0,0.37,0.38,08107,Routt,CO,healthy,Routt,CO
+226,-2.0,0.56,0.18,08117,Summit,CO,unhealthy,Summit,CO
+227,-2.0,0.12,0.45,08123,Weld,CO,healthy,Weld,CO
+228,-2.0,0.18,0.18,09001,Fairfield,CT,unhealthy,Fairfield,CT
+229,-2.0,0.31,0.39,09005,Litchfield,CT,healthy,Litchfield,CT
+230,-2.0,0.32,0.23,09007,Middlesex,CT,unhealthy,Middlesex,CT
+231,-2.0,0.25,0.08,09009,New Haven,CT,unhealthy,New Haven,CT
+232,-2.0,0.35,0.0,09011,New London,CT,unhealthy,New London,CT
+233,-2.0,-0.1,-0.08,09013,Tolland,CT,healthy,Tolland,CT
+234,-2.0,0.14,0.05,09015,Windham,CT,unhealthy,Windham,CT
+235,-2.0,0.39,0.18,10003,New Castle,DE,unhealthy,New Castle,DE
+236,-2.0,0.55,0.49,10005,Sussex,DE,unhealthy,Sussex,DE
+237,-2.0,0.35,0.08,12001,Alachua,FL,unhealthy,Alachua,FL
+238,-2.0,0.31,0.8,12005,Bay,FL,healthy,Bay,FL
+239,-2.0,0.37,0.33,12009,Brevard,FL,unhealthy,Brevard,FL
+240,-2.0,0.34,no data,12015,Charlotte,FL,unhealthy,Charlotte,FL
+241,-2.0,0.36,0.0,12017,Citrus,FL,unhealthy,Citrus,FL
+242,-2.0,0.52,0.15,12019,Clay,FL,unhealthy,Clay,FL
+243,-2.0,0.61,0.35,12021,Collier,FL,unhealthy,Collier,FL
+244,-2.0,0.32,0.42,12031,Duval,FL,healthy,Duval,FL
+245,-2.0,0.4,0.33,12033,Escambia,FL,unhealthy,Escambia,FL
+246,-2.0,0.65,0.6,12035,Flagler,FL,unhealthy,Flagler,FL
+247,-2.0,0.7,no data,12037,Franklin,FL,unhealthy,Franklin,FL
+248,-2.0,0.0,no data,12053,Hernando,FL,unhealthy,Hernando,FL
+249,-2.0,0.0,no data,12055,Highlands,FL,unhealthy,Highlands,FL
+250,-2.0,0.3,0.25,12057,Hillsborough,FL,unhealthy,Hillsborough,FL
+251,-2.0,0.49,no data,12065,Jefferson,FL,unhealthy,Jefferson,FL
+252,-2.0,0.45,0.26,12069,Lake,FL,unhealthy,Lake,FL
+253,-2.0,0.24,0.16,12073,Leon,FL,unhealthy,Leon,FL
+254,-2.0,0.53,0.34,12081,Manatee,FL,unhealthy,Manatee,FL
+255,-2.0,0.46,-0.09,12083,Marion,FL,unhealthy,Marion,FL
+256,-2.0,0.49,0.26,12085,Martin,FL,unhealthy,Martin,FL
+257,-2.0,0.27,0.12,12087,Monroe,FL,unhealthy,Monroe,FL
+258,-2.0,0.38,0.23,12089,Nassau,FL,unhealthy,Nassau,FL
+259,-2.0,0.0,0.4,12091,Okaloosa,FL,healthy,Okaloosa,FL
+260,-2.0,0.36,0.26,12095,Orange,FL,unhealthy,Orange,FL
+261,-2.0,0.26,0.52,12097,Osceola,FL,healthy,Osceola,FL
+262,-2.0,0.3,0.23,12099,Palm Beach,FL,unhealthy,Palm Beach,FL
+263,-2.0,0.02,0.23,12101,Pasco,FL,healthy,Pasco,FL
+264,-2.0,0.45,0.39,12105,Polk,FL,unhealthy,Polk,FL
+265,-2.0,0.14,0.16,12109,St Johns,FL,healthy,St Johns,FL
+266,-2.0,0.96,0.29,12111,St Lucie,FL,unhealthy,St Lucie,FL
+267,-2.0,0.68,no data,12113,Santa Rosa,FL,unhealthy,Santa Rosa,FL
+268,-2.0,0.2,0.21,12115,Sarasota,FL,healthy,Sarasota,FL
+269,-2.0,0.2,0.29,12117,Seminole,FL,healthy,Seminole,FL
+270,-2.0,0.46,0.57,12119,Sumter,FL,healthy,Sumter,FL
+271,-2.0,0.4,0.15,12127,Volusia,FL,unhealthy,Volusia,FL
+272,-2.0,0.51,no data,12129,Wakulla,FL,unhealthy,Wakulla,FL
+273,-2.0,0.62,0.0,12131,Walton,FL,unhealthy,Walton,FL
+274,-2.0,0.83,no data,13005,Bacon,GA,unhealthy,Bacon,GA
+275,-2.0,-0.33,no data,13013,Barrow,GA,unhealthy,Barrow,GA
+276,-2.0,0.1,0.38,13021,Bibb,GA,healthy,Bibb,GA
+277,-2.0,0.16,0.55,13031,Bulloch,GA,healthy,Bulloch,GA
+278,-2.0,0.0,no data,13035,Butts,GA,unhealthy,Butts,GA
+279,-2.0,0.32,0.42,13057,Cherokee,GA,healthy,Cherokee,GA
+280,-2.0,0.53,0.16,13059,Clarke,GA,unhealthy,Clarke,GA
+281,-2.0,0.42,no data,13083,Dade,GA,unhealthy,Dade,GA
+282,-2.0,0.0,no data,13095,Dougherty,GA,unhealthy,Dougherty,GA
+283,-2.0,0.45,0.35,13115,Floyd,GA,unhealthy,Floyd,GA
+284,-2.0,0.0,0.0,13117,Forsyth,GA,unhealthy,Forsyth,GA
+285,-2.0,0.3,0.46,13119,Franklin,GA,healthy,Franklin,GA
+286,-2.0,0.36,0.09,13127,Glynn,GA,unhealthy,Glynn,GA
+287,-2.0,-0.25,no data,13129,Gordon,GA,unhealthy,Gordon,GA
+288,-2.0,0.32,0.38,13151,Henry,GA,healthy,Henry,GA
+289,-2.0,0.03,0.0,13153,Houston,GA,unhealthy,Houston,GA
+290,-2.0,0.0,no data,13157,Jackson,GA,unhealthy,Jackson,GA
+291,-2.0,0.18,-0.28,13169,Jones,GA,unhealthy,Jones,GA
+292,-2.0,0.0,0.0,13171,Lamar,GA,unhealthy,Lamar,GA
+293,-2.0,0.21,no data,13175,Laurens,GA,unhealthy,Laurens,GA
+294,-2.0,0.61,0.68,13179,Liberty,GA,healthy,Liberty,GA
+295,-2.0,0.0,0.21,13185,Lowndes,GA,healthy,Lowndes,GA
+296,-2.0,0.0,no data,13211,Morgan,GA,unhealthy,Morgan,GA
+297,-2.0,0.73,0.06,13215,Muscogee,GA,unhealthy,Muscogee,GA
+298,-2.0,0.68,no data,13217,Newton,GA,unhealthy,Newton,GA
+299,-2.0,0.79,no data,13219,Oconee,GA,unhealthy,Oconee,GA
+300,-2.0,0.34,0.0,13227,Pickens,GA,unhealthy,Pickens,GA
+301,-2.0,0.0,0.0,13235,Pulaski,GA,unhealthy,Pulaski,GA
+302,-2.0,-0.26,0.22,13245,Richmond,GA,healthy,Richmond,GA
+303,-2.0,0.29,0.0,13247,Rockdale,GA,unhealthy,Rockdale,GA
+304,-2.0,0.36,no data,13273,Terrell,GA,unhealthy,Terrell,GA
+305,-2.0,0.0,0.0,13277,Tift,GA,unhealthy,Tift,GA
+306,-2.0,0.94,no data,13285,Troup,GA,unhealthy,Troup,GA
+307,-2.0,-0.18,-0.18,13293,Upson,GA,unhealthy,Upson,GA
+308,-2.0,0.0,no data,13305,Wayne,GA,unhealthy,Wayne,GA
+309,-2.0,0.31,no data,13313,Whitfield,GA,unhealthy,Whitfield,GA
+310,-2.0,0.0,0.73,15001,Hawaii,HI,healthy,Hawaii,HI
+311,-2.0,0.0,0.71,15007,Kauai,HI,healthy,Kauai,HI
+312,-2.0,0.36,no data,16005,Bannock,ID,unhealthy,Bannock,ID
+313,-2.0,0.39,no data,16019,Bonneville,ID,unhealthy,Bonneville,ID
+314,-2.0,0.25,0.66,16027,Canyon,ID,healthy,Canyon,ID
+315,-2.0,0.0,no data,16029,Caribou,ID,unhealthy,Caribou,ID
+316,-2.0,-0.01,no data,16051,Jefferson,ID,unhealthy,Jefferson,ID
+317,-2.0,0.52,no data,16057,Latah,ID,unhealthy,Latah,ID
+318,-2.0,-0.65,no data,16069,Nez Perce,ID,unhealthy,Nez Perce,ID
+319,-2.0,0.64,no data,16085,Valley,ID,unhealthy,Valley,ID
+320,-2.0,0.0,no data,17007,Boone,IL,unhealthy,Boone,IL
+321,-2.0,0.45,0.13,17019,Champaign,IL,unhealthy,Champaign,IL
+322,-2.0,0.0,0.47,17029,Coles,IL,healthy,Coles,IL
+323,-2.0,0.31,no data,17037,De Kalb,IL,unhealthy,De Kalb,IL
+324,-2.0,0.75,no data,17039,De Witt,IL,unhealthy,De Witt,IL
+325,-2.0,0.9,no data,17049,Effingham,IL,unhealthy,Effingham,IL
+326,-2.0,0.51,no data,17063,Grundy,IL,unhealthy,Grundy,IL
+327,-2.0,0.67,0.67,17065,Hamilton,IL,unhealthy,Hamilton,IL
+328,-2.0,0.0,0.0,17073,Henry,IL,unhealthy,Henry,IL
+329,-2.0,0.0,no data,17077,Jackson,IL,unhealthy,Jackson,IL
+330,-2.0,0.16,no data,17091,Kankakee,IL,unhealthy,Kankakee,IL
+331,-2.0,0.15,0.33,17093,Kendall,IL,healthy,Kendall,IL
+332,-2.0,0.0,no data,17103,Lee,IL,unhealthy,Lee,IL
+333,-2.0,0.39,0.27,17111,McHenry,IL,unhealthy,McHenry,IL
+334,-2.0,0.22,0.21,17113,McLean,IL,unhealthy,McLean,IL
+335,-2.0,0.28,0.11,17119,Madison,IL,unhealthy,Madison,IL
+336,-2.0,0.2,0.0,17141,Ogle,IL,unhealthy,Ogle,IL
+337,-2.0,0.61,0.36,17143,Peoria,IL,unhealthy,Peoria,IL
+338,-2.0,0.0,no data,17159,Richland,IL,unhealthy,Richland,IL
+339,-2.0,0.0,-0.07,17161,Rock Island,IL,unhealthy,Rock Island,IL
+340,-2.0,0.0,-0.35,17163,St Clair,IL,unhealthy,St Clair,IL
+341,-2.0,0.53,0.73,17167,Sangamon,IL,healthy,Sangamon,IL
+342,-2.0,0.0,0.07,17179,Tazewell,IL,healthy,Tazewell,IL
+343,-2.0,0.7,no data,17185,Wabash,IL,unhealthy,Wabash,IL
+344,-2.0,0.46,0.0,17187,Warren,IL,unhealthy,Warren,IL
+345,-2.0,-0.11,0.06,17197,Will,IL,healthy,Will,IL
+346,-2.0,-0.18,0.19,17201,Winnebago,IL,healthy,Winnebago,IL
+347,-2.0,0.21,0.08,18003,Allen,IN,unhealthy,Allen,IN
+348,-2.0,0.44,0.0,18005,Bartholomew,IN,unhealthy,Bartholomew,IN
+349,-2.0,0.0,0.35,18011,Boone,IN,healthy,Boone,IN
+350,-2.0,0.54,no data,18029,Dearborn,IN,unhealthy,Dearborn,IN
+351,-2.0,0.13,no data,18033,De Kalb,IN,unhealthy,De Kalb,IN
+352,-2.0,0.38,no data,18043,Floyd,IN,unhealthy,Floyd,IN
+353,-2.0,0.53,no data,18055,Greene,IN,unhealthy,Greene,IN
+354,-2.0,0.37,0.76,18057,Hamilton,IN,healthy,Hamilton,IN
+355,-2.0,0.13,0.0,18063,Hendricks,IN,unhealthy,Hendricks,IN
+356,-2.0,0.0,0.0,18081,Johnson,IN,unhealthy,Johnson,IN
+357,-2.0,-0.07,-0.03,18085,Kosciusko,IN,healthy,Kosciusko,IN
+358,-2.0,0.51,0.33,18089,Lake,IN,unhealthy,Lake,IN
+359,-2.0,0.0,0.0,18093,Lawrence,IN,unhealthy,Lawrence,IN
+360,-2.0,0.35,no data,18107,Montgomery,IN,unhealthy,Montgomery,IN
+361,-2.0,0.0,no data,18109,Morgan,IN,unhealthy,Morgan,IN
+362,-2.0,0.76,no data,18111,Newton,IN,unhealthy,Newton,IN
+363,-2.0,0.86,no data,18117,Orange,IN,unhealthy,Orange,IN
+364,-2.0,0.68,no data,18121,Parke,IN,unhealthy,Parke,IN
+365,-2.0,0.0,0.18,18127,Porter,IN,healthy,Porter,IN
+366,-2.0,0.0,no data,18129,Posey,IN,unhealthy,Posey,IN
+367,-2.0,0.42,0.45,18145,Shelby,IN,healthy,Shelby,IN
+368,-2.0,0.0,0.0,18151,Steuben,IN,unhealthy,Steuben,IN
+369,-2.0,0.23,0.31,18157,Tippecanoe,IN,healthy,Tippecanoe,IN
+370,-2.0,0.84,0.82,18163,Vanderburgh,IN,unhealthy,Vanderburgh,IN
+371,-2.0,0.0,-0.05,18167,Vigo,IN,unhealthy,Vigo,IN
+372,-2.0,0.73,no data,18169,Wabash,IN,unhealthy,Wabash,IN
+373,-2.0,0.59,0.18,18181,White,IN,unhealthy,White,IN
+374,-2.0,0.09,no data,19013,Black Hawk,IA,unhealthy,Black Hawk,IA
+375,-2.0,0.0,0.21,19015,Boone,IA,healthy,Boone,IA
+376,-2.0,0.46,no data,19029,Cass,IA,unhealthy,Cass,IA
+377,-2.0,0.56,0.6,19041,Clay,IA,healthy,Clay,IA
+378,-2.0,0.42,no data,19057,Des Moines,IA,unhealthy,Des Moines,IA
+379,-2.0,0.61,0.31,19059,Dickinson,IA,unhealthy,Dickinson,IA
+380,-2.0,0.93,no data,19101,Jefferson,IA,unhealthy,Jefferson,IA
+381,-2.0,0.27,0.49,19103,Johnson,IA,healthy,Johnson,IA
+382,-2.0,0.78,no data,19105,Jones,IA,unhealthy,Jones,IA
+383,-2.0,0.15,0.0,19113,Linn,IA,unhealthy,Linn,IA
+384,-2.0,0.0,0.0,19125,Marion,IA,unhealthy,Marion,IA
+385,-2.0,0.14,0.11,19153,Polk,IA,unhealthy,Polk,IA
+386,-2.0,0.62,no data,19155,Pottawattamie,IA,unhealthy,Pottawattamie,IA
+387,-2.0,0.68,no data,19163,Scott,IA,unhealthy,Scott,IA
+388,-2.0,0.0,0.41,19169,Story,IA,healthy,Story,IA
+389,-2.0,0.16,-0.1,19181,Warren,IA,unhealthy,Warren,IA
+390,-2.0,0.09,0.12,19191,Winneshiek,IA,healthy,Winneshiek,IA
+391,-2.0,0.0,no data,19193,Woodbury,IA,unhealthy,Woodbury,IA
+392,-2.0,0.0,no data,20037,Crawford,KS,unhealthy,Crawford,KS
+393,-2.0,0.49,0.1,20045,Douglas,KS,unhealthy,Douglas,KS
+394,-2.0,0.25,0.24,20091,Johnson,KS,unhealthy,Johnson,KS
+395,-2.0,0.64,no data,20115,Marion,KS,unhealthy,Marion,KS
+396,-2.0,0.41,0.49,20137,Norton,KS,healthy,Norton,KS
+397,-2.0,0.69,no data,20149,Pottawatomie,KS,unhealthy,Pottawatomie,KS
+398,-2.0,0.36,0.14,20161,Riley,KS,unhealthy,Riley,KS
+399,-2.0,0.32,0.5,20173,Sedgwick,KS,healthy,Sedgwick,KS
+400,-2.0,0.61,-0.22,20177,Shawnee,KS,unhealthy,Shawnee,KS
+401,-2.0,-0.34,no data,20209,Wyandotte,KS,unhealthy,Wyandotte,KS
+402,-2.0,0.53,0.25,21015,Boone,KY,unhealthy,Boone,KY
+403,-2.0,0.36,0.0,21021,Boyle,KY,unhealthy,Boyle,KY
+404,-2.0,0.0,no data,21035,Calloway,KY,unhealthy,Calloway,KY
+405,-2.0,0.33,0.0,21037,Campbell,KY,unhealthy,Campbell,KY
+406,-2.0,0.0,no data,21045,Casey,KY,unhealthy,Casey,KY
+407,-2.0,0.0,no data,21049,Clark,KY,unhealthy,Clark,KY
+408,-2.0,0.29,0.01,21073,Franklin,KY,unhealthy,Franklin,KY
+409,-2.0,0.87,no data,21079,Garrard,KY,unhealthy,Garrard,KY
+410,-2.0,0.53,0.53,21097,Harrison,KY,unhealthy,Harrison,KY
+411,-2.0,0.25,0.72,21101,Henderson,KY,healthy,Henderson,KY
+412,-2.0,0.0,no data,21107,Hopkins,KY,unhealthy,Hopkins,KY
+413,-2.0,0.36,no data,21113,Jessamine,KY,unhealthy,Jessamine,KY
+414,-2.0,0.0,0.0,21115,Johnson,KY,unhealthy,Johnson,KY
+415,-2.0,0.1,0.13,21117,Kenton,KY,healthy,Kenton,KY
+416,-2.0,0.0,0.92,21151,Madison,KY,healthy,Madison,KY
+417,-2.0,0.0,0.0,21179,Nelson,KY,unhealthy,Nelson,KY
+418,-2.0,0.61,0.64,21205,Rowan,KY,healthy,Rowan,KY
+419,-2.0,0.36,0.0,21209,Scott,KY,unhealthy,Scott,KY
+420,-2.0,0.0,0.0,21231,Wayne,KY,unhealthy,Wayne,KY
+421,-2.0,0.64,0.64,21235,Whitley,KY,unhealthy,Whitley,KY
+422,-2.0,0.36,no data,22005,Ascension,LA,unhealthy,Ascension,LA
+423,-2.0,-0.1,0.41,22009,Avoyelles,LA,healthy,Avoyelles,LA
+424,-2.0,0.35,0.67,22015,Bossier,LA,healthy,Bossier,LA
+425,-2.0,0.3,0.34,22073,Ouachita,LA,healthy,Ouachita,LA
+426,-2.0,0.54,no data,22075,Plaquemines,LA,unhealthy,Plaquemines,LA
+427,-2.0,-0.23,0.0,22097,St Landry,LA,healthy,St Landry,LA
+428,-2.0,0.25,0.25,22103,St Tammany,LA,unhealthy,St Tammany,LA
+429,-2.0,0.0,no data,22113,Vermilion,LA,unhealthy,Vermilion,LA
+430,-2.0,0.0,0.46,23001,Androscoggin,ME,healthy,Androscoggin,ME
+431,-2.0,0.37,0.39,23005,Cumberland,ME,healthy,Cumberland,ME
+432,-2.0,0.17,no data,23013,Knox,ME,unhealthy,Knox,ME
+433,-2.0,0.7,0.27,23015,Lincoln,ME,unhealthy,Lincoln,ME
+434,-2.0,0.0,0.0,23019,Penobscot,ME,unhealthy,Penobscot,ME
+435,-2.0,0.44,0.28,23021,Piscataquis,ME,unhealthy,Piscataquis,ME
+436,-2.0,0.0,0.35,23027,Waldo,ME,healthy,Waldo,ME
+437,-2.0,0.34,0.55,23031,York,ME,healthy,York,ME
+438,-2.0,0.57,no data,24001,Allegany,MD,unhealthy,Allegany,MD
+439,-2.0,0.43,0.31,24003,Anne Arundel,MD,unhealthy,Anne Arundel,MD
+440,-2.0,0.0,no data,24009,Calvert,MD,unhealthy,Calvert,MD
+441,-2.0,0.71,no data,24011,Caroline,MD,unhealthy,Caroline,MD
+442,-2.0,0.36,0.26,24013,Carroll,MD,unhealthy,Carroll,MD
+443,-2.0,0.09,no data,24015,Cecil,MD,unhealthy,Cecil,MD
+444,-2.0,0.21,0.26,24017,Charles,MD,healthy,Charles,MD
+445,-2.0,0.47,0.47,24019,Dorchester,MD,unhealthy,Dorchester,MD
+446,-2.0,0.45,0.54,24021,Frederick,MD,healthy,Frederick,MD
+447,-2.0,-0.01,-0.2,24025,Harford,MD,unhealthy,Harford,MD
+448,-2.0,0.21,-0.24,24027,Howard,MD,unhealthy,Howard,MD
+449,-2.0,0.57,no data,24029,Kent,MD,unhealthy,Kent,MD
+450,-2.0,0.27,0.35,24033,Prince Georges,MD,healthy,Prince Georges,MD
+451,-2.0,0.46,0.62,24035,Queen Annes,MD,healthy,Queen Annes,MD
+452,-2.0,0.23,0.26,24043,Washington,MD,healthy,Washington,MD
+453,-2.0,0.26,0.0,24045,Wicomico,MD,unhealthy,Wicomico,MD
+454,-2.0,0.3,0.03,24047,Worcester,MD,unhealthy,Worcester,MD
+455,-2.0,0.3,-0.12,25001,Barnstable,MA,unhealthy,Barnstable,MA
+456,-2.0,0.76,0.16,25003,Berkshire,MA,unhealthy,Berkshire,MA
+457,-2.0,0.34,0.21,25005,Bristol,MA,unhealthy,Bristol,MA
+458,-2.0,0.32,0.21,25009,Essex,MA,unhealthy,Essex,MA
+459,-2.0,0.56,0.42,25011,Franklin,MA,unhealthy,Franklin,MA
+460,-2.0,0.2,0.29,25013,Hampden,MA,healthy,Hampden,MA
+461,-2.0,0.41,no data,25015,Hampshire,MA,unhealthy,Hampshire,MA
+462,-2.0,0.58,0.25,25023,Plymouth,MA,unhealthy,Plymouth,MA
+463,-2.0,0.15,0.2,25027,Worcester,MA,healthy,Worcester,MA
+464,-2.0,0.27,0.39,26017,Bay,MI,healthy,Bay,MI
+465,-2.0,0.42,no data,26023,Branch,MI,unhealthy,Branch,MI
+466,-2.0,-0.25,0.38,26025,Calhoun,MI,healthy,Calhoun,MI
+467,-2.0,0.0,0.0,26027,Cass,MI,unhealthy,Cass,MI
+468,-2.0,0.62,0.62,26039,Crawford,MI,unhealthy,Crawford,MI
+469,-2.0,0.42,no data,26045,Eaton,MI,unhealthy,Eaton,MI
+470,-2.0,0.07,-0.05,26049,Genesee,MI,unhealthy,Genesee,MI
+471,-2.0,0.09,no data,26055,Grand Traverse,MI,unhealthy,Grand Traverse,MI
+472,-2.0,0.11,0.21,26065,Ingham,MI,healthy,Ingham,MI
+473,-2.0,-0.22,-0.1,26075,Jackson,MI,healthy,Jackson,MI
+474,-2.0,0.19,0.2,26077,Kalamazoo,MI,healthy,Kalamazoo,MI
+475,-2.0,0.34,0.44,26081,Kent,MI,healthy,Kent,MI
+476,-2.0,0.25,0.34,26091,Lenawee,MI,healthy,Lenawee,MI
+477,-2.0,0.51,no data,26101,Manistee,MI,unhealthy,Manistee,MI
+478,-2.0,0.8,no data,26103,Marquette,MI,unhealthy,Marquette,MI
+479,-2.0,0.1,0.21,26139,Ottawa,MI,healthy,Ottawa,MI
+480,-2.0,0.85,no data,26145,Saginaw,MI,unhealthy,Saginaw,MI
+481,-2.0,0.0,no data,26147,St Clair,MI,unhealthy,St Clair,MI
+482,-2.0,0.92,no data,26151,Sanilac,MI,unhealthy,Sanilac,MI
+483,-2.0,0.38,no data,26153,Schoolcraft,MI,unhealthy,Schoolcraft,MI
+484,-2.0,0.3,0.19,26161,Washtenaw,MI,unhealthy,Washtenaw,MI
+485,-2.0,0.0,0.67,26165,Wexford,MI,healthy,Wexford,MI
+486,-2.0,0.33,no data,27003,Anoka,MN,unhealthy,Anoka,MN
+487,-2.0,0.15,no data,27005,Becker,MN,unhealthy,Becker,MN
+488,-2.0,0.67,no data,27007,Beltrami,MN,unhealthy,Beltrami,MN
+489,-2.0,0.64,no data,27013,Blue Earth,MN,unhealthy,Blue Earth,MN
+490,-2.0,-0.02,0.29,27019,Carver,MN,healthy,Carver,MN
+491,-2.0,0.0,0.21,27027,Clay,MN,healthy,Clay,MN
+492,-2.0,0.2,0.16,27037,Dakota,MN,unhealthy,Dakota,MN
+493,-2.0,0.9,no data,27055,Houston,MN,unhealthy,Houston,MN
+494,-2.0,0.44,no data,27061,Itasca,MN,unhealthy,Itasca,MN
+495,-2.0,0.7,0.0,27099,Mower,MN,unhealthy,Mower,MN
+496,-2.0,0.43,0.58,27109,Olmsted,MN,healthy,Olmsted,MN
+497,-2.0,0.0,no data,27111,Otter Tail,MN,unhealthy,Otter Tail,MN
+498,-2.0,0.35,0.19,27123,Ramsey,MN,unhealthy,Ramsey,MN
+499,-2.0,0.42,0.73,27139,Scott,MN,healthy,Scott,MN
+500,-2.0,0.08,0.0,27141,Sherburne,MN,unhealthy,Sherburne,MN
+501,-2.0,0.16,0.0,27145,Stearns,MN,unhealthy,Stearns,MN
+502,-2.0,0.11,0.11,27163,Washington,MN,healthy,Washington,MN
+503,-2.0,-0.15,0.7,27171,Wright,MN,healthy,Wright,MN
+504,-2.0,0.79,no data,28009,Benton,MS,unhealthy,Benton,MS
+505,-2.0,0.04,0.11,28033,De Soto,MS,healthy,De Soto,MS
+506,-2.0,0.39,0.42,28035,Forrest,MS,healthy,Forrest,MS
+507,-2.0,-0.3,no data,28039,George,MS,unhealthy,George,MS
+508,-2.0,0.0,no data,28045,Hancock,MS,unhealthy,Hancock,MS
+509,-2.0,-0.07,0.0,28047,Harrison,MS,healthy,Harrison,MS
+510,-2.0,0.48,0.58,28049,Hinds,MS,healthy,Hinds,MS
+511,-2.0,-0.43,0.64,28067,Jones,MS,healthy,Jones,MS
+512,-2.0,0.56,no data,28071,Lafayette,MS,unhealthy,Lafayette,MS
+513,-2.0,0.47,0.55,28081,Lee,MS,healthy,Lee,MS
+514,-2.0,0.0,no data,28087,Lowndes,MS,unhealthy,Lowndes,MS
+515,-2.0,-0.27,-0.19,28089,Madison,MS,healthy,Madison,MS
+516,-2.0,0.41,0.34,28105,Oktibbeha,MS,unhealthy,Oktibbeha,MS
+517,-2.0,0.0,no data,28109,Pearl River,MS,unhealthy,Pearl River,MS
+518,-2.0,0.0,no data,28121,Rankin,MS,unhealthy,Rankin,MS
+519,-2.0,0.39,0.64,29019,Boone,MO,healthy,Boone,MO
+520,-2.0,0.85,no data,29021,Buchanan,MO,unhealthy,Buchanan,MO
+521,-2.0,0.78,no data,29031,Cape Girardeau,MO,unhealthy,Cape Girardeau,MO
+522,-2.0,0.17,0.3,29037,Cass,MO,healthy,Cass,MO
+523,-2.0,0.09,0.33,29047,Clay,MO,healthy,Clay,MO
+524,-2.0,0.78,0.0,29073,Gasconade,MO,unhealthy,Gasconade,MO
+525,-2.0,0.23,0.53,29077,Greene,MO,healthy,Greene,MO
+526,-2.0,0.67,no data,29085,Hickory,MO,unhealthy,Hickory,MO
+527,-2.0,0.14,0.29,29095,Jackson,MO,healthy,Jackson,MO
+528,-2.0,0.0,0.66,29097,Jasper,MO,healthy,Jasper,MO
+529,-2.0,0.7,0.56,29101,Johnson,MO,unhealthy,Johnson,MO
+530,-2.0,0.0,no data,29105,Laclede,MO,unhealthy,Laclede,MO
+531,-2.0,0.0,no data,29117,Livingston,MO,unhealthy,Livingston,MO
+532,-2.0,0.0,no data,29139,Montgomery,MO,unhealthy,Montgomery,MO
+533,-2.0,0.3,0.36,29165,Platte,MO,healthy,Platte,MO
+534,-2.0,0.26,0.31,29183,St Charles,MO,healthy,St Charles,MO
+535,-2.0,-0.3,no data,29185,St Clair,MO,unhealthy,St Clair,MO
+536,-2.0,0.33,0.43,29189,St Louis,MO,healthy,St Louis,MO
+537,-2.0,0.66,0.59,29213,Taney,MO,unhealthy,Taney,MO
+538,-2.0,0.37,no data,29225,Webster,MO,unhealthy,Webster,MO
+539,-2.0,0.33,0.17,29510,St Louis City,MO,unhealthy,St Louis City,MO
+540,-2.0,0.34,0.51,30029,Flathead,MT,healthy,Flathead,MT
+541,-2.0,0.15,0.71,30031,Gallatin,MT,healthy,Gallatin,MT
+542,-2.0,0.86,0.0,30045,Judith Basin,MT,unhealthy,Judith Basin,MT
+543,-2.0,0.36,0.0,30063,Missoula,MT,unhealthy,Missoula,MT
+544,-2.0,-0.62,no data,30093,Silver Bow,MT,unhealthy,Silver Bow,MT
+545,-2.0,0.42,no data,31019,Buffalo,NE,unhealthy,Buffalo,NE
+546,-2.0,0.23,0.21,31055,Douglas,NE,unhealthy,Douglas,NE
+547,-2.0,0.66,0.9,31083,Harlan,NE,healthy,Harlan,NE
+548,-2.0,0.05,0.11,31109,Lancaster,NE,healthy,Lancaster,NE
+549,-2.0,0.0,no data,31137,Phelps,NE,unhealthy,Phelps,NE
+550,-2.0,0.77,0.0,31153,Sarpy,NE,unhealthy,Sarpy,NE
+551,-2.0,0.5,0.5,32005,Douglas,NV,unhealthy,Douglas,NV
+552,-2.0,0.91,no data,32009,Esmeralda,NV,unhealthy,Esmeralda,NV
+553,-2.0,0.42,0.3,32031,Washoe,NV,unhealthy,Washoe,NV
+554,-2.0,0.0,no data,32510,Carson City,NV,unhealthy,Carson City,NV
+555,-2.0,-0.09,0.33,33005,Cheshire,NH,healthy,Cheshire,NH
+556,-2.0,0.0,0.03,33007,Coos,NH,healthy,Coos,NH
+557,-2.0,0.54,0.27,33009,Grafton,NH,unhealthy,Grafton,NH
+558,-2.0,0.35,0.47,33011,Hillsborough,NH,healthy,Hillsborough,NH
+559,-2.0,0.32,0.32,33013,Merrimack,NH,unhealthy,Merrimack,NH
+560,-2.0,0.36,0.36,33015,Rockingham,NH,unhealthy,Rockingham,NH
+561,-2.0,0.08,0.18,34001,Atlantic,NJ,healthy,Atlantic,NJ
+562,-2.0,0.31,0.45,34009,Cape May,NJ,healthy,Cape May,NJ
+563,-2.0,0.4,0.13,34013,Essex,NJ,unhealthy,Essex,NJ
+564,-2.0,0.12,0.11,34015,Gloucester,NJ,unhealthy,Gloucester,NJ
+565,-2.0,0.29,0.06,34017,Hudson,NJ,unhealthy,Hudson,NJ
+566,-2.0,0.46,0.69,34021,Mercer,NJ,healthy,Mercer,NJ
+567,-2.0,0.18,0.31,34023,Middlesex,NJ,healthy,Middlesex,NJ
+568,-2.0,0.11,0.26,34025,Monmouth,NJ,healthy,Monmouth,NJ
+569,-2.0,0.34,0.14,34027,Morris,NJ,unhealthy,Morris,NJ
+570,-2.0,0.41,0.35,34029,Ocean,NJ,unhealthy,Ocean,NJ
+571,-2.0,0.15,0.35,34031,Passaic,NJ,healthy,Passaic,NJ
+572,-2.0,0.8,0.18,34033,Salem,NJ,unhealthy,Salem,NJ
+573,-2.0,0.2,0.42,34035,Somerset,NJ,healthy,Somerset,NJ
+574,-2.0,0.28,0.28,34039,Union,NJ,unhealthy,Union,NJ
+575,-2.0,0.2,0.31,35001,Bernalillo,NM,healthy,Bernalillo,NM
+576,-2.0,0.49,no data,35009,Curry,NM,unhealthy,Curry,NM
+577,-2.0,-0.23,no data,35015,Eddy,NM,unhealthy,Eddy,NM
+578,-2.0,0.17,no data,35025,Lea,NM,unhealthy,Lea,NM
+579,-2.0,0.0,no data,35028,Los Alamos,NM,unhealthy,Los Alamos,NM
+580,-2.0,0.81,0.81,35029,Luna,NM,unhealthy,Luna,NM
+581,-2.0,0.0,0.0,35035,Otero,NM,unhealthy,Otero,NM
+582,-2.0,0.0,no data,35045,San Juan,NM,unhealthy,San Juan,NM
+583,-2.0,0.62,0.66,35049,Santa Fe,NM,healthy,Santa Fe,NM
+584,-2.0,0.31,no data,35053,Socorro,NM,unhealthy,Socorro,NM
+585,-2.0,0.63,no data,35055,Taos,NM,unhealthy,Taos,NM
+586,-2.0,0.14,0.0,36001,Albany,NY,unhealthy,Albany,NY
+587,-2.0,0.4,0.28,36005,Bronx,NY,unhealthy,Bronx,NY
+588,-2.0,-0.07,0.0,36007,Broome,NY,healthy,Broome,NY
+589,-2.0,0.0,0.0,36009,Cattaraugus,NY,unhealthy,Cattaraugus,NY
+590,-2.0,0.37,0.0,36013,Chautauqua,NY,unhealthy,Chautauqua,NY
+591,-2.0,0.0,no data,36015,Chemung,NY,unhealthy,Chemung,NY
+592,-2.0,0.0,no data,36017,Chenango,NY,unhealthy,Chenango,NY
+593,-2.0,0.15,no data,36019,Clinton,NY,unhealthy,Clinton,NY
+594,-2.0,0.88,no data,36023,Cortland,NY,unhealthy,Cortland,NY
+595,-2.0,0.18,0.18,36027,Dutchess,NY,unhealthy,Dutchess,NY
+596,-2.0,0.34,no data,36031,Essex,NY,unhealthy,Essex,NY
+597,-2.0,0.0,no data,36035,Fulton,NY,unhealthy,Fulton,NY
+598,-2.0,0.72,0.36,36043,Herkimer,NY,unhealthy,Herkimer,NY
+599,-2.0,0.0,no data,36045,Jefferson,NY,unhealthy,Jefferson,NY
+600,-2.0,0.47,-0.53,36051,Livingston,NY,unhealthy,Livingston,NY
+601,-2.0,0.25,no data,36053,Madison,NY,unhealthy,Madison,NY
+602,-2.0,0.25,0.28,36055,Monroe,NY,healthy,Monroe,NY
+603,-2.0,0.0,no data,36057,Montgomery,NY,unhealthy,Montgomery,NY
+604,-2.0,0.4,0.17,36063,Niagara,NY,unhealthy,Niagara,NY
+605,-2.0,0.28,-0.08,36065,Oneida,NY,unhealthy,Oneida,NY
+606,-2.0,0.45,0.16,36067,Onondaga,NY,unhealthy,Onondaga,NY
+607,-2.0,0.74,0.26,36069,Ontario,NY,unhealthy,Ontario,NY
+608,-2.0,0.27,0.2,36071,Orange,NY,unhealthy,Orange,NY
+609,-2.0,0.0,0.27,36075,Oswego,NY,healthy,Oswego,NY
+610,-2.0,0.25,0.26,36081,Queens,NY,healthy,Queens,NY
+611,-2.0,0.22,0.47,36083,Rensselaer,NY,healthy,Rensselaer,NY
+612,-2.0,0.43,-0.02,36085,Richmond,NY,unhealthy,Richmond,NY
+613,-2.0,0.23,0.13,36087,Rockland,NY,unhealthy,Rockland,NY
+614,-2.0,0.9,no data,36089,St Lawrence,NY,unhealthy,St Lawrence,NY
+615,-2.0,-0.07,0.11,36091,Saratoga,NY,healthy,Saratoga,NY
+616,-2.0,0.9,0.46,36093,Schenectady,NY,unhealthy,Schenectady,NY
+617,-2.0,0.17,-0.01,36101,Steuben,NY,unhealthy,Steuben,NY
+618,-2.0,0.34,0.27,36103,Suffolk,NY,unhealthy,Suffolk,NY
+619,-2.0,0.29,0.35,36105,Sullivan,NY,healthy,Sullivan,NY
+620,-2.0,0.2,-0.15,36109,Tompkins,NY,unhealthy,Tompkins,NY
+621,-2.0,0.05,0.05,36111,Ulster,NY,healthy,Ulster,NY
+622,-2.0,0.2,no data,36113,Warren,NY,unhealthy,Warren,NY
+623,-2.0,0.87,no data,37007,Anson,NC,unhealthy,Anson,NC
+624,-2.0,0.0,0.92,37009,Ashe,NC,healthy,Ashe,NC
+625,-2.0,0.0,no data,37011,Avery,NC,unhealthy,Avery,NC
+626,-2.0,0.17,0.0,37019,Brunswick,NC,unhealthy,Brunswick,NC
+627,-2.0,0.27,0.42,37021,Buncombe,NC,healthy,Buncombe,NC
+628,-2.0,0.64,no data,37023,Burke,NC,unhealthy,Burke,NC
+629,-2.0,0.04,0.19,37025,Cabarrus,NC,healthy,Cabarrus,NC
+630,-2.0,0.0,no data,37031,Carteret,NC,unhealthy,Carteret,NC
+631,-2.0,0.51,0.46,37035,Catawba,NC,unhealthy,Catawba,NC
+632,-2.0,0.37,0.8,37037,Chatham,NC,healthy,Chatham,NC
+633,-2.0,0.05,no data,37045,Cleveland,NC,unhealthy,Cleveland,NC
+634,-2.0,0.4,0.6,37049,Craven,NC,healthy,Craven,NC
+635,-2.0,0.24,0.21,37051,Cumberland,NC,unhealthy,Cumberland,NC
+636,-2.0,0.18,0.42,37055,Dare,NC,healthy,Dare,NC
+637,-2.0,0.29,0.22,37063,Durham,NC,unhealthy,Durham,NC
+638,-2.0,0.4,0.2,37067,Forsyth,NC,unhealthy,Forsyth,NC
+639,-2.0,0.3,0.0,37071,Gaston,NC,unhealthy,Gaston,NC
+640,-2.0,0.86,no data,37077,Granville,NC,unhealthy,Granville,NC
+641,-2.0,0.33,0.12,37081,Guilford,NC,unhealthy,Guilford,NC
+642,-2.0,0.44,0.44,37087,Haywood,NC,unhealthy,Haywood,NC
+643,-2.0,0.0,0.19,37089,Henderson,NC,healthy,Henderson,NC
+644,-2.0,0.08,no data,37093,Hoke,NC,unhealthy,Hoke,NC
+645,-2.0,0.17,0.22,37097,Iredell,NC,healthy,Iredell,NC
+646,-2.0,0.09,0.29,37101,Johnston,NC,healthy,Johnston,NC
+647,-2.0,0.61,0.61,37109,Lincoln,NC,unhealthy,Lincoln,NC
+648,-2.0,0.17,0.64,37123,Montgomery,NC,healthy,Montgomery,NC
+649,-2.0,0.86,0.7,37125,Moore,NC,unhealthy,Moore,NC
+650,-2.0,0.0,0.0,37127,Nash,NC,unhealthy,Nash,NC
+651,-2.0,0.33,0.28,37129,New Hanover,NC,unhealthy,New Hanover,NC
+652,-2.0,0.36,0.19,37133,Onslow,NC,unhealthy,Onslow,NC
+653,-2.0,0.49,0.12,37135,Orange,NC,unhealthy,Orange,NC
+654,-2.0,0.0,0.64,37147,Pitt,NC,healthy,Pitt,NC
+655,-2.0,0.65,0.0,37151,Randolph,NC,unhealthy,Randolph,NC
+656,-2.0,0.21,no data,37155,Robeson,NC,unhealthy,Robeson,NC
+657,-2.0,0.0,0.0,37171,Surry,NC,unhealthy,Surry,NC
+658,-2.0,0.0,0.0,37173,Swain,NC,unhealthy,Swain,NC
+659,-2.0,0.62,no data,37175,Transylvania,NC,unhealthy,Transylvania,NC
+660,-2.0,0.43,no data,37179,Union,NC,unhealthy,Union,NC
+661,-2.0,0.39,0.46,37191,Wayne,NC,healthy,Wayne,NC
+662,-2.0,0.2,no data,37195,Wilson,NC,unhealthy,Wilson,NC
+663,-2.0,0.04,no data,38015,Burleigh,ND,unhealthy,Burleigh,ND
+664,-2.0,0.0,0.31,38017,Cass,ND,healthy,Cass,ND
+665,-2.0,-0.02,-0.25,38035,Grand Forks,ND,unhealthy,Grand Forks,ND
+666,-2.0,0.67,0.0,39005,Ashland,OH,unhealthy,Ashland,OH
+667,-2.0,0.45,0.0,39009,Athens,OH,unhealthy,Athens,OH
+668,-2.0,0.0,0.4,39023,Clark,OH,healthy,Clark,OH
+669,-2.0,0.73,0.18,39025,Clermont,OH,unhealthy,Clermont,OH
+670,-2.0,0.76,no data,39027,Clinton,OH,unhealthy,Clinton,OH
+671,-2.0,0.0,no data,39029,Columbiana,OH,unhealthy,Columbiana,OH
+672,-2.0,0.16,0.27,39035,Cuyahoga,OH,healthy,Cuyahoga,OH
+673,-2.0,0.0,no data,39039,Defiance,OH,unhealthy,Defiance,OH
+674,-2.0,0.39,0.33,39043,Erie,OH,unhealthy,Erie,OH
+675,-2.0,0.27,0.6,39045,Fairfield,OH,healthy,Fairfield,OH
+676,-2.0,0.0,0.0,39063,Hancock,OH,unhealthy,Hancock,OH
+677,-2.0,0.7,0.0,39077,Huron,OH,unhealthy,Huron,OH
+678,-2.0,0.46,0.57,39085,Lake,OH,healthy,Lake,OH
+679,-2.0,0.01,0.41,39093,Lorain,OH,healthy,Lorain,OH
+680,-2.0,0.45,0.1,39099,Mahoning,OH,unhealthy,Mahoning,OH
+681,-2.0,0.73,no data,39103,Medina,OH,unhealthy,Medina,OH
+682,-2.0,-0.29,-0.58,39105,Meigs,OH,unhealthy,Meigs,OH
+683,-2.0,-0.34,no data,39109,Miami,OH,unhealthy,Miami,OH
+684,-2.0,0.0,no data,39119,Muskingum,OH,unhealthy,Muskingum,OH
+685,-2.0,0.75,0.62,39133,Portage,OH,unhealthy,Portage,OH
+686,-2.0,0.93,0.93,39141,Ross,OH,unhealthy,Ross,OH
+687,-2.0,0.8,no data,39143,Sandusky,OH,unhealthy,Sandusky,OH
+688,-2.0,0.43,0.61,39151,Stark,OH,healthy,Stark,OH
+689,-2.0,0.09,0.28,39153,Summit,OH,healthy,Summit,OH
+690,-2.0,0.0,-0.2,39155,Trumbull,OH,unhealthy,Trumbull,OH
+691,-2.0,-0.1,-0.1,39159,Union,OH,unhealthy,Union,OH
+692,-2.0,0.56,no data,39169,Wayne,OH,unhealthy,Wayne,OH
+693,-2.0,0.51,no data,40001,Adair,OK,unhealthy,Adair,OK
+694,-2.0,0.0,-0.29,40013,Bryan,OK,unhealthy,Bryan,OK
+695,-2.0,0.25,0.25,40017,Canadian,OK,unhealthy,Canadian,OK
+696,-2.0,0.42,no data,40019,Carter,OK,unhealthy,Carter,OK
+697,-2.0,0.36,0.0,40027,Cleveland,OK,unhealthy,Cleveland,OK
+698,-2.0,-0.2,no data,40035,Craig,OK,unhealthy,Craig,OK
+699,-2.0,0.38,no data,40119,Payne,OK,unhealthy,Payne,OK
+700,-2.0,0.32,0.3,40143,Tulsa,OK,unhealthy,Tulsa,OK
+701,-2.0,0.36,no data,40147,Washington,OK,unhealthy,Washington,OK
+702,-2.0,0.41,0.18,41003,Benton,OR,unhealthy,Benton,OR
+703,-2.0,0.41,0.09,41005,Clackamas,OR,unhealthy,Clackamas,OR
+704,-2.0,0.0,no data,41013,Crook,OR,unhealthy,Crook,OR
+705,-2.0,0.59,0.28,41017,Deschutes,OR,unhealthy,Deschutes,OR
+706,-2.0,0.74,0.0,41019,Douglas,OR,unhealthy,Douglas,OR
+707,-2.0,0.59,0.95,41027,Hood River,OR,healthy,Hood River,OR
+708,-2.0,0.2,no data,41031,Jefferson,OR,unhealthy,Jefferson,OR
+709,-2.0,0.0,0.44,41033,Josephine,OR,healthy,Josephine,OR
+710,-2.0,0.4,0.47,41039,Lane,OR,healthy,Lane,OR
+711,-2.0,0.3,0.34,41041,Lincoln,OR,healthy,Lincoln,OR
+712,-2.0,-0.24,-0.01,41043,Linn,OR,healthy,Linn,OR
+713,-2.0,0.15,0.63,41047,Marion,OR,healthy,Marion,OR
+714,-2.0,0.95,no data,41057,Tillamook,OR,unhealthy,Tillamook,OR
+715,-2.0,0.0,0.0,41059,Umatilla,OR,unhealthy,Umatilla,OR
+716,-2.0,0.45,0.37,41071,Yamhill,OR,unhealthy,Yamhill,OR
+717,-2.0,0.39,0.0,42001,Adams,PA,unhealthy,Adams,PA
+718,-2.0,0.58,0.85,42007,Beaver,PA,healthy,Beaver,PA
+719,-2.0,0.23,0.17,42011,Berks,PA,unhealthy,Berks,PA
+720,-2.0,0.0,-0.08,42013,Blair,PA,unhealthy,Blair,PA
+721,-2.0,0.61,no data,42019,Butler,PA,unhealthy,Butler,PA
+722,-2.0,0.0,no data,42025,Carbon,PA,unhealthy,Carbon,PA
+723,-2.0,0.35,0.08,42027,Centre,PA,unhealthy,Centre,PA
+724,-2.0,-0.09,0.0,42033,Clearfield,PA,healthy,Clearfield,PA
+725,-2.0,0.44,0.0,42039,Crawford,PA,unhealthy,Crawford,PA
+726,-2.0,0.21,0.38,42041,Cumberland,PA,healthy,Cumberland,PA
+727,-2.0,0.27,0.25,42043,Dauphin,PA,unhealthy,Dauphin,PA
+728,-2.0,0.37,0.42,42045,Delaware,PA,healthy,Delaware,PA
+729,-2.0,0.29,0.26,42049,Erie,PA,unhealthy,Erie,PA
+730,-2.0,0.36,no data,42051,Fayette,PA,unhealthy,Fayette,PA
+731,-2.0,-0.02,no data,42065,Jefferson,PA,unhealthy,Jefferson,PA
+732,-2.0,0.78,0.78,42067,Juniata,PA,unhealthy,Juniata,PA
+733,-2.0,0.15,0.14,42069,Lackawanna,PA,unhealthy,Lackawanna,PA
+734,-2.0,0.1,0.25,42071,Lancaster,PA,healthy,Lancaster,PA
+735,-2.0,-0.04,0.08,42073,Lawrence,PA,healthy,Lawrence,PA
+736,-2.0,0.0,0.33,42075,Lebanon,PA,healthy,Lebanon,PA
+737,-2.0,0.0,0.3,42077,Lehigh,PA,healthy,Lehigh,PA
+738,-2.0,0.12,0.03,42079,Luzerne,PA,unhealthy,Luzerne,PA
+739,-2.0,0.12,0.4,42081,Lycoming,PA,healthy,Lycoming,PA
+740,-2.0,0.0,0.0,42085,Mercer,PA,unhealthy,Mercer,PA
+741,-2.0,0.45,0.19,42089,Monroe,PA,unhealthy,Monroe,PA
+742,-2.0,0.96,no data,42093,Montour,PA,unhealthy,Montour,PA
+743,-2.0,0.42,0.33,42095,Northampton,PA,unhealthy,Northampton,PA
+744,-2.0,-0.17,no data,42099,Perry,PA,unhealthy,Perry,PA
+745,-2.0,0.8,0.75,42107,Schuylkill,PA,unhealthy,Schuylkill,PA
+746,-2.0,0.0,no data,42111,Somerset,PA,unhealthy,Somerset,PA
+747,-2.0,0.74,no data,42121,Venango,PA,unhealthy,Venango,PA
+748,-2.0,0.69,no data,42127,Wayne,PA,unhealthy,Wayne,PA
+749,-2.0,0.45,0.25,42129,Westmoreland,PA,unhealthy,Westmoreland,PA
+750,-2.0,0.18,0.32,42133,York,PA,healthy,York,PA
+751,-2.0,0.55,0.5,44003,Kent,RI,unhealthy,Kent,RI
+752,-2.0,0.11,0.09,44005,Newport,RI,unhealthy,Newport,RI
+753,-2.0,0.78,0.78,44009,Washington,RI,unhealthy,Washington,RI
+754,-2.0,0.61,no data,45003,Aiken,SC,unhealthy,Aiken,SC
+755,-2.0,0.62,0.34,45007,Anderson,SC,unhealthy,Anderson,SC
+756,-2.0,0.31,0.31,45013,Beaufort,SC,unhealthy,Beaufort,SC
+757,-2.0,0.26,0.44,45015,Berkeley,SC,healthy,Berkeley,SC
+758,-2.0,0.12,0.26,45019,Charleston,SC,healthy,Charleston,SC
+759,-2.0,0.61,no data,45041,Florence,SC,unhealthy,Florence,SC
+760,-2.0,0.0,0.36,45043,Georgetown,SC,healthy,Georgetown,SC
+761,-2.0,0.4,0.48,45045,Greenville,SC,healthy,Greenville,SC
+762,-2.0,0.24,no data,45047,Greenwood,SC,unhealthy,Greenwood,SC
+763,-2.0,0.32,0.0,45049,Hampton,SC,unhealthy,Hampton,SC
+764,-2.0,0.0,no data,45055,Kershaw,SC,unhealthy,Kershaw,SC
+765,-2.0,-0.04,0.36,45057,Lancaster,SC,healthy,Lancaster,SC
+766,-2.0,0.78,0.23,45059,Laurens,SC,unhealthy,Laurens,SC
+767,-2.0,0.0,0.23,45063,Lexington,SC,healthy,Lexington,SC
+768,-2.0,0.0,no data,45069,Marlboro,SC,unhealthy,Marlboro,SC
+769,-2.0,0.47,0.0,45073,Oconee,SC,unhealthy,Oconee,SC
+770,-2.0,-0.12,no data,45077,Pickens,SC,unhealthy,Pickens,SC
+771,-2.0,0.5,0.44,45081,Saluda,SC,unhealthy,Saluda,SC
+772,-2.0,0.29,0.16,45083,Spartanburg,SC,unhealthy,Spartanburg,SC
+773,-2.0,0.67,0.62,45085,Sumter,SC,unhealthy,Sumter,SC
+774,-2.0,0.09,0.33,45091,York,SC,healthy,York,SC
+775,-2.0,0.62,no data,46011,Brookings,SD,unhealthy,Brookings,SD
+776,-2.0,0.92,no data,46057,Hamlin,SD,unhealthy,Hamlin,SD
+777,-2.0,0.16,-0.36,46081,Lawrence,SD,unhealthy,Lawrence,SD
+778,-2.0,0.46,0.46,46099,Minnehaha,SD,healthy,Minnehaha,SD
+779,-2.0,0.29,0.8,46103,Pennington,SD,healthy,Pennington,SD
+780,-2.0,0.57,0.47,47001,Anderson,TN,unhealthy,Anderson,TN
+781,-2.0,0.47,no data,47009,Blount,TN,unhealthy,Blount,TN
+782,-2.0,0.0,no data,47021,Cheatham,TN,unhealthy,Cheatham,TN
+783,-2.0,0.94,no data,47023,Chester,TN,unhealthy,Chester,TN
+784,-2.0,0.64,no data,47041,De Kalb,TN,unhealthy,De Kalb,TN
+785,-2.0,0.35,0.29,47065,Hamilton,TN,unhealthy,Hamilton,TN
+786,-2.0,0.0,0.0,47079,Henry,TN,unhealthy,Henry,TN
+787,-2.0,0.54,0.65,47119,Maury,TN,healthy,Maury,TN
+788,-2.0,0.36,0.3,47125,Montgomery,TN,unhealthy,Montgomery,TN
+789,-2.0,0.22,0.44,47143,Rhea,TN,healthy,Rhea,TN
+790,-2.0,0.35,0.46,47155,Sevier,TN,healthy,Sevier,TN
+791,-2.0,0.67,0.61,47163,Sullivan,TN,unhealthy,Sullivan,TN
+792,-2.0,0.64,0.16,47165,Sumner,TN,unhealthy,Sumner,TN
+793,-2.0,0.0,no data,47183,Weakley,TN,unhealthy,Weakley,TN
+794,-2.0,0.76,-0.01,47189,Wilson,TN,unhealthy,Wilson,TN
+795,-2.0,0.61,no data,48007,Aransas,TX,unhealthy,Aransas,TX
+796,-2.0,0.84,no data,48021,Bastrop,TX,unhealthy,Bastrop,TX
+797,-2.0,0.0,0.54,48027,Bell,TX,healthy,Bell,TX
+798,-2.0,0.37,0.19,48029,Bexar,TX,unhealthy,Bexar,TX
+799,-2.0,-0.29,0.65,48061,Cameron,TX,healthy,Cameron,TX
+800,-2.0,0.0,0.2,48091,Comal,TX,healthy,Comal,TX
+801,-2.0,0.48,no data,48135,Ector,TX,unhealthy,Ector,TX
+802,-2.0,0.14,0.06,48141,El Paso,TX,unhealthy,El Paso,TX
+803,-2.0,0.0,no data,48145,Falls,TX,unhealthy,Falls,TX
+804,-2.0,0.28,0.0,48181,Grayson,TX,unhealthy,Grayson,TX
+805,-2.0,-0.81,no data,48183,Gregg,TX,unhealthy,Gregg,TX
+806,-2.0,0.0,no data,48185,Grimes,TX,unhealthy,Grimes,TX
+807,-2.0,0.0,no data,48187,Guadalupe,TX,unhealthy,Guadalupe,TX
+808,-2.0,0.36,0.33,48209,Hays,TX,unhealthy,Hays,TX
+809,-2.0,0.33,-0.14,48215,Hidalgo,TX,unhealthy,Hidalgo,TX
+810,-2.0,0.57,0.57,48217,Hill,TX,unhealthy,Hill,TX
+811,-2.0,0.08,no data,48241,Jasper,TX,unhealthy,Jasper,TX
+812,-2.0,0.98,0.66,48249,Jim Wells,TX,unhealthy,Jim Wells,TX
+813,-2.0,0.44,0.52,48257,Kaufman,TX,healthy,Kaufman,TX
+814,-2.0,0.0,0.79,48259,Kendall,TX,healthy,Kendall,TX
+815,-2.0,0.89,no data,48273,Kleberg,TX,unhealthy,Kleberg,TX
+816,-2.0,0.5,0.03,48309,McLennan,TX,unhealthy,McLennan,TX
+817,-2.0,0.0,0.31,48327,Menard,TX,healthy,Menard,TX
+818,-2.0,0.15,no data,48329,Midland,TX,unhealthy,Midland,TX
+819,-2.0,0.5,0.19,48355,Nueces,TX,unhealthy,Nueces,TX
+820,-2.0,0.74,no data,48367,Parker,TX,unhealthy,Parker,TX
+821,-2.0,0.0,no data,48371,Pecos,TX,unhealthy,Pecos,TX
+822,-2.0,0.03,0.0,48375,Potter,TX,unhealthy,Potter,TX
+823,-2.0,0.51,0.46,48377,Presidio,TX,unhealthy,Presidio,TX
+824,-2.0,0.0,no data,48397,Rockwall,TX,unhealthy,Rockwall,TX
+825,-2.0,0.0,no data,48409,San Patricio,TX,unhealthy,San Patricio,TX
+826,-2.0,0.25,no data,48411,San Saba,TX,unhealthy,San Saba,TX
+827,-2.0,0.65,0.6,48423,Smith,TX,unhealthy,Smith,TX
+828,-2.0,-0.15,0.0,48441,Taylor,TX,healthy,Taylor,TX
+829,-2.0,0.9,0.0,48467,Van Zandt,TX,unhealthy,Van Zandt,TX
+830,-2.0,0.31,0.55,48479,Webb,TX,healthy,Webb,TX
+831,-2.0,0.19,0.19,48491,Williamson,TX,unhealthy,Williamson,TX
+832,-2.0,0.56,no data,48497,Wise,TX,unhealthy,Wise,TX
+833,-2.0,0.23,no data,48499,Wood,TX,unhealthy,Wood,TX
+834,-2.0,0.4,0.46,49035,Salt Lake,UT,healthy,Salt Lake,UT
+835,-2.0,0.0,no data,49037,San Juan,UT,unhealthy,San Juan,UT
+836,-2.0,0.76,0.72,49039,Sanpete,UT,unhealthy,Sanpete,UT
+837,-2.0,0.0,0.28,49043,Summit,UT,healthy,Summit,UT
+838,-2.0,-0.03,no data,49045,Tooele,UT,unhealthy,Tooele,UT
+839,-2.0,0.55,0.48,49049,Utah,UT,unhealthy,Utah,UT
+840,-2.0,0.37,no data,49053,Washington,UT,unhealthy,Washington,UT
+841,-2.0,0.14,0.29,49057,Weber,UT,healthy,Weber,UT
+842,-2.0,0.71,0.78,50003,Bennington,VT,healthy,Bennington,VT
+843,-2.0,0.27,0.27,50007,Chittenden,VT,unhealthy,Chittenden,VT
+844,-2.0,0.15,0.43,50017,Orange,VT,healthy,Orange,VT
+845,-2.0,0.0,no data,50019,Orleans,VT,unhealthy,Orleans,VT
+846,-2.0,0.28,0.62,50021,Rutland,VT,healthy,Rutland,VT
+847,-2.0,0.04,0.52,50023,Washington,VT,healthy,Washington,VT
+848,-2.0,0.2,0.0,50027,Windsor,VT,unhealthy,Windsor,VT
+849,-2.0,0.35,0.83,51003,Albemarle,VA,healthy,Albemarle,VA
+850,-2.0,-0.53,0.62,51009,Amherst,VA,healthy,Amherst,VA
+851,-2.0,0.5,0.58,51011,Appomattox,VA,healthy,Appomattox,VA
+852,-2.0,0.11,0.19,51013,Arlington,VA,healthy,Arlington,VA
+853,-2.0,0.25,0.08,51023,Botetourt,VA,unhealthy,Botetourt,VA
+854,-2.0,0.77,0.48,51047,Culpeper,VA,unhealthy,Culpeper,VA
+855,-2.0,0.23,0.0,51061,Fauquier,VA,unhealthy,Fauquier,VA
+856,-2.0,0.0,no data,51075,Goochland,VA,unhealthy,Goochland,VA
+857,-2.0,0.26,no data,51085,Hanover,VA,unhealthy,Hanover,VA
+858,-2.0,0.26,no data,51095,James City,VA,unhealthy,James City,VA
+859,-2.0,0.91,0.84,51097,King and Queen,VA,unhealthy,King and Queen,VA
+860,-2.0,0.31,0.28,51107,Loudoun,VA,unhealthy,Loudoun,VA
+861,-2.0,-0.18,no data,51131,Northampton,VA,unhealthy,Northampton,VA
+862,-2.0,0.41,0.23,51153,Prince William,VA,unhealthy,Prince William,VA
+863,-2.0,0.29,no data,51161,Roanoke,VA,unhealthy,Roanoke,VA
+864,-2.0,0.0,0.83,51167,Russell,VA,healthy,Russell,VA
+865,-2.0,0.0,no data,51171,Shenandoah,VA,unhealthy,Shenandoah,VA
+866,-2.0,-0.25,no data,51177,Spotsylvania,VA,unhealthy,Spotsylvania,VA
+867,-2.0,0.0,0.25,51179,Stafford,VA,healthy,Stafford,VA
+868,-2.0,0.0,no data,51185,Tazewell,VA,unhealthy,Tazewell,VA
+869,-2.0,-0.4,no data,51199,York,VA,unhealthy,York,VA
+870,-2.0,0.38,0.27,51510,Alexandria City,VA,unhealthy,Alexandria City,VA
+871,-2.0,0.48,0.41,51540,Charlottesville City,VA,unhealthy,Charlottesville City,VA
+872,-2.0,0.18,0.04,51550,Chesapeake City,VA,unhealthy,Chesapeake City,VA
+873,-2.0,0.36,no data,51570,Colonial Heights Cit,VA,unhealthy,Colonial Heights Cit,VA
+874,-2.0,0.17,0.0,51600,Fairfax City,VA,unhealthy,Fairfax City,VA
+875,-2.0,0.49,0.27,51630,Fredericksburg City,VA,unhealthy,Fredericksburg City,VA
+876,-2.0,0.36,0.29,51650,Hampton City,VA,unhealthy,Hampton City,VA
+877,-2.0,0.58,0.66,51660,Harrisonburg City,VA,healthy,Harrisonburg City,VA
+878,-2.0,0.53,0.66,51680,Lynchburg City,VA,healthy,Lynchburg City,VA
+879,-2.0,0.02,0.12,51683,Manassas City,VA,healthy,Manassas City,VA
+880,-2.0,0.18,0.72,51700,Newport News City,VA,healthy,Newport News City,VA
+881,-2.0,0.35,0.4,51710,Norfolk City,VA,healthy,Norfolk City,VA
+882,-2.0,0.35,0.3,51760,Richmond City,VA,unhealthy,Richmond City,VA
+883,-2.0,0.12,0.46,51770,Roanoke City,VA,healthy,Roanoke City,VA
+884,-2.0,0.78,0.0,51790,Staunton City,VA,unhealthy,Staunton City,VA
+885,-2.0,-0.18,-0.28,51800,Suffolk City,VA,unhealthy,Suffolk City,VA
+886,-2.0,0.36,no data,51820,Waynesboro City,VA,unhealthy,Waynesboro City,VA
+887,-2.0,0.14,0.4,53005,Benton,WA,healthy,Benton,WA
+888,-2.0,0.45,0.11,53007,Chelan,WA,unhealthy,Chelan,WA
+889,-2.0,0.33,0.5,53011,Clark,WA,healthy,Clark,WA
+890,-2.0,0.0,-0.11,53029,Island,WA,unhealthy,Island,WA
+891,-2.0,0.33,0.49,53051,Pend Oreille,WA,healthy,Pend Oreille,WA
+892,-2.0,0.0,no data,53059,Skamania,WA,unhealthy,Skamania,WA
+893,-2.0,0.28,0.28,53063,Spokane,WA,healthy,Spokane,WA
+894,-2.0,0.51,no data,53071,Walla Walla,WA,unhealthy,Walla Walla,WA
+895,-2.0,0.56,0.06,53073,Whatcom,WA,unhealthy,Whatcom,WA
+896,-2.0,0.42,no data,54011,Cabell,WV,unhealthy,Cabell,WV
+897,-2.0,0.23,no data,54033,Harrison,WV,unhealthy,Harrison,WV
+898,-2.0,0.0,no data,54037,Jefferson,WV,unhealthy,Jefferson,WV
+899,-2.0,0.67,no data,54045,Logan,WV,unhealthy,Logan,WV
+900,-2.0,0.54,0.57,54049,Marion,WV,healthy,Marion,WV
+901,-2.0,0.65,0.65,54067,Nicholas,WV,unhealthy,Nicholas,WV
+902,-2.0,0.65,0.0,54069,Ohio,WV,unhealthy,Ohio,WV
+903,-2.0,0.3,no data,54093,Tucker,WV,unhealthy,Tucker,WV
+904,-2.0,0.0,no data,54099,Wayne,WV,unhealthy,Wayne,WV
+905,-2.0,0.42,no data,54107,Wood,WV,unhealthy,Wood,WV
+906,-2.0,0.08,0.18,55009,Brown,WI,healthy,Brown,WI
+907,-2.0,0.39,0.02,55025,Dane,WI,unhealthy,Dane,WI
+908,-2.0,0.6,no data,55039,Fond du Lac,WI,unhealthy,Fond du Lac,WI
+909,-2.0,0.62,no data,55045,Green,WI,unhealthy,Green,WI
+910,-2.0,0.25,no data,55049,Iowa,WI,unhealthy,Iowa,WI
+911,-2.0,0.04,0.3,55059,Kenosha,WI,healthy,Kenosha,WI
+912,-2.0,0.0,no data,55069,Lincoln,WI,unhealthy,Lincoln,WI
+913,-2.0,-0.36,no data,55073,Marathon,WI,unhealthy,Marathon,WI
+914,-2.0,0.0,no data,55075,Marinette,WI,unhealthy,Marinette,WI
+915,-2.0,0.36,0.64,55087,Outagamie,WI,healthy,Outagamie,WI
+916,-2.0,0.29,-0.03,55097,Portage,WI,unhealthy,Portage,WI
+917,-2.0,0.32,0.42,55101,Racine,WI,healthy,Racine,WI
+918,-2.0,0.54,no data,55105,Rock,WI,unhealthy,Rock,WI
+919,-2.0,-0.77,0.11,55127,Walworth,WI,healthy,Walworth,WI
+920,-2.0,0.0,0.0,55131,Washington,WI,unhealthy,Washington,WI
+921,-2.0,-0.19,0.07,55133,Waukesha,WI,healthy,Waukesha,WI
+922,-2.0,0.26,0.26,55139,Winnebago,WI,healthy,Winnebago,WI
+923,-2.0,0.88,no data,56013,Fremont,WY,unhealthy,Fremont,WY
+924,-2.0,0.36,0.42,56025,Natrona,WY,healthy,Natrona,WY
+925,-2.0,0.0,0.24,56039,Teton,WY,healthy,Teton,WY
+926,-2.0,no data,0.0,01065,Hale,AL,healthy,Hale,AL
+927,-2.0,no data,0.0,01093,Marion,AL,healthy,Marion,AL
+928,-2.0,no data,0.16,01121,Talladega,AL,healthy,Talladega,AL
+929,-2.0,no data,-0.32,02110,Juneau,AK,healthy,Juneau,AK
+930,-2.0,no data,0.78,02164,Lake and Peninsula,AK,healthy,Lake and Peninsula,AK
+931,-2.0,no data,0.0,05089,Marion,AR,healthy,Marion,AR
+932,-2.0,no data,0.16,06005,Amador,CA,healthy,Amador,CA
+933,-2.0,no data,0.0,06015,Del Norte,CA,healthy,Del Norte,CA
+934,-2.0,no data,0.38,06033,Lake,CA,healthy,Lake,CA
+935,-2.0,no data,0.17,06043,Mariposa,CA,healthy,Mariposa,CA
+936,-2.0,no data,0.73,06047,Merced,CA,healthy,Merced,CA
+937,-2.0,no data,0.63,06115,Yuba,CA,healthy,Yuba,CA
+938,-2.0,no data,0.0,08029,Delta,CO,healthy,Delta,CO
+939,-2.0,no data,0.6,08049,Grand,CO,healthy,Grand,CO
+940,-2.0,no data,0.0,08085,Montrose,CO,healthy,Montrose,CO
+941,-2.0,no data,0.36,10001,Kent,DE,healthy,Kent,DE
+942,-2.0,no data,0.0,12027,De Soto,FL,healthy,De Soto,FL
+943,-2.0,no data,0.44,12061,Indian River,FL,healthy,Indian River,FL
+944,-2.0,no data,-0.51,12075,Levy,FL,healthy,Levy,FL
+945,-2.0,no data,0.9,12107,Putnam,FL,healthy,Putnam,FL
+946,-2.0,no data,0.49,13015,Bartow,GA,healthy,Bartow,GA
+947,-2.0,no data,0.0,13053,Chattahoochee,GA,healthy,Chattahoochee,GA
+948,-2.0,no data,0.88,13079,Crawford,GA,healthy,Crawford,GA
+949,-2.0,no data,0.0,13111,Fannin,GA,healthy,Fannin,GA
+950,-2.0,no data,0.32,13123,Gilmer,GA,healthy,Gilmer,GA
+951,-2.0,no data,0.57,13147,Hart,GA,healthy,Hart,GA
+952,-2.0,no data,0.55,13187,Lumpkin,GA,healthy,Lumpkin,GA
+953,-2.0,no data,0.49,13223,Paulding,GA,healthy,Paulding,GA
+954,-2.0,no data,0.68,13233,Polk,GA,healthy,Polk,GA
+955,-2.0,no data,0.82,13261,Sumter,GA,healthy,Sumter,GA
+956,-2.0,no data,0.0,13271,Telfair,GA,healthy,Telfair,GA
+957,-2.0,no data,0.4,16017,Bonner,ID,healthy,Bonner,ID
+958,-2.0,no data,-0.28,16039,Elmore,ID,healthy,Elmore,ID
+959,-2.0,no data,0.0,16075,Payette,ID,healthy,Payette,ID
+960,-2.0,no data,0.0,17055,Franklin,IL,healthy,Franklin,IL
+961,-2.0,no data,0.36,17057,Fulton,IL,healthy,Fulton,IL
+962,-2.0,no data,0.68,17075,Iroquois,IL,healthy,Iroquois,IL
+963,-2.0,no data,0.96,17117,Macoupin,IL,healthy,Macoupin,IL
+964,-2.0,no data,0.73,17149,Pike,IL,healthy,Pike,IL
+965,-2.0,no data,0.0,17181,Union,IL,healthy,Union,IL
+966,-2.0,no data,0.0,18053,Grant,IN,healthy,Grant,IN
+967,-2.0,no data,0.54,18091,La Porte,IN,healthy,La Porte,IN
+968,-2.0,no data,0.61,18125,Pike,IN,healthy,Pike,IN
+969,-2.0,no data,0.7,18131,Pulaski,IN,healthy,Pulaski,IN
+970,-2.0,no data,0.0,18173,Warrick,IN,healthy,Warrick,IN
+971,-2.0,no data,0.0,19099,Jasper,IA,healthy,Jasper,IA
+972,-2.0,no data,0.0,19127,Marshall,IA,healthy,Marshall,IA
+973,-2.0,no data,-0.18,20015,Butler,KS,healthy,Butler,KS
+974,-2.0,no data,0.0,20035,Cowley,KS,healthy,Cowley,KS
+975,-2.0,no data,0.0,20079,Harvey,KS,healthy,Harvey,KS
+976,-2.0,no data,0.66,20085,Jackson,KS,healthy,Jackson,KS
+977,-2.0,no data,-0.2,20113,McPherson,KS,healthy,McPherson,KS
+978,-2.0,no data,0.0,20159,Rice,KS,healthy,Rice,KS
+979,-2.0,no data,0.18,21019,Boyd,KY,healthy,Boyd,KY
+980,-2.0,no data,0.81,21029,Bullitt,KY,healthy,Bullitt,KY
+981,-2.0,no data,0.54,21125,Laurel,KY,healthy,Laurel,KY
+982,-2.0,no data,0.42,21183,Ohio,KY,healthy,Ohio,KY
+983,-2.0,no data,0.0,21229,Washington,KY,healthy,Washington,KY
+984,-2.0,no data,0.7,22007,Assumption,LA,healthy,Assumption,LA
+985,-2.0,no data,0.82,22089,St Charles,LA,healthy,St Charles,LA
+986,-2.0,no data,-0.42,22109,Terrebonne,LA,healthy,Terrebonne,LA
+987,-2.0,no data,0.62,22117,Washington,LA,healthy,Washington,LA
+988,-2.0,no data,0.17,23011,Kennebec,ME,healthy,Kennebec,ME
+989,-2.0,no data,0.0,23025,Somerset,ME,healthy,Somerset,ME
+990,-2.0,no data,0.0,24037,St Marys,MD,healthy,St Marys,MD
+991,-2.0,no data,0.42,25019,Nantucket,MA,healthy,Nantucket,MA
+992,-2.0,no data,0.44,26007,Alpena,MI,healthy,Alpena,MI
+993,-2.0,no data,0.0,26015,Barry,MI,healthy,Barry,MI
+994,-2.0,no data,0.49,26031,Cheboygan,MI,healthy,Cheboygan,MI
+995,-2.0,no data,0.0,26037,Clinton,MI,healthy,Clinton,MI
+996,-2.0,no data,0.2,26059,Hillsdale,MI,healthy,Hillsdale,MI
+997,-2.0,no data,0.56,26073,Isabella,MI,healthy,Isabella,MI
+998,-2.0,no data,0.64,26105,Mason,MI,healthy,Mason,MI
+999,-2.0,no data,0.44,26107,Mecosta,MI,healthy,Mecosta,MI
+1000,-2.0,no data,0.0,26111,Midland,MI,healthy,Midland,MI
+1001,-2.0,no data,0.0,26113,Missaukee,MI,healthy,Missaukee,MI
+1002,-2.0,no data,0.0,26137,Otsego,MI,healthy,Otsego,MI
+1003,-2.0,no data,0.18,27009,Benton,MN,healthy,Benton,MN
+1004,-2.0,no data,0.0,27035,Crow Wing,MN,healthy,Crow Wing,MN
+1005,-2.0,no data,0.81,27045,Fillmore,MN,healthy,Fillmore,MN
+1006,-2.0,no data,0.0,27063,Jackson,MN,healthy,Jackson,MN
+1007,-2.0,no data,-0.23,27079,Le Sueur,MN,healthy,Le Sueur,MN
+1008,-2.0,no data,0.57,27091,Martin,MN,healthy,Martin,MN
+1009,-2.0,no data,0.26,27097,Morrison,MN,healthy,Morrison,MN
+1010,-2.0,no data,0.0,28011,Bolivar,MS,healthy,Bolivar,MS
+1011,-2.0,no data,0.37,28043,Grenada,MS,healthy,Grenada,MS
+1012,-2.0,no data,0.82,28057,Itawamba,MS,healthy,Itawamba,MS
+1013,-2.0,no data,0.18,28091,Marion,MS,healthy,Marion,MS
+1014,-2.0,no data,0.82,29027,Callaway,MO,healthy,Callaway,MO
+1015,-2.0,no data,-0.33,29043,Christian,MO,healthy,Christian,MO
+1016,-2.0,no data,0.0,29079,Grundy,MO,healthy,Grundy,MO
+1017,-2.0,no data,0.84,29099,Jefferson,MO,healthy,Jefferson,MO
+1018,-2.0,no data,-0.65,29127,Marion,MO,healthy,Marion,MO
+1019,-2.0,no data,0.34,29187,St Francois,MO,healthy,St Francois,MO
+1020,-2.0,no data,0.72,29209,Stone,MO,healthy,Stone,MO
+1021,-2.0,no data,0.76,30111,Yellowstone,MT,healthy,Yellowstone,MT
+1022,-2.0,no data,0.51,31001,Adams,NE,healthy,Adams,NE
+1023,-2.0,no data,0.95,31015,Boyd,NE,healthy,Boyd,NE
+1024,-2.0,no data,0.0,31031,Cherry,NE,healthy,Cherry,NE
+1025,-2.0,no data,0.46,31079,Hall,NE,healthy,Hall,NE
+1026,-2.0,no data,-0.67,31095,Jefferson,NE,healthy,Jefferson,NE
+1027,-2.0,no data,0.0,32007,Elko,NV,healthy,Elko,NV
+1028,-2.0,no data,0.34,33001,Belknap,NH,healthy,Belknap,NH
+1029,-2.0,no data,0.19,33003,Carroll,NH,healthy,Carroll,NH
+1030,-2.0,no data,0.23,34037,Sussex,NJ,healthy,Sussex,NJ
+1031,-2.0,no data,0.0,35043,Sandoval,NM,healthy,Sandoval,NM
+1032,-2.0,no data,0.42,35061,Valencia,NM,healthy,Valencia,NM
+1033,-2.0,no data,0.0,36011,Cayuga,NY,healthy,Cayuga,NY
+1034,-2.0,no data,0.23,36021,Columbia,NY,healthy,Columbia,NY
+1035,-2.0,no data,0.0,36037,Genesee,NY,healthy,Genesee,NY
+1036,-2.0,no data,0.6,36039,Greene,NY,healthy,Greene,NY
+1037,-2.0,no data,0.57,36073,Orleans,NY,healthy,Orleans,NY
+1038,-2.0,no data,0.47,36115,Washington,NY,healthy,Washington,NY
+1039,-2.0,no data,-0.1,36123,Yates,NY,healthy,Yates,NY
+1040,-2.0,no data,0.21,37001,Alamance,NC,healthy,Alamance,NC
+1041,-2.0,no data,0.64,37013,Beaufort,NC,healthy,Beaufort,NC
+1042,-2.0,no data,0.4,37039,Cherokee,NC,healthy,Cherokee,NC
+1043,-2.0,no data,0.0,37057,Davidson,NC,healthy,Davidson,NC
+1044,-2.0,no data,0.0,37059,Davie,NC,healthy,Davie,NC
+1045,-2.0,no data,0.0,37137,Pamlico,NC,healthy,Pamlico,NC
+1046,-2.0,no data,0.0,37153,Richmond,NC,healthy,Richmond,NC
+1047,-2.0,no data,0.18,37163,Sampson,NC,healthy,Sampson,NC
+1048,-2.0,no data,0.0,37181,Vance,NC,healthy,Vance,NC
+1049,-2.0,no data,0.0,37189,Watauga,NC,healthy,Watauga,NC
+1050,-2.0,no data,0.2,37193,Wilkes,NC,healthy,Wilkes,NC
+1051,-2.0,no data,0.0,38077,Richland,ND,healthy,Richland,ND
+1052,-2.0,no data,0.58,39019,Carroll,OH,healthy,Carroll,OH
+1053,-2.0,no data,0.0,39055,Geauga,OH,healthy,Geauga,OH
+1054,-2.0,no data,0.0,39107,Mercer,OH,healthy,Mercer,OH
+1055,-2.0,no data,0.68,39129,Pickaway,OH,healthy,Pickaway,OH
+1056,-2.0,no data,0.0,39147,Seneca,OH,healthy,Seneca,OH
+1057,-2.0,no data,-0.8,40015,Caddo,OK,healthy,Caddo,OK
+1058,-2.0,no data,0.56,40047,Garfield,OK,healthy,Garfield,OK
+1059,-2.0,no data,0.0,41007,Clatsop,OR,healthy,Clatsop,OR
+1060,-2.0,no data,0.44,41009,Columbia,OR,healthy,Columbia,OR
+1061,-2.0,no data,0.96,41011,Coos,OR,healthy,Coos,OR
+1062,-2.0,no data,0.79,42009,Bedford,PA,healthy,Bedford,PA
+1063,-2.0,no data,0.0,42021,Cambria,PA,healthy,Cambria,PA
+1064,-2.0,no data,0.0,42035,Clinton,PA,healthy,Clinton,PA
+1065,-2.0,no data,0.0,42037,Columbia,PA,healthy,Columbia,PA
+1066,-2.0,no data,0.24,42055,Franklin,PA,healthy,Franklin,PA
+1067,-2.0,no data,0.46,42057,Fulton,PA,healthy,Fulton,PA
+1068,-2.0,no data,0.27,42061,Huntingdon,PA,healthy,Huntingdon,PA
+1069,-2.0,no data,0.73,42083,McKean,PA,healthy,McKean,PA
+1070,-2.0,no data,0.0,42103,Pike,PA,healthy,Pike,PA
+1071,-2.0,no data,0.31,42125,Washington,PA,healthy,Washington,PA
+1072,-2.0,no data,0.28,44001,Bristol,RI,healthy,Bristol,RI
+1073,-2.0,no data,0.78,45035,Dorchester,SC,healthy,Dorchester,SC
+1074,-2.0,no data,0.11,45053,Jasper,SC,healthy,Jasper,SC
+1075,-2.0,no data,0.42,45075,Orangeburg,SC,healthy,Orangeburg,SC
+1076,-2.0,no data,0.0,46035,Davison,SD,healthy,Davison,SD
+1077,-2.0,no data,0.53,46065,Hughes,SD,healthy,Hughes,SD
+1078,-2.0,no data,0.0,47011,Bradley,TN,healthy,Bradley,TN
+1079,-2.0,no data,0.96,47025,Claiborne,TN,healthy,Claiborne,TN
+1080,-2.0,no data,0.94,47029,Cocke,TN,healthy,Cocke,TN
+1081,-2.0,no data,0.0,47047,Fayette,TN,healthy,Fayette,TN
+1082,-2.0,no data,0.0,47057,Grainger,TN,healthy,Grainger,TN
+1083,-2.0,no data,-0.37,47059,Greene,TN,healthy,Greene,TN
+1084,-2.0,no data,-0.3,47063,Hamblen,TN,healthy,Hamblen,TN
+1085,-2.0,no data,0.51,47123,Monroe,TN,healthy,Monroe,TN
+1086,-2.0,no data,0.0,47141,Putnam,TN,healthy,Putnam,TN
+1087,-2.0,no data,0.76,47147,Robertson,TN,healthy,Robertson,TN
+1088,-2.0,no data,0.61,47185,White,TN,healthy,White,TN
+1089,-2.0,no data,0.74,48005,Angelina,TX,healthy,Angelina,TX
+1090,-2.0,no data,0.79,48049,Brown,TX,healthy,Brown,TX
+1091,-2.0,no data,0.08,48149,Fayette,TX,healthy,Fayette,TX
+1092,-2.0,no data,-0.1,48171,Gillespie,TX,healthy,Gillespie,TX
+1093,-2.0,no data,0.66,48191,Hall,TX,healthy,Hall,TX
+1094,-2.0,no data,0.23,48193,Hamilton,TX,healthy,Hamilton,TX
+1095,-2.0,no data,0.14,48223,Hopkins,TX,healthy,Hopkins,TX
+1096,-2.0,no data,0.6,48277,Lamar,TX,healthy,Lamar,TX
+1097,-2.0,no data,0.27,48319,Mason,TX,healthy,Mason,TX
+1098,-2.0,no data,0.49,48349,Navarro,TX,healthy,Navarro,TX
+1099,-2.0,no data,0.0,48379,Rains,TX,healthy,Rains,TX
+1100,-2.0,no data,0.69,48381,Randall,TX,healthy,Randall,TX
+1101,-2.0,no data,0.78,48449,Titus,TX,healthy,Titus,TX
+1102,-2.0,no data,0.72,48465,Val Verde,TX,healthy,Val Verde,TX
+1103,-2.0,no data,0.05,48469,Victoria,TX,healthy,Victoria,TX
+1104,-2.0,no data,0.21,49011,Davis,UT,healthy,Davis,UT
+1105,-2.0,no data,0.79,49019,Grand,UT,healthy,Grand,UT
+1106,-2.0,no data,0.54,49047,Uintah,UT,healthy,Uintah,UT
+1107,-2.0,no data,0.76,50011,Franklin,VT,healthy,Franklin,VT
+1108,-2.0,no data,0.29,50015,Lamoille,VT,healthy,Lamoille,VT
+1109,-2.0,no data,0.23,50025,Windham,VT,healthy,Windham,VT
+1110,-2.0,no data,0.0,51005,Alleghany,VA,healthy,Alleghany,VA
+1111,-2.0,no data,0.84,51019,Bedford,VA,healthy,Bedford,VA
+1112,-2.0,no data,0.95,51069,Frederick,VA,healthy,Frederick,VA
+1113,-2.0,no data,0.79,51099,King George,VA,healthy,King George,VA
+1114,-2.0,no data,0.67,51105,Lee,VA,healthy,Lee,VA
+1115,-2.0,no data,0.53,51117,Mecklenburg,VA,healthy,Mecklenburg,VA
+1116,-2.0,no data,0.46,51121,Montgomery,VA,healthy,Montgomery,VA
+1117,-2.0,no data,0.26,51137,Orange,VA,healthy,Orange,VA
+1118,-2.0,no data,0.44,51169,Scott,VA,healthy,Scott,VA
+1119,-2.0,no data,0.69,51197,Wythe,VA,healthy,Wythe,VA
+1120,-2.0,no data,0.6,51515,Bedford City,VA,healthy,Bedford City,VA
+1121,-2.0,no data,0.0,51775,Salem City,VA,healthy,Salem City,VA
+1122,-2.0,no data,0.59,51840,Winchester City,VA,healthy,Winchester City,VA
+1123,-2.0,no data,0.24,53009,Clallam,WA,healthy,Clallam,WA
+1124,-2.0,no data,0.0,53015,Cowlitz,WA,healthy,Cowlitz,WA
+1125,-2.0,no data,0.79,53021,Franklin,WA,healthy,Franklin,WA
+1126,-2.0,no data,0.34,53027,Grays Harbor,WA,healthy,Grays Harbor,WA
+1127,-2.0,no data,0.29,53031,Jefferson,WA,healthy,Jefferson,WA
+1128,-2.0,no data,0.72,53037,Kittitas,WA,healthy,Kittitas,WA
+1129,-2.0,no data,0.0,53055,San Juan,WA,healthy,San Juan,WA
+1130,-2.0,no data,0.21,53077,Yakima,WA,healthy,Yakima,WA
+1131,-2.0,no data,-0.36,54019,Fayette,WV,healthy,Fayette,WV
+1132,-2.0,no data,-0.51,55029,Door,WI,healthy,Door,WI
+1133,-2.0,no data,0.0,55031,Douglas,WI,healthy,Douglas,WI
+1134,-2.0,no data,0.18,55035,Eau Claire,WI,healthy,Eau Claire,WI
+1135,-2.0,no data,0.44,55055,Jefferson,WI,healthy,Jefferson,WI
+1136,-2.0,no data,0.51,55065,Lafayette,WI,healthy,Lafayette,WI
+1137,-2.0,no data,0.71,55071,Manitowoc,WI,healthy,Manitowoc,WI
+1138,-2.0,no data,0.0,55085,Oneida,WI,healthy,Oneida,WI
+1139,-2.0,no data,0.0,55089,Ozaukee,WI,healthy,Ozaukee,WI
+1140,-2.0,no data,0.82,55093,Pierce,WI,healthy,Pierce,WI
+1141,-2.0,no data,0.46,55095,Polk,WI,healthy,Polk,WI
+1142,-2.0,no data,0.61,55115,Shawano,WI,healthy,Shawano,WI
+1143,-2.0,no data,0.0,56007,Carbon,WY,healthy,Carbon,WY
+1144,-2.0,no data,0.0,56029,Park,WY,healthy,Park,WY
+1145,-2.0,no data,0.9,56033,Sheridan,WY,healthy,Sheridan,WY
+1146,-2.0,no data,0.0,56035,Sublette,WY,healthy,Sublette,WY
+1147,-2.0,no data,no data,01001,Autauga,AL,tie,Autauga,AL
+1148,-2.0,no data,no data,01005,Barbour,AL,tie,Barbour,AL
+1149,-2.0,no data,no data,01007,Bibb,AL,tie,Bibb,AL
+1150,-2.0,no data,no data,01009,Blount,AL,tie,Blount,AL
+1151,-2.0,no data,no data,01011,Bullock,AL,tie,Bullock,AL
+1152,-2.0,no data,no data,01013,Butler,AL,tie,Butler,AL
+1153,-2.0,no data,no data,01015,Calhoun,AL,tie,Calhoun,AL
+1154,-2.0,no data,no data,01017,Chambers,AL,tie,Chambers,AL
+1155,-2.0,no data,no data,01019,Cherokee,AL,tie,Cherokee,AL
+1156,-2.0,no data,no data,01021,Chilton,AL,tie,Chilton,AL
+1157,-2.0,no data,no data,01023,Choctaw,AL,tie,Choctaw,AL
+1158,-2.0,no data,no data,01025,Clarke,AL,tie,Clarke,AL
+1159,-2.0,no data,no data,01027,Clay,AL,tie,Clay,AL
+1160,-2.0,no data,no data,01029,Cleburne,AL,tie,Cleburne,AL
+1161,-2.0,no data,no data,01033,Colbert,AL,tie,Colbert,AL
+1162,-2.0,no data,no data,01035,Conecuh,AL,tie,Conecuh,AL
+1163,-2.0,no data,no data,01037,Coosa,AL,tie,Coosa,AL
+1164,-2.0,no data,no data,01039,Covington,AL,tie,Covington,AL
+1165,-2.0,no data,no data,01041,Crenshaw,AL,tie,Crenshaw,AL
+1166,-2.0,no data,no data,01043,Cullman,AL,tie,Cullman,AL
+1167,-2.0,no data,no data,01045,Dale,AL,tie,Dale,AL
+1168,-2.0,no data,no data,01047,Dallas,AL,tie,Dallas,AL
+1169,-2.0,no data,no data,01049,De Kalb,AL,tie,De Kalb,AL
+1170,-2.0,no data,no data,01053,Escambia,AL,tie,Escambia,AL
+1171,-2.0,no data,no data,01055,Etowah,AL,tie,Etowah,AL
+1172,-2.0,no data,no data,01057,Fayette,AL,tie,Fayette,AL
+1173,-2.0,no data,no data,01059,Franklin,AL,tie,Franklin,AL
+1174,-2.0,no data,no data,01061,Geneva,AL,tie,Geneva,AL
+1175,-2.0,no data,no data,01063,Greene,AL,tie,Greene,AL
+1176,-2.0,no data,no data,01067,Henry,AL,tie,Henry,AL
+1177,-2.0,no data,no data,01075,Lamar,AL,tie,Lamar,AL
+1178,-2.0,no data,no data,01077,Lauderdale,AL,tie,Lauderdale,AL
+1179,-2.0,no data,no data,01079,Lawrence,AL,tie,Lawrence,AL
+1180,-2.0,no data,no data,01087,Macon,AL,tie,Macon,AL
+1181,-2.0,no data,no data,01091,Marengo,AL,tie,Marengo,AL
+1182,-2.0,no data,no data,01095,Marshall,AL,tie,Marshall,AL
+1183,-2.0,no data,no data,01099,Monroe,AL,tie,Monroe,AL
+1184,-2.0,no data,no data,01103,Morgan,AL,tie,Morgan,AL
+1185,-2.0,no data,no data,01105,Perry,AL,tie,Perry,AL
+1186,-2.0,no data,no data,01107,Pickens,AL,tie,Pickens,AL
+1187,-2.0,no data,no data,01109,Pike,AL,tie,Pike,AL
+1188,-2.0,no data,no data,01111,Randolph,AL,tie,Randolph,AL
+1189,-2.0,no data,no data,01113,Russell,AL,tie,Russell,AL
+1190,-2.0,no data,no data,01115,St Clair,AL,tie,St Clair,AL
+1191,-2.0,no data,no data,01119,Sumter,AL,tie,Sumter,AL
+1192,-2.0,no data,no data,01123,Tallapoosa,AL,tie,Tallapoosa,AL
+1193,-2.0,no data,no data,01127,Walker,AL,tie,Walker,AL
+1194,-2.0,no data,no data,01129,Washington,AL,tie,Washington,AL
+1195,-2.0,no data,no data,01131,Wilcox,AL,tie,Wilcox,AL
+1196,-2.0,no data,no data,01133,Winston,AL,tie,Winston,AL
+1197,-2.0,no data,no data,02013,Aleutians East,AK,tie,Aleutians East,AK
+1198,-2.0,no data,no data,02016,Aleutians West,AK,tie,Aleutians West,AK
+1199,-2.0,no data,no data,02050,Bethel,AK,tie,Bethel,AK
+1200,-2.0,no data,no data,02060,Bristol Bay,AK,tie,Bristol Bay,AK
+1201,-2.0,no data,no data,02068,Denali,AK,tie,Denali,AK
+1202,-2.0,no data,no data,02070,Dillingham,AK,tie,Dillingham,AK
+1203,-2.0,no data,no data,02090,Fairbanks North Star,AK,tie,Fairbanks North Star,AK
+1204,-2.0,no data,no data,02100,Haines,AK,tie,Haines,AK
+1205,-2.0,no data,no data,02122,Kenai Peninsula,AK,tie,Kenai Peninsula,AK
+1206,-2.0,no data,no data,02150,Kodiak Island,AK,tie,Kodiak Island,AK
+1207,-2.0,no data,no data,02180,Nome,AK,tie,Nome,AK
+1208,-2.0,no data,no data,02185,North Slope,AK,tie,North Slope,AK
+1209,-2.0,no data,no data,02188,Northwest Arctic,AK,tie,Northwest Arctic,AK
+1210,-2.0,no data,no data,02201,Prince of Wales-Outer Ketchikan,AK,tie,Prince of Wales-Outer Ketchikan,AK
+1211,-2.0,no data,no data,02232,Skagway-Hoonah-Angoon,AK,tie,Skagway-Hoonah-Angoon,AK
+1212,-2.0,no data,no data,02240,Southeast Fairbanks,AK,tie,Southeast Fairbanks,AK
+1213,-2.0,no data,no data,02261,Valdez-Cordova,AK,tie,Valdez-Cordova,AK
+1214,-2.0,no data,no data,02270,Wade Hampton,AK,tie,Wade Hampton,AK
+1215,-2.0,no data,no data,02280,Wrangell-Petersburg,AK,tie,Wrangell-Petersburg,AK
+1216,-2.0,no data,no data,02282,Yakutat,AK,tie,Yakutat,AK
+1217,-2.0,no data,no data,02290,Yukon-Koyukuk,AK,tie,Yukon-Koyukuk,AK
+1218,-2.0,no data,no data,04001,Apache,AZ,tie,Apache,AZ
+1219,-2.0,no data,no data,04009,Graham,AZ,tie,Graham,AZ
+1220,-2.0,no data,no data,04011,Greenlee,AZ,tie,Greenlee,AZ
+1221,-2.0,no data,no data,04012,La Paz,AZ,tie,La Paz,AZ
+1222,-2.0,no data,no data,04017,Navajo,AZ,tie,Navajo,AZ
+1223,-2.0,no data,no data,04023,Santa Cruz,AZ,tie,Santa Cruz,AZ
+1224,-2.0,no data,no data,05001,Arkansas,AR,tie,Arkansas,AR
+1225,-2.0,no data,no data,05003,Ashley,AR,tie,Ashley,AR
+1226,-2.0,no data,no data,05005,Baxter,AR,tie,Baxter,AR
+1227,-2.0,no data,no data,05009,Boone,AR,tie,Boone,AR
+1228,-2.0,no data,no data,05011,Bradley,AR,tie,Bradley,AR
+1229,-2.0,no data,no data,05013,Calhoun,AR,tie,Calhoun,AR
+1230,-2.0,no data,no data,05015,Carroll,AR,tie,Carroll,AR
+1231,-2.0,no data,no data,05017,Chicot,AR,tie,Chicot,AR
+1232,-2.0,no data,no data,05019,Clark,AR,tie,Clark,AR
+1233,-2.0,no data,no data,05021,Clay,AR,tie,Clay,AR
+1234,-2.0,no data,no data,05023,Cleburne,AR,tie,Cleburne,AR
+1235,-2.0,no data,no data,05025,Cleveland,AR,tie,Cleveland,AR
+1236,-2.0,no data,no data,05027,Columbia,AR,tie,Columbia,AR
+1237,-2.0,no data,no data,05029,Conway,AR,tie,Conway,AR
+1238,-2.0,no data,no data,05035,Crittenden,AR,tie,Crittenden,AR
+1239,-2.0,no data,no data,05037,Cross,AR,tie,Cross,AR
+1240,-2.0,no data,no data,05039,Dallas,AR,tie,Dallas,AR
+1241,-2.0,no data,no data,05041,Desha,AR,tie,Desha,AR
+1242,-2.0,no data,no data,05043,Drew,AR,tie,Drew,AR
+1243,-2.0,no data,no data,05047,Franklin,AR,tie,Franklin,AR
+1244,-2.0,no data,no data,05049,Fulton,AR,tie,Fulton,AR
+1245,-2.0,no data,no data,05053,Grant,AR,tie,Grant,AR
+1246,-2.0,no data,no data,05055,Greene,AR,tie,Greene,AR
+1247,-2.0,no data,no data,05057,Hempstead,AR,tie,Hempstead,AR
+1248,-2.0,no data,no data,05059,Hot Spring,AR,tie,Hot Spring,AR
+1249,-2.0,no data,no data,05061,Howard,AR,tie,Howard,AR
+1250,-2.0,no data,no data,05063,Independence,AR,tie,Independence,AR
+1251,-2.0,no data,no data,05065,Izard,AR,tie,Izard,AR
+1252,-2.0,no data,no data,05067,Jackson,AR,tie,Jackson,AR
+1253,-2.0,no data,no data,05069,Jefferson,AR,tie,Jefferson,AR
+1254,-2.0,no data,no data,05071,Johnson,AR,tie,Johnson,AR
+1255,-2.0,no data,no data,05073,Lafayette,AR,tie,Lafayette,AR
+1256,-2.0,no data,no data,05075,Lawrence,AR,tie,Lawrence,AR
+1257,-2.0,no data,no data,05077,Lee,AR,tie,Lee,AR
+1258,-2.0,no data,no data,05079,Lincoln,AR,tie,Lincoln,AR
+1259,-2.0,no data,no data,05081,Little River,AR,tie,Little River,AR
+1260,-2.0,no data,no data,05083,Logan,AR,tie,Logan,AR
+1261,-2.0,no data,no data,05087,Madison,AR,tie,Madison,AR
+1262,-2.0,no data,no data,05091,Miller,AR,tie,Miller,AR
+1263,-2.0,no data,no data,05093,Mississippi,AR,tie,Mississippi,AR
+1264,-2.0,no data,no data,05095,Monroe,AR,tie,Monroe,AR
+1265,-2.0,no data,no data,05097,Montgomery,AR,tie,Montgomery,AR
+1266,-2.0,no data,no data,05099,Nevada,AR,tie,Nevada,AR
+1267,-2.0,no data,no data,05101,Newton,AR,tie,Newton,AR
+1268,-2.0,no data,no data,05103,Ouachita,AR,tie,Ouachita,AR
+1269,-2.0,no data,no data,05105,Perry,AR,tie,Perry,AR
+1270,-2.0,no data,no data,05107,Phillips,AR,tie,Phillips,AR
+1271,-2.0,no data,no data,05109,Pike,AR,tie,Pike,AR
+1272,-2.0,no data,no data,05111,Poinsett,AR,tie,Poinsett,AR
+1273,-2.0,no data,no data,05113,Polk,AR,tie,Polk,AR
+1274,-2.0,no data,no data,05115,Pope,AR,tie,Pope,AR
+1275,-2.0,no data,no data,05117,Prairie,AR,tie,Prairie,AR
+1276,-2.0,no data,no data,05121,Randolph,AR,tie,Randolph,AR
+1277,-2.0,no data,no data,05125,Saline,AR,tie,Saline,AR
+1278,-2.0,no data,no data,05127,Scott,AR,tie,Scott,AR
+1279,-2.0,no data,no data,05129,Searcy,AR,tie,Searcy,AR
+1280,-2.0,no data,no data,05131,Sebastian,AR,tie,Sebastian,AR
+1281,-2.0,no data,no data,05133,Sevier,AR,tie,Sevier,AR
+1282,-2.0,no data,no data,05135,Sharp,AR,tie,Sharp,AR
+1283,-2.0,no data,no data,05137,Stone,AR,tie,Stone,AR
+1284,-2.0,no data,no data,05145,White,AR,tie,White,AR
+1285,-2.0,no data,no data,05147,Woodruff,AR,tie,Woodruff,AR
+1286,-2.0,no data,no data,05149,Yell,AR,tie,Yell,AR
+1287,-2.0,no data,no data,06003,Alpine,CA,tie,Alpine,CA
+1288,-2.0,no data,no data,06011,Colusa,CA,tie,Colusa,CA
+1289,-2.0,no data,no data,06035,Lassen,CA,tie,Lassen,CA
+1290,-2.0,no data,no data,06039,Madera,CA,tie,Madera,CA
+1291,-2.0,no data,no data,06049,Modoc,CA,tie,Modoc,CA
+1292,-2.0,no data,no data,06063,Plumas,CA,tie,Plumas,CA
+1293,-2.0,no data,no data,06091,Sierra,CA,tie,Sierra,CA
+1294,-2.0,no data,no data,06093,Siskiyou,CA,tie,Siskiyou,CA
+1295,-2.0,no data,no data,06101,Sutter,CA,tie,Sutter,CA
+1296,-2.0,no data,no data,06103,Tehama,CA,tie,Tehama,CA
+1297,-2.0,no data,no data,06109,Tuolumne,CA,tie,Tuolumne,CA
+1298,-2.0,no data,no data,08003,Alamosa,CO,tie,Alamosa,CO
+1299,-2.0,no data,no data,08007,Archuleta,CO,tie,Archuleta,CO
+1300,-2.0,no data,no data,08009,Baca,CO,tie,Baca,CO
+1301,-2.0,no data,no data,08011,Bent,CO,tie,Bent,CO
+1302,-2.0,no data,no data,08015,Chaffee,CO,tie,Chaffee,CO
+1303,-2.0,no data,no data,08017,Cheyenne,CO,tie,Cheyenne,CO
+1304,-2.0,no data,no data,08021,Conejos,CO,tie,Conejos,CO
+1305,-2.0,no data,no data,08023,Costilla,CO,tie,Costilla,CO
+1306,-2.0,no data,no data,08025,Crowley,CO,tie,Crowley,CO
+1307,-2.0,no data,no data,08027,Custer,CO,tie,Custer,CO
+1308,-2.0,no data,no data,08033,Dolores,CO,tie,Dolores,CO
+1309,-2.0,no data,no data,08039,Elbert,CO,tie,Elbert,CO
+1310,-2.0,no data,no data,08047,Gilpin,CO,tie,Gilpin,CO
+1311,-2.0,no data,no data,08051,Gunnison,CO,tie,Gunnison,CO
+1312,-2.0,no data,no data,08053,Hinsdale,CO,tie,Hinsdale,CO
+1313,-2.0,no data,no data,08055,Huerfano,CO,tie,Huerfano,CO
+1314,-2.0,no data,no data,08057,Jackson,CO,tie,Jackson,CO
+1315,-2.0,no data,no data,08061,Kiowa,CO,tie,Kiowa,CO
+1316,-2.0,no data,no data,08063,Kit Carson,CO,tie,Kit Carson,CO
+1317,-2.0,no data,no data,08065,Lake,CO,tie,Lake,CO
+1318,-2.0,no data,no data,08073,Lincoln,CO,tie,Lincoln,CO
+1319,-2.0,no data,no data,08075,Logan,CO,tie,Logan,CO
+1320,-2.0,no data,no data,08079,Mineral,CO,tie,Mineral,CO
+1321,-2.0,no data,no data,08081,Moffat,CO,tie,Moffat,CO
+1322,-2.0,no data,no data,08083,Montezuma,CO,tie,Montezuma,CO
+1323,-2.0,no data,no data,08087,Morgan,CO,tie,Morgan,CO
+1324,-2.0,no data,no data,08089,Otero,CO,tie,Otero,CO
+1325,-2.0,no data,no data,08091,Ouray,CO,tie,Ouray,CO
+1326,-2.0,no data,no data,08095,Phillips,CO,tie,Phillips,CO
+1327,-2.0,no data,no data,08099,Prowers,CO,tie,Prowers,CO
+1328,-2.0,no data,no data,08103,Rio Blanco,CO,tie,Rio Blanco,CO
+1329,-2.0,no data,no data,08105,Rio Grande,CO,tie,Rio Grande,CO
+1330,-2.0,no data,no data,08109,Saguache,CO,tie,Saguache,CO
+1331,-2.0,no data,no data,08111,San Juan,CO,tie,San Juan,CO
+1332,-2.0,no data,no data,08113,San Miguel,CO,tie,San Miguel,CO
+1333,-2.0,no data,no data,08115,Sedgwick,CO,tie,Sedgwick,CO
+1334,-2.0,no data,no data,08119,Teller,CO,tie,Teller,CO
+1335,-2.0,no data,no data,08121,Washington,CO,tie,Washington,CO
+1336,-2.0,no data,no data,08125,Yuma,CO,tie,Yuma,CO
+1337,-2.0,no data,no data,12003,Baker,FL,tie,Baker,FL
+1338,-2.0,no data,no data,12007,Bradford,FL,tie,Bradford,FL
+1339,-2.0,no data,no data,12013,Calhoun,FL,tie,Calhoun,FL
+1340,-2.0,no data,no data,12023,Columbia,FL,tie,Columbia,FL
+1341,-2.0,no data,no data,12025,Dade,FL,tie,Dade,FL
+1342,-2.0,no data,no data,12029,Dixie,FL,tie,Dixie,FL
+1343,-2.0,no data,no data,12039,Gadsden,FL,tie,Gadsden,FL
+1344,-2.0,no data,no data,12041,Gilchrist,FL,tie,Gilchrist,FL
+1345,-2.0,no data,no data,12043,Glades,FL,tie,Glades,FL
+1346,-2.0,no data,no data,12045,Gulf,FL,tie,Gulf,FL
+1347,-2.0,no data,no data,12047,Hamilton,FL,tie,Hamilton,FL
+1348,-2.0,no data,no data,12049,Hardee,FL,tie,Hardee,FL
+1349,-2.0,no data,no data,12051,Hendry,FL,tie,Hendry,FL
+1350,-2.0,no data,no data,12059,Holmes,FL,tie,Holmes,FL
+1351,-2.0,no data,no data,12063,Jackson,FL,tie,Jackson,FL
+1352,-2.0,no data,no data,12067,Lafayette,FL,tie,Lafayette,FL
+1353,-2.0,no data,no data,12077,Liberty,FL,tie,Liberty,FL
+1354,-2.0,no data,no data,12079,Madison,FL,tie,Madison,FL
+1355,-2.0,no data,no data,12093,Okeechobee,FL,tie,Okeechobee,FL
+1356,-2.0,no data,no data,12121,Suwannee,FL,tie,Suwannee,FL
+1357,-2.0,no data,no data,12125,Union,FL,tie,Union,FL
+1358,-2.0,no data,no data,12133,Washington,FL,tie,Washington,FL
+1359,-2.0,no data,no data,13001,Appling,GA,tie,Appling,GA
+1360,-2.0,no data,no data,13003,Atkinson,GA,tie,Atkinson,GA
+1361,-2.0,no data,no data,13007,Baker,GA,tie,Baker,GA
+1362,-2.0,no data,no data,13009,Baldwin,GA,tie,Baldwin,GA
+1363,-2.0,no data,no data,13011,Banks,GA,tie,Banks,GA
+1364,-2.0,no data,no data,13017,Ben Hill,GA,tie,Ben Hill,GA
+1365,-2.0,no data,no data,13019,Berrien,GA,tie,Berrien,GA
+1366,-2.0,no data,no data,13023,Bleckley,GA,tie,Bleckley,GA
+1367,-2.0,no data,no data,13025,Brantley,GA,tie,Brantley,GA
+1368,-2.0,no data,no data,13027,Brooks,GA,tie,Brooks,GA
+1369,-2.0,no data,no data,13029,Bryan,GA,tie,Bryan,GA
+1370,-2.0,no data,no data,13033,Burke,GA,tie,Burke,GA
+1371,-2.0,no data,no data,13037,Calhoun,GA,tie,Calhoun,GA
+1372,-2.0,no data,no data,13039,Camden,GA,tie,Camden,GA
+1373,-2.0,no data,no data,13043,Candler,GA,tie,Candler,GA
+1374,-2.0,no data,no data,13045,Carroll,GA,tie,Carroll,GA
+1375,-2.0,no data,no data,13047,Catoosa,GA,tie,Catoosa,GA
+1376,-2.0,no data,no data,13049,Charlton,GA,tie,Charlton,GA
+1377,-2.0,no data,no data,13055,Chattooga,GA,tie,Chattooga,GA
+1378,-2.0,no data,no data,13061,Clay,GA,tie,Clay,GA
+1379,-2.0,no data,no data,13065,Clinch,GA,tie,Clinch,GA
+1380,-2.0,no data,no data,13069,Coffee,GA,tie,Coffee,GA
+1381,-2.0,no data,no data,13071,Colquitt,GA,tie,Colquitt,GA
+1382,-2.0,no data,no data,13073,Columbia,GA,tie,Columbia,GA
+1383,-2.0,no data,no data,13075,Cook,GA,tie,Cook,GA
+1384,-2.0,no data,no data,13081,Crisp,GA,tie,Crisp,GA
+1385,-2.0,no data,no data,13085,Dawson,GA,tie,Dawson,GA
+1386,-2.0,no data,no data,13087,Decatur,GA,tie,Decatur,GA
+1387,-2.0,no data,no data,13091,Dodge,GA,tie,Dodge,GA
+1388,-2.0,no data,no data,13093,Dooly,GA,tie,Dooly,GA
+1389,-2.0,no data,no data,13099,Early,GA,tie,Early,GA
+1390,-2.0,no data,no data,13101,Echols,GA,tie,Echols,GA
+1391,-2.0,no data,no data,13103,Effingham,GA,tie,Effingham,GA
+1392,-2.0,no data,no data,13105,Elbert,GA,tie,Elbert,GA
+1393,-2.0,no data,no data,13107,Emanuel,GA,tie,Emanuel,GA
+1394,-2.0,no data,no data,13109,Evans,GA,tie,Evans,GA
+1395,-2.0,no data,no data,13125,Glascock,GA,tie,Glascock,GA
+1396,-2.0,no data,no data,13131,Grady,GA,tie,Grady,GA
+1397,-2.0,no data,no data,13133,Greene,GA,tie,Greene,GA
+1398,-2.0,no data,no data,13137,Habersham,GA,tie,Habersham,GA
+1399,-2.0,no data,no data,13141,Hancock,GA,tie,Hancock,GA
+1400,-2.0,no data,no data,13143,Haralson,GA,tie,Haralson,GA
+1401,-2.0,no data,no data,13145,Harris,GA,tie,Harris,GA
+1402,-2.0,no data,no data,13149,Heard,GA,tie,Heard,GA
+1403,-2.0,no data,no data,13155,Irwin,GA,tie,Irwin,GA
+1404,-2.0,no data,no data,13159,Jasper,GA,tie,Jasper,GA
+1405,-2.0,no data,no data,13161,Jeff Davis,GA,tie,Jeff Davis,GA
+1406,-2.0,no data,no data,13163,Jefferson,GA,tie,Jefferson,GA
+1407,-2.0,no data,no data,13165,Jenkins,GA,tie,Jenkins,GA
+1408,-2.0,no data,no data,13167,Johnson,GA,tie,Johnson,GA
+1409,-2.0,no data,no data,13173,Lanier,GA,tie,Lanier,GA
+1410,-2.0,no data,no data,13177,Lee,GA,tie,Lee,GA
+1411,-2.0,no data,no data,13181,Lincoln,GA,tie,Lincoln,GA
+1412,-2.0,no data,no data,13183,Long,GA,tie,Long,GA
+1413,-2.0,no data,no data,13189,McDuffie,GA,tie,McDuffie,GA
+1414,-2.0,no data,no data,13191,McIntosh,GA,tie,McIntosh,GA
+1415,-2.0,no data,no data,13193,Macon,GA,tie,Macon,GA
+1416,-2.0,no data,no data,13195,Madison,GA,tie,Madison,GA
+1417,-2.0,no data,no data,13197,Marion,GA,tie,Marion,GA
+1418,-2.0,no data,no data,13199,Meriwether,GA,tie,Meriwether,GA
+1419,-2.0,no data,no data,13201,Miller,GA,tie,Miller,GA
+1420,-2.0,no data,no data,13205,Mitchell,GA,tie,Mitchell,GA
+1421,-2.0,no data,no data,13207,Monroe,GA,tie,Monroe,GA
+1422,-2.0,no data,no data,13209,Montgomery,GA,tie,Montgomery,GA
+1423,-2.0,no data,no data,13213,Murray,GA,tie,Murray,GA
+1424,-2.0,no data,no data,13221,Oglethorpe,GA,tie,Oglethorpe,GA
+1425,-2.0,no data,no data,13225,Peach,GA,tie,Peach,GA
+1426,-2.0,no data,no data,13229,Pierce,GA,tie,Pierce,GA
+1427,-2.0,no data,no data,13231,Pike,GA,tie,Pike,GA
+1428,-2.0,no data,no data,13237,Putnam,GA,tie,Putnam,GA
+1429,-2.0,no data,no data,13239,Quitman,GA,tie,Quitman,GA
+1430,-2.0,no data,no data,13241,Rabun,GA,tie,Rabun,GA
+1431,-2.0,no data,no data,13243,Randolph,GA,tie,Randolph,GA
+1432,-2.0,no data,no data,13249,Schley,GA,tie,Schley,GA
+1433,-2.0,no data,no data,13251,Screven,GA,tie,Screven,GA
+1434,-2.0,no data,no data,13253,Seminole,GA,tie,Seminole,GA
+1435,-2.0,no data,no data,13255,Spalding,GA,tie,Spalding,GA
+1436,-2.0,no data,no data,13257,Stephens,GA,tie,Stephens,GA
+1437,-2.0,no data,no data,13259,Stewart,GA,tie,Stewart,GA
+1438,-2.0,no data,no data,13263,Talbot,GA,tie,Talbot,GA
+1439,-2.0,no data,no data,13265,Taliaferro,GA,tie,Taliaferro,GA
+1440,-2.0,no data,no data,13267,Tattnall,GA,tie,Tattnall,GA
+1441,-2.0,no data,no data,13269,Taylor,GA,tie,Taylor,GA
+1442,-2.0,no data,no data,13275,Thomas,GA,tie,Thomas,GA
+1443,-2.0,no data,no data,13279,Toombs,GA,tie,Toombs,GA
+1444,-2.0,no data,no data,13281,Towns,GA,tie,Towns,GA
+1445,-2.0,no data,no data,13283,Treutlen,GA,tie,Treutlen,GA
+1446,-2.0,no data,no data,13287,Turner,GA,tie,Turner,GA
+1447,-2.0,no data,no data,13289,Twiggs,GA,tie,Twiggs,GA
+1448,-2.0,no data,no data,13291,Union,GA,tie,Union,GA
+1449,-2.0,no data,no data,13295,Walker,GA,tie,Walker,GA
+1450,-2.0,no data,no data,13297,Walton,GA,tie,Walton,GA
+1451,-2.0,no data,no data,13299,Ware,GA,tie,Ware,GA
+1452,-2.0,no data,no data,13301,Warren,GA,tie,Warren,GA
+1453,-2.0,no data,no data,13303,Washington,GA,tie,Washington,GA
+1454,-2.0,no data,no data,13307,Webster,GA,tie,Webster,GA
+1455,-2.0,no data,no data,13309,Wheeler,GA,tie,Wheeler,GA
+1456,-2.0,no data,no data,13311,White,GA,tie,White,GA
+1457,-2.0,no data,no data,13315,Wilcox,GA,tie,Wilcox,GA
+1458,-2.0,no data,no data,13317,Wilkes,GA,tie,Wilkes,GA
+1459,-2.0,no data,no data,13319,Wilkinson,GA,tie,Wilkinson,GA
+1460,-2.0,no data,no data,13321,Worth,GA,tie,Worth,GA
+1461,-2.0,no data,no data,16003,Adams,ID,tie,Adams,ID
+1462,-2.0,no data,no data,16007,Bear Lake,ID,tie,Bear Lake,ID
+1463,-2.0,no data,no data,16009,Benewah,ID,tie,Benewah,ID
+1464,-2.0,no data,no data,16011,Bingham,ID,tie,Bingham,ID
+1465,-2.0,no data,no data,16013,Blaine,ID,tie,Blaine,ID
+1466,-2.0,no data,no data,16015,Boise,ID,tie,Boise,ID
+1467,-2.0,no data,no data,16021,Boundary,ID,tie,Boundary,ID
+1468,-2.0,no data,no data,16023,Butte,ID,tie,Butte,ID
+1469,-2.0,no data,no data,16025,Camas,ID,tie,Camas,ID
+1470,-2.0,no data,no data,16031,Cassia,ID,tie,Cassia,ID
+1471,-2.0,no data,no data,16033,Clark,ID,tie,Clark,ID
+1472,-2.0,no data,no data,16035,Clearwater,ID,tie,Clearwater,ID
+1473,-2.0,no data,no data,16037,Custer,ID,tie,Custer,ID
+1474,-2.0,no data,no data,16041,Franklin,ID,tie,Franklin,ID
+1475,-2.0,no data,no data,16043,Fremont,ID,tie,Fremont,ID
+1476,-2.0,no data,no data,16045,Gem,ID,tie,Gem,ID
+1477,-2.0,no data,no data,16047,Gooding,ID,tie,Gooding,ID
+1478,-2.0,no data,no data,16049,Idaho,ID,tie,Idaho,ID
+1479,-2.0,no data,no data,16053,Jerome,ID,tie,Jerome,ID
+1480,-2.0,no data,no data,16059,Lemhi,ID,tie,Lemhi,ID
+1481,-2.0,no data,no data,16061,Lewis,ID,tie,Lewis,ID
+1482,-2.0,no data,no data,16063,Lincoln,ID,tie,Lincoln,ID
+1483,-2.0,no data,no data,16065,Madison,ID,tie,Madison,ID
+1484,-2.0,no data,no data,16067,Minidoka,ID,tie,Minidoka,ID
+1485,-2.0,no data,no data,16071,Oneida,ID,tie,Oneida,ID
+1486,-2.0,no data,no data,16073,Owyhee,ID,tie,Owyhee,ID
+1487,-2.0,no data,no data,16077,Power,ID,tie,Power,ID
+1488,-2.0,no data,no data,16079,Shoshone,ID,tie,Shoshone,ID
+1489,-2.0,no data,no data,16081,Teton,ID,tie,Teton,ID
+1490,-2.0,no data,no data,16083,Twin Falls,ID,tie,Twin Falls,ID
+1491,-2.0,no data,no data,16087,Washington,ID,tie,Washington,ID
+1492,-2.0,no data,no data,17001,Adams,IL,tie,Adams,IL
+1493,-2.0,no data,no data,17003,Alexander,IL,tie,Alexander,IL
+1494,-2.0,no data,no data,17005,Bond,IL,tie,Bond,IL
+1495,-2.0,no data,no data,17009,Brown,IL,tie,Brown,IL
+1496,-2.0,no data,no data,17011,Bureau,IL,tie,Bureau,IL
+1497,-2.0,no data,no data,17013,Calhoun,IL,tie,Calhoun,IL
+1498,-2.0,no data,no data,17015,Carroll,IL,tie,Carroll,IL
+1499,-2.0,no data,no data,17017,Cass,IL,tie,Cass,IL
+1500,-2.0,no data,no data,17021,Christian,IL,tie,Christian,IL
+1501,-2.0,no data,no data,17023,Clark,IL,tie,Clark,IL
+1502,-2.0,no data,no data,17025,Clay,IL,tie,Clay,IL
+1503,-2.0,no data,no data,17027,Clinton,IL,tie,Clinton,IL
+1504,-2.0,no data,no data,17033,Crawford,IL,tie,Crawford,IL
+1505,-2.0,no data,no data,17035,Cumberland,IL,tie,Cumberland,IL
+1506,-2.0,no data,no data,17041,Douglas,IL,tie,Douglas,IL
+1507,-2.0,no data,no data,17045,Edgar,IL,tie,Edgar,IL
+1508,-2.0,no data,no data,17047,Edwards,IL,tie,Edwards,IL
+1509,-2.0,no data,no data,17051,Fayette,IL,tie,Fayette,IL
+1510,-2.0,no data,no data,17053,Ford,IL,tie,Ford,IL
+1511,-2.0,no data,no data,17059,Gallatin,IL,tie,Gallatin,IL
+1512,-2.0,no data,no data,17061,Greene,IL,tie,Greene,IL
+1513,-2.0,no data,no data,17067,Hancock,IL,tie,Hancock,IL
+1514,-2.0,no data,no data,17069,Hardin,IL,tie,Hardin,IL
+1515,-2.0,no data,no data,17071,Henderson,IL,tie,Henderson,IL
+1516,-2.0,no data,no data,17079,Jasper,IL,tie,Jasper,IL
+1517,-2.0,no data,no data,17081,Jefferson,IL,tie,Jefferson,IL
+1518,-2.0,no data,no data,17083,Jersey,IL,tie,Jersey,IL
+1519,-2.0,no data,no data,17085,Jo Daviess,IL,tie,Jo Daviess,IL
+1520,-2.0,no data,no data,17087,Johnson,IL,tie,Johnson,IL
+1521,-2.0,no data,no data,17095,Knox,IL,tie,Knox,IL
+1522,-2.0,no data,no data,17099,La Salle,IL,tie,La Salle,IL
+1523,-2.0,no data,no data,17101,Lawrence,IL,tie,Lawrence,IL
+1524,-2.0,no data,no data,17105,Livingston,IL,tie,Livingston,IL
+1525,-2.0,no data,no data,17107,Logan,IL,tie,Logan,IL
+1526,-2.0,no data,no data,17109,McDonough,IL,tie,McDonough,IL
+1527,-2.0,no data,no data,17121,Marion,IL,tie,Marion,IL
+1528,-2.0,no data,no data,17123,Marshall,IL,tie,Marshall,IL
+1529,-2.0,no data,no data,17125,Mason,IL,tie,Mason,IL
+1530,-2.0,no data,no data,17127,Massac,IL,tie,Massac,IL
+1531,-2.0,no data,no data,17129,Menard,IL,tie,Menard,IL
+1532,-2.0,no data,no data,17131,Mercer,IL,tie,Mercer,IL
+1533,-2.0,no data,no data,17133,Monroe,IL,tie,Monroe,IL
+1534,-2.0,no data,no data,17135,Montgomery,IL,tie,Montgomery,IL
+1535,-2.0,no data,no data,17137,Morgan,IL,tie,Morgan,IL
+1536,-2.0,no data,no data,17139,Moultrie,IL,tie,Moultrie,IL
+1537,-2.0,no data,no data,17145,Perry,IL,tie,Perry,IL
+1538,-2.0,no data,no data,17147,Piatt,IL,tie,Piatt,IL
+1539,-2.0,no data,no data,17151,Pope,IL,tie,Pope,IL
+1540,-2.0,no data,no data,17153,Pulaski,IL,tie,Pulaski,IL
+1541,-2.0,no data,no data,17155,Putnam,IL,tie,Putnam,IL
+1542,-2.0,no data,no data,17157,Randolph,IL,tie,Randolph,IL
+1543,-2.0,no data,no data,17165,Saline,IL,tie,Saline,IL
+1544,-2.0,no data,no data,17169,Schuyler,IL,tie,Schuyler,IL
+1545,-2.0,no data,no data,17171,Scott,IL,tie,Scott,IL
+1546,-2.0,no data,no data,17173,Shelby,IL,tie,Shelby,IL
+1547,-2.0,no data,no data,17175,Stark,IL,tie,Stark,IL
+1548,-2.0,no data,no data,17177,Stephenson,IL,tie,Stephenson,IL
+1549,-2.0,no data,no data,17183,Vermilion,IL,tie,Vermilion,IL
+1550,-2.0,no data,no data,17189,Washington,IL,tie,Washington,IL
+1551,-2.0,no data,no data,17191,Wayne,IL,tie,Wayne,IL
+1552,-2.0,no data,no data,17193,White,IL,tie,White,IL
+1553,-2.0,no data,no data,17195,Whiteside,IL,tie,Whiteside,IL
+1554,-2.0,no data,no data,17199,Williamson,IL,tie,Williamson,IL
+1555,-2.0,no data,no data,17203,Woodford,IL,tie,Woodford,IL
+1556,-2.0,no data,no data,18001,Adams,IN,tie,Adams,IN
+1557,-2.0,no data,no data,18007,Benton,IN,tie,Benton,IN
+1558,-2.0,no data,no data,18009,Blackford,IN,tie,Blackford,IN
+1559,-2.0,no data,no data,18013,Brown,IN,tie,Brown,IN
+1560,-2.0,no data,no data,18015,Carroll,IN,tie,Carroll,IN
+1561,-2.0,no data,no data,18017,Cass,IN,tie,Cass,IN
+1562,-2.0,no data,no data,18019,Clark,IN,tie,Clark,IN
+1563,-2.0,no data,no data,18021,Clay,IN,tie,Clay,IN
+1564,-2.0,no data,no data,18023,Clinton,IN,tie,Clinton,IN
+1565,-2.0,no data,no data,18025,Crawford,IN,tie,Crawford,IN
+1566,-2.0,no data,no data,18027,Daviess,IN,tie,Daviess,IN
+1567,-2.0,no data,no data,18031,Decatur,IN,tie,Decatur,IN
+1568,-2.0,no data,no data,18035,Delaware,IN,tie,Delaware,IN
+1569,-2.0,no data,no data,18037,Dubois,IN,tie,Dubois,IN
+1570,-2.0,no data,no data,18039,Elkhart,IN,tie,Elkhart,IN
+1571,-2.0,no data,no data,18041,Fayette,IN,tie,Fayette,IN
+1572,-2.0,no data,no data,18045,Fountain,IN,tie,Fountain,IN
+1573,-2.0,no data,no data,18047,Franklin,IN,tie,Franklin,IN
+1574,-2.0,no data,no data,18049,Fulton,IN,tie,Fulton,IN
+1575,-2.0,no data,no data,18051,Gibson,IN,tie,Gibson,IN
+1576,-2.0,no data,no data,18059,Hancock,IN,tie,Hancock,IN
+1577,-2.0,no data,no data,18061,Harrison,IN,tie,Harrison,IN
+1578,-2.0,no data,no data,18065,Henry,IN,tie,Henry,IN
+1579,-2.0,no data,no data,18069,Huntington,IN,tie,Huntington,IN
+1580,-2.0,no data,no data,18071,Jackson,IN,tie,Jackson,IN
+1581,-2.0,no data,no data,18073,Jasper,IN,tie,Jasper,IN
+1582,-2.0,no data,no data,18075,Jay,IN,tie,Jay,IN
+1583,-2.0,no data,no data,18077,Jefferson,IN,tie,Jefferson,IN
+1584,-2.0,no data,no data,18079,Jennings,IN,tie,Jennings,IN
+1585,-2.0,no data,no data,18083,Knox,IN,tie,Knox,IN
+1586,-2.0,no data,no data,18087,La Grange,IN,tie,La Grange,IN
+1587,-2.0,no data,no data,18095,Madison,IN,tie,Madison,IN
+1588,-2.0,no data,no data,18099,Marshall,IN,tie,Marshall,IN
+1589,-2.0,no data,no data,18101,Martin,IN,tie,Martin,IN
+1590,-2.0,no data,no data,18103,Miami,IN,tie,Miami,IN
+1591,-2.0,no data,no data,18113,Noble,IN,tie,Noble,IN
+1592,-2.0,no data,no data,18115,Ohio,IN,tie,Ohio,IN
+1593,-2.0,no data,no data,18119,Owen,IN,tie,Owen,IN
+1594,-2.0,no data,no data,18123,Perry,IN,tie,Perry,IN
+1595,-2.0,no data,no data,18133,Putnam,IN,tie,Putnam,IN
+1596,-2.0,no data,no data,18135,Randolph,IN,tie,Randolph,IN
+1597,-2.0,no data,no data,18137,Ripley,IN,tie,Ripley,IN
+1598,-2.0,no data,no data,18139,Rush,IN,tie,Rush,IN
+1599,-2.0,no data,no data,18143,Scott,IN,tie,Scott,IN
+1600,-2.0,no data,no data,18147,Spencer,IN,tie,Spencer,IN
+1601,-2.0,no data,no data,18149,Starke,IN,tie,Starke,IN
+1602,-2.0,no data,no data,18153,Sullivan,IN,tie,Sullivan,IN
+1603,-2.0,no data,no data,18155,Switzerland,IN,tie,Switzerland,IN
+1604,-2.0,no data,no data,18159,Tipton,IN,tie,Tipton,IN
+1605,-2.0,no data,no data,18161,Union,IN,tie,Union,IN
+1606,-2.0,no data,no data,18165,Vermillion,IN,tie,Vermillion,IN
+1607,-2.0,no data,no data,18171,Warren,IN,tie,Warren,IN
+1608,-2.0,no data,no data,18175,Washington,IN,tie,Washington,IN
+1609,-2.0,no data,no data,18177,Wayne,IN,tie,Wayne,IN
+1610,-2.0,no data,no data,18179,Wells,IN,tie,Wells,IN
+1611,-2.0,no data,no data,18183,Whitley,IN,tie,Whitley,IN
+1612,-2.0,no data,no data,19001,Adair,IA,tie,Adair,IA
+1613,-2.0,no data,no data,19003,Adams,IA,tie,Adams,IA
+1614,-2.0,no data,no data,19005,Allamakee,IA,tie,Allamakee,IA
+1615,-2.0,no data,no data,19007,Appanoose,IA,tie,Appanoose,IA
+1616,-2.0,no data,no data,19009,Audubon,IA,tie,Audubon,IA
+1617,-2.0,no data,no data,19011,Benton,IA,tie,Benton,IA
+1618,-2.0,no data,no data,19017,Bremer,IA,tie,Bremer,IA
+1619,-2.0,no data,no data,19019,Buchanan,IA,tie,Buchanan,IA
+1620,-2.0,no data,no data,19021,Buena Vista,IA,tie,Buena Vista,IA
+1621,-2.0,no data,no data,19023,Butler,IA,tie,Butler,IA
+1622,-2.0,no data,no data,19025,Calhoun,IA,tie,Calhoun,IA
+1623,-2.0,no data,no data,19027,Carroll,IA,tie,Carroll,IA
+1624,-2.0,no data,no data,19031,Cedar,IA,tie,Cedar,IA
+1625,-2.0,no data,no data,19033,Cerro Gordo,IA,tie,Cerro Gordo,IA
+1626,-2.0,no data,no data,19035,Cherokee,IA,tie,Cherokee,IA
+1627,-2.0,no data,no data,19037,Chickasaw,IA,tie,Chickasaw,IA
+1628,-2.0,no data,no data,19039,Clarke,IA,tie,Clarke,IA
+1629,-2.0,no data,no data,19043,Clayton,IA,tie,Clayton,IA
+1630,-2.0,no data,no data,19045,Clinton,IA,tie,Clinton,IA
+1631,-2.0,no data,no data,19047,Crawford,IA,tie,Crawford,IA
+1632,-2.0,no data,no data,19051,Davis,IA,tie,Davis,IA
+1633,-2.0,no data,no data,19053,Decatur,IA,tie,Decatur,IA
+1634,-2.0,no data,no data,19055,Delaware,IA,tie,Delaware,IA
+1635,-2.0,no data,no data,19061,Dubuque,IA,tie,Dubuque,IA
+1636,-2.0,no data,no data,19063,Emmet,IA,tie,Emmet,IA
+1637,-2.0,no data,no data,19065,Fayette,IA,tie,Fayette,IA
+1638,-2.0,no data,no data,19067,Floyd,IA,tie,Floyd,IA
+1639,-2.0,no data,no data,19069,Franklin,IA,tie,Franklin,IA
+1640,-2.0,no data,no data,19071,Fremont,IA,tie,Fremont,IA
+1641,-2.0,no data,no data,19073,Greene,IA,tie,Greene,IA
+1642,-2.0,no data,no data,19075,Grundy,IA,tie,Grundy,IA
+1643,-2.0,no data,no data,19077,Guthrie,IA,tie,Guthrie,IA
+1644,-2.0,no data,no data,19079,Hamilton,IA,tie,Hamilton,IA
+1645,-2.0,no data,no data,19081,Hancock,IA,tie,Hancock,IA
+1646,-2.0,no data,no data,19083,Hardin,IA,tie,Hardin,IA
+1647,-2.0,no data,no data,19085,Harrison,IA,tie,Harrison,IA
+1648,-2.0,no data,no data,19087,Henry,IA,tie,Henry,IA
+1649,-2.0,no data,no data,19089,Howard,IA,tie,Howard,IA
+1650,-2.0,no data,no data,19091,Humboldt,IA,tie,Humboldt,IA
+1651,-2.0,no data,no data,19093,Ida,IA,tie,Ida,IA
+1652,-2.0,no data,no data,19095,Iowa,IA,tie,Iowa,IA
+1653,-2.0,no data,no data,19097,Jackson,IA,tie,Jackson,IA
+1654,-2.0,no data,no data,19107,Keokuk,IA,tie,Keokuk,IA
+1655,-2.0,no data,no data,19109,Kossuth,IA,tie,Kossuth,IA
+1656,-2.0,no data,no data,19111,Lee,IA,tie,Lee,IA
+1657,-2.0,no data,no data,19115,Louisa,IA,tie,Louisa,IA
+1658,-2.0,no data,no data,19117,Lucas,IA,tie,Lucas,IA
+1659,-2.0,no data,no data,19119,Lyon,IA,tie,Lyon,IA
+1660,-2.0,no data,no data,19121,Madison,IA,tie,Madison,IA
+1661,-2.0,no data,no data,19123,Mahaska,IA,tie,Mahaska,IA
+1662,-2.0,no data,no data,19129,Mills,IA,tie,Mills,IA
+1663,-2.0,no data,no data,19131,Mitchell,IA,tie,Mitchell,IA
+1664,-2.0,no data,no data,19133,Monona,IA,tie,Monona,IA
+1665,-2.0,no data,no data,19135,Monroe,IA,tie,Monroe,IA
+1666,-2.0,no data,no data,19137,Montgomery,IA,tie,Montgomery,IA
+1667,-2.0,no data,no data,19139,Muscatine,IA,tie,Muscatine,IA
+1668,-2.0,no data,no data,19141,O Brien,IA,tie,O Brien,IA
+1669,-2.0,no data,no data,19143,Osceola,IA,tie,Osceola,IA
+1670,-2.0,no data,no data,19145,Page,IA,tie,Page,IA
+1671,-2.0,no data,no data,19147,Palo Alto,IA,tie,Palo Alto,IA
+1672,-2.0,no data,no data,19149,Plymouth,IA,tie,Plymouth,IA
+1673,-2.0,no data,no data,19151,Pocahontas,IA,tie,Pocahontas,IA
+1674,-2.0,no data,no data,19157,Poweshiek,IA,tie,Poweshiek,IA
+1675,-2.0,no data,no data,19159,Ringgold,IA,tie,Ringgold,IA
+1676,-2.0,no data,no data,19161,Sac,IA,tie,Sac,IA
+1677,-2.0,no data,no data,19165,Shelby,IA,tie,Shelby,IA
+1678,-2.0,no data,no data,19167,Sioux,IA,tie,Sioux,IA
+1679,-2.0,no data,no data,19171,Tama,IA,tie,Tama,IA
+1680,-2.0,no data,no data,19173,Taylor,IA,tie,Taylor,IA
+1681,-2.0,no data,no data,19175,Union,IA,tie,Union,IA
+1682,-2.0,no data,no data,19177,Van Buren,IA,tie,Van Buren,IA
+1683,-2.0,no data,no data,19179,Wapello,IA,tie,Wapello,IA
+1684,-2.0,no data,no data,19183,Washington,IA,tie,Washington,IA
+1685,-2.0,no data,no data,19185,Wayne,IA,tie,Wayne,IA
+1686,-2.0,no data,no data,19187,Webster,IA,tie,Webster,IA
+1687,-2.0,no data,no data,19189,Winnebago,IA,tie,Winnebago,IA
+1688,-2.0,no data,no data,19195,Worth,IA,tie,Worth,IA
+1689,-2.0,no data,no data,19197,Wright,IA,tie,Wright,IA
+1690,-2.0,no data,no data,20001,Allen,KS,tie,Allen,KS
+1691,-2.0,no data,no data,20003,Anderson,KS,tie,Anderson,KS
+1692,-2.0,no data,no data,20005,Atchison,KS,tie,Atchison,KS
+1693,-2.0,no data,no data,20007,Barber,KS,tie,Barber,KS
+1694,-2.0,no data,no data,20009,Barton,KS,tie,Barton,KS
+1695,-2.0,no data,no data,20011,Bourbon,KS,tie,Bourbon,KS
+1696,-2.0,no data,no data,20013,Brown,KS,tie,Brown,KS
+1697,-2.0,no data,no data,20017,Chase,KS,tie,Chase,KS
+1698,-2.0,no data,no data,20019,Chautauqua,KS,tie,Chautauqua,KS
+1699,-2.0,no data,no data,20021,Cherokee,KS,tie,Cherokee,KS
+1700,-2.0,no data,no data,20023,Cheyenne,KS,tie,Cheyenne,KS
+1701,-2.0,no data,no data,20025,Clark,KS,tie,Clark,KS
+1702,-2.0,no data,no data,20027,Clay,KS,tie,Clay,KS
+1703,-2.0,no data,no data,20029,Cloud,KS,tie,Cloud,KS
+1704,-2.0,no data,no data,20031,Coffey,KS,tie,Coffey,KS
+1705,-2.0,no data,no data,20033,Comanche,KS,tie,Comanche,KS
+1706,-2.0,no data,no data,20039,Decatur,KS,tie,Decatur,KS
+1707,-2.0,no data,no data,20041,Dickinson,KS,tie,Dickinson,KS
+1708,-2.0,no data,no data,20043,Doniphan,KS,tie,Doniphan,KS
+1709,-2.0,no data,no data,20047,Edwards,KS,tie,Edwards,KS
+1710,-2.0,no data,no data,20049,Elk,KS,tie,Elk,KS
+1711,-2.0,no data,no data,20051,Ellis,KS,tie,Ellis,KS
+1712,-2.0,no data,no data,20053,Ellsworth,KS,tie,Ellsworth,KS
+1713,-2.0,no data,no data,20055,Finney,KS,tie,Finney,KS
+1714,-2.0,no data,no data,20057,Ford,KS,tie,Ford,KS
+1715,-2.0,no data,no data,20059,Franklin,KS,tie,Franklin,KS
+1716,-2.0,no data,no data,20061,Geary,KS,tie,Geary,KS
+1717,-2.0,no data,no data,20063,Gove,KS,tie,Gove,KS
+1718,-2.0,no data,no data,20065,Graham,KS,tie,Graham,KS
+1719,-2.0,no data,no data,20067,Grant,KS,tie,Grant,KS
+1720,-2.0,no data,no data,20069,Gray,KS,tie,Gray,KS
+1721,-2.0,no data,no data,20071,Greeley,KS,tie,Greeley,KS
+1722,-2.0,no data,no data,20073,Greenwood,KS,tie,Greenwood,KS
+1723,-2.0,no data,no data,20075,Hamilton,KS,tie,Hamilton,KS
+1724,-2.0,no data,no data,20077,Harper,KS,tie,Harper,KS
+1725,-2.0,no data,no data,20081,Haskell,KS,tie,Haskell,KS
+1726,-2.0,no data,no data,20083,Hodgeman,KS,tie,Hodgeman,KS
+1727,-2.0,no data,no data,20087,Jefferson,KS,tie,Jefferson,KS
+1728,-2.0,no data,no data,20089,Jewell,KS,tie,Jewell,KS
+1729,-2.0,no data,no data,20093,Kearny,KS,tie,Kearny,KS
+1730,-2.0,no data,no data,20095,Kingman,KS,tie,Kingman,KS
+1731,-2.0,no data,no data,20097,Kiowa,KS,tie,Kiowa,KS
+1732,-2.0,no data,no data,20099,Labette,KS,tie,Labette,KS
+1733,-2.0,no data,no data,20101,Lane,KS,tie,Lane,KS
+1734,-2.0,no data,no data,20103,Leavenworth,KS,tie,Leavenworth,KS
+1735,-2.0,no data,no data,20105,Lincoln,KS,tie,Lincoln,KS
+1736,-2.0,no data,no data,20107,Linn,KS,tie,Linn,KS
+1737,-2.0,no data,no data,20109,Logan,KS,tie,Logan,KS
+1738,-2.0,no data,no data,20111,Lyon,KS,tie,Lyon,KS
+1739,-2.0,no data,no data,20117,Marshall,KS,tie,Marshall,KS
+1740,-2.0,no data,no data,20119,Meade,KS,tie,Meade,KS
+1741,-2.0,no data,no data,20121,Miami,KS,tie,Miami,KS
+1742,-2.0,no data,no data,20123,Mitchell,KS,tie,Mitchell,KS
+1743,-2.0,no data,no data,20125,Montgomery,KS,tie,Montgomery,KS
+1744,-2.0,no data,no data,20127,Morris,KS,tie,Morris,KS
+1745,-2.0,no data,no data,20129,Morton,KS,tie,Morton,KS
+1746,-2.0,no data,no data,20131,Nemaha,KS,tie,Nemaha,KS
+1747,-2.0,no data,no data,20133,Neosho,KS,tie,Neosho,KS
+1748,-2.0,no data,no data,20135,Ness,KS,tie,Ness,KS
+1749,-2.0,no data,no data,20139,Osage,KS,tie,Osage,KS
+1750,-2.0,no data,no data,20141,Osborne,KS,tie,Osborne,KS
+1751,-2.0,no data,no data,20143,Ottawa,KS,tie,Ottawa,KS
+1752,-2.0,no data,no data,20145,Pawnee,KS,tie,Pawnee,KS
+1753,-2.0,no data,no data,20147,Phillips,KS,tie,Phillips,KS
+1754,-2.0,no data,no data,20151,Pratt,KS,tie,Pratt,KS
+1755,-2.0,no data,no data,20153,Rawlins,KS,tie,Rawlins,KS
+1756,-2.0,no data,no data,20155,Reno,KS,tie,Reno,KS
+1757,-2.0,no data,no data,20157,Republic,KS,tie,Republic,KS
+1758,-2.0,no data,no data,20163,Rooks,KS,tie,Rooks,KS
+1759,-2.0,no data,no data,20165,Rush,KS,tie,Rush,KS
+1760,-2.0,no data,no data,20167,Russell,KS,tie,Russell,KS
+1761,-2.0,no data,no data,20169,Saline,KS,tie,Saline,KS
+1762,-2.0,no data,no data,20171,Scott,KS,tie,Scott,KS
+1763,-2.0,no data,no data,20175,Seward,KS,tie,Seward,KS
+1764,-2.0,no data,no data,20179,Sheridan,KS,tie,Sheridan,KS
+1765,-2.0,no data,no data,20181,Sherman,KS,tie,Sherman,KS
+1766,-2.0,no data,no data,20183,Smith,KS,tie,Smith,KS
+1767,-2.0,no data,no data,20185,Stafford,KS,tie,Stafford,KS
+1768,-2.0,no data,no data,20187,Stanton,KS,tie,Stanton,KS
+1769,-2.0,no data,no data,20189,Stevens,KS,tie,Stevens,KS
+1770,-2.0,no data,no data,20191,Sumner,KS,tie,Sumner,KS
+1771,-2.0,no data,no data,20193,Thomas,KS,tie,Thomas,KS
+1772,-2.0,no data,no data,20195,Trego,KS,tie,Trego,KS
+1773,-2.0,no data,no data,20197,Wabaunsee,KS,tie,Wabaunsee,KS
+1774,-2.0,no data,no data,20199,Wallace,KS,tie,Wallace,KS
+1775,-2.0,no data,no data,20201,Washington,KS,tie,Washington,KS
+1776,-2.0,no data,no data,20203,Wichita,KS,tie,Wichita,KS
+1777,-2.0,no data,no data,20205,Wilson,KS,tie,Wilson,KS
+1778,-2.0,no data,no data,20207,Woodson,KS,tie,Woodson,KS
+1779,-2.0,no data,no data,21001,Adair,KY,tie,Adair,KY
+1780,-2.0,no data,no data,21003,Allen,KY,tie,Allen,KY
+1781,-2.0,no data,no data,21005,Anderson,KY,tie,Anderson,KY
+1782,-2.0,no data,no data,21007,Ballard,KY,tie,Ballard,KY
+1783,-2.0,no data,no data,21009,Barren,KY,tie,Barren,KY
+1784,-2.0,no data,no data,21011,Bath,KY,tie,Bath,KY
+1785,-2.0,no data,no data,21013,Bell,KY,tie,Bell,KY
+1786,-2.0,no data,no data,21017,Bourbon,KY,tie,Bourbon,KY
+1787,-2.0,no data,no data,21023,Bracken,KY,tie,Bracken,KY
+1788,-2.0,no data,no data,21025,Breathitt,KY,tie,Breathitt,KY
+1789,-2.0,no data,no data,21027,Breckinridge,KY,tie,Breckinridge,KY
+1790,-2.0,no data,no data,21031,Butler,KY,tie,Butler,KY
+1791,-2.0,no data,no data,21033,Caldwell,KY,tie,Caldwell,KY
+1792,-2.0,no data,no data,21039,Carlisle,KY,tie,Carlisle,KY
+1793,-2.0,no data,no data,21041,Carroll,KY,tie,Carroll,KY
+1794,-2.0,no data,no data,21043,Carter,KY,tie,Carter,KY
+1795,-2.0,no data,no data,21047,Christian,KY,tie,Christian,KY
+1796,-2.0,no data,no data,21051,Clay,KY,tie,Clay,KY
+1797,-2.0,no data,no data,21053,Clinton,KY,tie,Clinton,KY
+1798,-2.0,no data,no data,21055,Crittenden,KY,tie,Crittenden,KY
+1799,-2.0,no data,no data,21057,Cumberland,KY,tie,Cumberland,KY
+1800,-2.0,no data,no data,21061,Edmonson,KY,tie,Edmonson,KY
+1801,-2.0,no data,no data,21063,Elliott,KY,tie,Elliott,KY
+1802,-2.0,no data,no data,21065,Estill,KY,tie,Estill,KY
+1803,-2.0,no data,no data,21069,Fleming,KY,tie,Fleming,KY
+1804,-2.0,no data,no data,21071,Floyd,KY,tie,Floyd,KY
+1805,-2.0,no data,no data,21075,Fulton,KY,tie,Fulton,KY
+1806,-2.0,no data,no data,21077,Gallatin,KY,tie,Gallatin,KY
+1807,-2.0,no data,no data,21081,Grant,KY,tie,Grant,KY
+1808,-2.0,no data,no data,21083,Graves,KY,tie,Graves,KY
+1809,-2.0,no data,no data,21085,Grayson,KY,tie,Grayson,KY
+1810,-2.0,no data,no data,21087,Green,KY,tie,Green,KY
+1811,-2.0,no data,no data,21089,Greenup,KY,tie,Greenup,KY
+1812,-2.0,no data,no data,21091,Hancock,KY,tie,Hancock,KY
+1813,-2.0,no data,no data,21093,Hardin,KY,tie,Hardin,KY
+1814,-2.0,no data,no data,21095,Harlan,KY,tie,Harlan,KY
+1815,-2.0,no data,no data,21099,Hart,KY,tie,Hart,KY
+1816,-2.0,no data,no data,21103,Henry,KY,tie,Henry,KY
+1817,-2.0,no data,no data,21105,Hickman,KY,tie,Hickman,KY
+1818,-2.0,no data,no data,21109,Jackson,KY,tie,Jackson,KY
+1819,-2.0,no data,no data,21119,Knott,KY,tie,Knott,KY
+1820,-2.0,no data,no data,21121,Knox,KY,tie,Knox,KY
+1821,-2.0,no data,no data,21123,Larue,KY,tie,Larue,KY
+1822,-2.0,no data,no data,21127,Lawrence,KY,tie,Lawrence,KY
+1823,-2.0,no data,no data,21129,Lee,KY,tie,Lee,KY
+1824,-2.0,no data,no data,21131,Leslie,KY,tie,Leslie,KY
+1825,-2.0,no data,no data,21133,Letcher,KY,tie,Letcher,KY
+1826,-2.0,no data,no data,21135,Lewis,KY,tie,Lewis,KY
+1827,-2.0,no data,no data,21137,Lincoln,KY,tie,Lincoln,KY
+1828,-2.0,no data,no data,21139,Livingston,KY,tie,Livingston,KY
+1829,-2.0,no data,no data,21141,Logan,KY,tie,Logan,KY
+1830,-2.0,no data,no data,21143,Lyon,KY,tie,Lyon,KY
+1831,-2.0,no data,no data,21147,McCreary,KY,tie,McCreary,KY
+1832,-2.0,no data,no data,21149,McLean,KY,tie,McLean,KY
+1833,-2.0,no data,no data,21153,Magoffin,KY,tie,Magoffin,KY
+1834,-2.0,no data,no data,21155,Marion,KY,tie,Marion,KY
+1835,-2.0,no data,no data,21157,Marshall,KY,tie,Marshall,KY
+1836,-2.0,no data,no data,21159,Martin,KY,tie,Martin,KY
+1837,-2.0,no data,no data,21161,Mason,KY,tie,Mason,KY
+1838,-2.0,no data,no data,21163,Meade,KY,tie,Meade,KY
+1839,-2.0,no data,no data,21165,Menifee,KY,tie,Menifee,KY
+1840,-2.0,no data,no data,21167,Mercer,KY,tie,Mercer,KY
+1841,-2.0,no data,no data,21169,Metcalfe,KY,tie,Metcalfe,KY
+1842,-2.0,no data,no data,21171,Monroe,KY,tie,Monroe,KY
+1843,-2.0,no data,no data,21173,Montgomery,KY,tie,Montgomery,KY
+1844,-2.0,no data,no data,21175,Morgan,KY,tie,Morgan,KY
+1845,-2.0,no data,no data,21177,Muhlenberg,KY,tie,Muhlenberg,KY
+1846,-2.0,no data,no data,21181,Nicholas,KY,tie,Nicholas,KY
+1847,-2.0,no data,no data,21185,Oldham,KY,tie,Oldham,KY
+1848,-2.0,no data,no data,21187,Owen,KY,tie,Owen,KY
+1849,-2.0,no data,no data,21189,Owsley,KY,tie,Owsley,KY
+1850,-2.0,no data,no data,21191,Pendleton,KY,tie,Pendleton,KY
+1851,-2.0,no data,no data,21193,Perry,KY,tie,Perry,KY
+1852,-2.0,no data,no data,21195,Pike,KY,tie,Pike,KY
+1853,-2.0,no data,no data,21197,Powell,KY,tie,Powell,KY
+1854,-2.0,no data,no data,21199,Pulaski,KY,tie,Pulaski,KY
+1855,-2.0,no data,no data,21201,Robertson,KY,tie,Robertson,KY
+1856,-2.0,no data,no data,21203,Rockcastle,KY,tie,Rockcastle,KY
+1857,-2.0,no data,no data,21207,Russell,KY,tie,Russell,KY
+1858,-2.0,no data,no data,21211,Shelby,KY,tie,Shelby,KY
+1859,-2.0,no data,no data,21213,Simpson,KY,tie,Simpson,KY
+1860,-2.0,no data,no data,21215,Spencer,KY,tie,Spencer,KY
+1861,-2.0,no data,no data,21217,Taylor,KY,tie,Taylor,KY
+1862,-2.0,no data,no data,21219,Todd,KY,tie,Todd,KY
+1863,-2.0,no data,no data,21221,Trigg,KY,tie,Trigg,KY
+1864,-2.0,no data,no data,21223,Trimble,KY,tie,Trimble,KY
+1865,-2.0,no data,no data,21225,Union,KY,tie,Union,KY
+1866,-2.0,no data,no data,21233,Webster,KY,tie,Webster,KY
+1867,-2.0,no data,no data,21237,Wolfe,KY,tie,Wolfe,KY
+1868,-2.0,no data,no data,21239,Woodford,KY,tie,Woodford,KY
+1869,-2.0,no data,no data,22001,Acadia,LA,tie,Acadia,LA
+1870,-2.0,no data,no data,22003,Allen,LA,tie,Allen,LA
+1871,-2.0,no data,no data,22011,Beauregard,LA,tie,Beauregard,LA
+1872,-2.0,no data,no data,22013,Bienville,LA,tie,Bienville,LA
+1873,-2.0,no data,no data,22021,Caldwell,LA,tie,Caldwell,LA
+1874,-2.0,no data,no data,22023,Cameron,LA,tie,Cameron,LA
+1875,-2.0,no data,no data,22025,Catahoula,LA,tie,Catahoula,LA
+1876,-2.0,no data,no data,22027,Claiborne,LA,tie,Claiborne,LA
+1877,-2.0,no data,no data,22029,Concordia,LA,tie,Concordia,LA
+1878,-2.0,no data,no data,22031,De Soto,LA,tie,De Soto,LA
+1879,-2.0,no data,no data,22035,East Carroll,LA,tie,East Carroll,LA
+1880,-2.0,no data,no data,22037,East Feliciana,LA,tie,East Feliciana,LA
+1881,-2.0,no data,no data,22039,Evangeline,LA,tie,Evangeline,LA
+1882,-2.0,no data,no data,22041,Franklin,LA,tie,Franklin,LA
+1883,-2.0,no data,no data,22043,Grant,LA,tie,Grant,LA
+1884,-2.0,no data,no data,22045,Iberia,LA,tie,Iberia,LA
+1885,-2.0,no data,no data,22047,Iberville,LA,tie,Iberville,LA
+1886,-2.0,no data,no data,22049,Jackson,LA,tie,Jackson,LA
+1887,-2.0,no data,no data,22053,Jefferson Davis,LA,tie,Jefferson Davis,LA
+1888,-2.0,no data,no data,22057,Lafourche,LA,tie,Lafourche,LA
+1889,-2.0,no data,no data,22059,La Salle,LA,tie,La Salle,LA
+1890,-2.0,no data,no data,22061,Lincoln,LA,tie,Lincoln,LA
+1891,-2.0,no data,no data,22063,Livingston,LA,tie,Livingston,LA
+1892,-2.0,no data,no data,22065,Madison,LA,tie,Madison,LA
+1893,-2.0,no data,no data,22067,Morehouse,LA,tie,Morehouse,LA
+1894,-2.0,no data,no data,22069,Natchitoches,LA,tie,Natchitoches,LA
+1895,-2.0,no data,no data,22077,Pointe Coupee,LA,tie,Pointe Coupee,LA
+1896,-2.0,no data,no data,22081,Red River,LA,tie,Red River,LA
+1897,-2.0,no data,no data,22083,Richland,LA,tie,Richland,LA
+1898,-2.0,no data,no data,22085,Sabine,LA,tie,Sabine,LA
+1899,-2.0,no data,no data,22087,St Bernard,LA,tie,St Bernard,LA
+1900,-2.0,no data,no data,22091,St Helena,LA,tie,St Helena,LA
+1901,-2.0,no data,no data,22093,St James,LA,tie,St James,LA
+1902,-2.0,no data,no data,22095,St John the Baptist,LA,tie,St John the Baptist,LA
+1903,-2.0,no data,no data,22099,St Martin,LA,tie,St Martin,LA
+1904,-2.0,no data,no data,22101,St Mary,LA,tie,St Mary,LA
+1905,-2.0,no data,no data,22105,Tangipahoa,LA,tie,Tangipahoa,LA
+1906,-2.0,no data,no data,22107,Tensas,LA,tie,Tensas,LA
+1907,-2.0,no data,no data,22111,Union,LA,tie,Union,LA
+1908,-2.0,no data,no data,22115,Vernon,LA,tie,Vernon,LA
+1909,-2.0,no data,no data,22119,Webster,LA,tie,Webster,LA
+1910,-2.0,no data,no data,22121,West Baton Rouge,LA,tie,West Baton Rouge,LA
+1911,-2.0,no data,no data,22123,West Carroll,LA,tie,West Carroll,LA
+1912,-2.0,no data,no data,22125,West Feliciana,LA,tie,West Feliciana,LA
+1913,-2.0,no data,no data,22127,Winn,LA,tie,Winn,LA
+1914,-2.0,no data,no data,23003,Aroostook,ME,tie,Aroostook,ME
+1915,-2.0,no data,no data,23007,Franklin,ME,tie,Franklin,ME
+1916,-2.0,no data,no data,23009,Hancock,ME,tie,Hancock,ME
+1917,-2.0,no data,no data,23017,Oxford,ME,tie,Oxford,ME
+1918,-2.0,no data,no data,23023,Sagadahoc,ME,tie,Sagadahoc,ME
+1919,-2.0,no data,no data,23029,Washington,ME,tie,Washington,ME
+1920,-2.0,no data,no data,24023,Garrett,MD,tie,Garrett,MD
+1921,-2.0,no data,no data,24039,Somerset,MD,tie,Somerset,MD
+1922,-2.0,no data,no data,24041,Talbot,MD,tie,Talbot,MD
+1923,-2.0,no data,no data,25007,Dukes,MA,tie,Dukes,MA
+1924,-2.0,no data,no data,26001,Alcona,MI,tie,Alcona,MI
+1925,-2.0,no data,no data,26003,Alger,MI,tie,Alger,MI
+1926,-2.0,no data,no data,26005,Allegan,MI,tie,Allegan,MI
+1927,-2.0,no data,no data,26009,Antrim,MI,tie,Antrim,MI
+1928,-2.0,no data,no data,26011,Arenac,MI,tie,Arenac,MI
+1929,-2.0,no data,no data,26013,Baraga,MI,tie,Baraga,MI
+1930,-2.0,no data,no data,26019,Benzie,MI,tie,Benzie,MI
+1931,-2.0,no data,no data,26021,Berrien,MI,tie,Berrien,MI
+1932,-2.0,no data,no data,26029,Charlevoix,MI,tie,Charlevoix,MI
+1933,-2.0,no data,no data,26033,Chippewa,MI,tie,Chippewa,MI
+1934,-2.0,no data,no data,26035,Clare,MI,tie,Clare,MI
+1935,-2.0,no data,no data,26041,Delta,MI,tie,Delta,MI
+1936,-2.0,no data,no data,26043,Dickinson,MI,tie,Dickinson,MI
+1937,-2.0,no data,no data,26047,Emmet,MI,tie,Emmet,MI
+1938,-2.0,no data,no data,26051,Gladwin,MI,tie,Gladwin,MI
+1939,-2.0,no data,no data,26053,Gogebic,MI,tie,Gogebic,MI
+1940,-2.0,no data,no data,26057,Gratiot,MI,tie,Gratiot,MI
+1941,-2.0,no data,no data,26061,Houghton,MI,tie,Houghton,MI
+1942,-2.0,no data,no data,26063,Huron,MI,tie,Huron,MI
+1943,-2.0,no data,no data,26067,Ionia,MI,tie,Ionia,MI
+1944,-2.0,no data,no data,26069,Iosco,MI,tie,Iosco,MI
+1945,-2.0,no data,no data,26071,Iron,MI,tie,Iron,MI
+1946,-2.0,no data,no data,26079,Kalkaska,MI,tie,Kalkaska,MI
+1947,-2.0,no data,no data,26083,Keweenaw,MI,tie,Keweenaw,MI
+1948,-2.0,no data,no data,26085,Lake,MI,tie,Lake,MI
+1949,-2.0,no data,no data,26087,Lapeer,MI,tie,Lapeer,MI
+1950,-2.0,no data,no data,26089,Leelanau,MI,tie,Leelanau,MI
+1951,-2.0,no data,no data,26095,Luce,MI,tie,Luce,MI
+1952,-2.0,no data,no data,26097,Mackinac,MI,tie,Mackinac,MI
+1953,-2.0,no data,no data,26109,Menominee,MI,tie,Menominee,MI
+1954,-2.0,no data,no data,26117,Montcalm,MI,tie,Montcalm,MI
+1955,-2.0,no data,no data,26119,Montmorency,MI,tie,Montmorency,MI
+1956,-2.0,no data,no data,26121,Muskegon,MI,tie,Muskegon,MI
+1957,-2.0,no data,no data,26123,Newaygo,MI,tie,Newaygo,MI
+1958,-2.0,no data,no data,26127,Oceana,MI,tie,Oceana,MI
+1959,-2.0,no data,no data,26129,Ogemaw,MI,tie,Ogemaw,MI
+1960,-2.0,no data,no data,26131,Ontonagon,MI,tie,Ontonagon,MI
+1961,-2.0,no data,no data,26133,Osceola,MI,tie,Osceola,MI
+1962,-2.0,no data,no data,26135,Oscoda,MI,tie,Oscoda,MI
+1963,-2.0,no data,no data,26141,Presque Isle,MI,tie,Presque Isle,MI
+1964,-2.0,no data,no data,26143,Roscommon,MI,tie,Roscommon,MI
+1965,-2.0,no data,no data,26149,St Joseph,MI,tie,St Joseph,MI
+1966,-2.0,no data,no data,26155,Shiawassee,MI,tie,Shiawassee,MI
+1967,-2.0,no data,no data,26157,Tuscola,MI,tie,Tuscola,MI
+1968,-2.0,no data,no data,26159,Van Buren,MI,tie,Van Buren,MI
+1969,-2.0,no data,no data,27001,Aitkin,MN,tie,Aitkin,MN
+1970,-2.0,no data,no data,27011,Big Stone,MN,tie,Big Stone,MN
+1971,-2.0,no data,no data,27015,Brown,MN,tie,Brown,MN
+1972,-2.0,no data,no data,27017,Carlton,MN,tie,Carlton,MN
+1973,-2.0,no data,no data,27021,Cass,MN,tie,Cass,MN
+1974,-2.0,no data,no data,27023,Chippewa,MN,tie,Chippewa,MN
+1975,-2.0,no data,no data,27025,Chisago,MN,tie,Chisago,MN
+1976,-2.0,no data,no data,27029,Clearwater,MN,tie,Clearwater,MN
+1977,-2.0,no data,no data,27031,Cook,MN,tie,Cook,MN
+1978,-2.0,no data,no data,27033,Cottonwood,MN,tie,Cottonwood,MN
+1979,-2.0,no data,no data,27039,Dodge,MN,tie,Dodge,MN
+1980,-2.0,no data,no data,27041,Douglas,MN,tie,Douglas,MN
+1981,-2.0,no data,no data,27043,Faribault,MN,tie,Faribault,MN
+1982,-2.0,no data,no data,27047,Freeborn,MN,tie,Freeborn,MN
+1983,-2.0,no data,no data,27049,Goodhue,MN,tie,Goodhue,MN
+1984,-2.0,no data,no data,27051,Grant,MN,tie,Grant,MN
+1985,-2.0,no data,no data,27057,Hubbard,MN,tie,Hubbard,MN
+1986,-2.0,no data,no data,27059,Isanti,MN,tie,Isanti,MN
+1987,-2.0,no data,no data,27065,Kanabec,MN,tie,Kanabec,MN
+1988,-2.0,no data,no data,27067,Kandiyohi,MN,tie,Kandiyohi,MN
+1989,-2.0,no data,no data,27069,Kittson,MN,tie,Kittson,MN
+1990,-2.0,no data,no data,27071,Koochiching,MN,tie,Koochiching,MN
+1991,-2.0,no data,no data,27073,Lac qui Parle,MN,tie,Lac qui Parle,MN
+1992,-2.0,no data,no data,27075,Lake,MN,tie,Lake,MN
+1993,-2.0,no data,no data,27077,Lake of the Woods,MN,tie,Lake of the Woods,MN
+1994,-2.0,no data,no data,27081,Lincoln,MN,tie,Lincoln,MN
+1995,-2.0,no data,no data,27083,Lyon,MN,tie,Lyon,MN
+1996,-2.0,no data,no data,27085,McLeod,MN,tie,McLeod,MN
+1997,-2.0,no data,no data,27087,Mahnomen,MN,tie,Mahnomen,MN
+1998,-2.0,no data,no data,27089,Marshall,MN,tie,Marshall,MN
+1999,-2.0,no data,no data,27093,Meeker,MN,tie,Meeker,MN
+2000,-2.0,no data,no data,27095,Mille Lacs,MN,tie,Mille Lacs,MN
+2001,-2.0,no data,no data,27101,Murray,MN,tie,Murray,MN
+2002,-2.0,no data,no data,27103,Nicollet,MN,tie,Nicollet,MN
+2003,-2.0,no data,no data,27105,Nobles,MN,tie,Nobles,MN
+2004,-2.0,no data,no data,27107,Norman,MN,tie,Norman,MN
+2005,-2.0,no data,no data,27113,Pennington,MN,tie,Pennington,MN
+2006,-2.0,no data,no data,27115,Pine,MN,tie,Pine,MN
+2007,-2.0,no data,no data,27117,Pipestone,MN,tie,Pipestone,MN
+2008,-2.0,no data,no data,27119,Polk,MN,tie,Polk,MN
+2009,-2.0,no data,no data,27121,Pope,MN,tie,Pope,MN
+2010,-2.0,no data,no data,27125,Red Lake,MN,tie,Red Lake,MN
+2011,-2.0,no data,no data,27127,Redwood,MN,tie,Redwood,MN
+2012,-2.0,no data,no data,27129,Renville,MN,tie,Renville,MN
+2013,-2.0,no data,no data,27131,Rice,MN,tie,Rice,MN
+2014,-2.0,no data,no data,27133,Rock,MN,tie,Rock,MN
+2015,-2.0,no data,no data,27135,Roseau,MN,tie,Roseau,MN
+2016,-2.0,no data,no data,27143,Sibley,MN,tie,Sibley,MN
+2017,-2.0,no data,no data,27147,Steele,MN,tie,Steele,MN
+2018,-2.0,no data,no data,27149,Stevens,MN,tie,Stevens,MN
+2019,-2.0,no data,no data,27151,Swift,MN,tie,Swift,MN
+2020,-2.0,no data,no data,27153,Todd,MN,tie,Todd,MN
+2021,-2.0,no data,no data,27155,Traverse,MN,tie,Traverse,MN
+2022,-2.0,no data,no data,27157,Wabasha,MN,tie,Wabasha,MN
+2023,-2.0,no data,no data,27159,Wadena,MN,tie,Wadena,MN
+2024,-2.0,no data,no data,27161,Waseca,MN,tie,Waseca,MN
+2025,-2.0,no data,no data,27165,Watonwan,MN,tie,Watonwan,MN
+2026,-2.0,no data,no data,27167,Wilkin,MN,tie,Wilkin,MN
+2027,-2.0,no data,no data,27169,Winona,MN,tie,Winona,MN
+2028,-2.0,no data,no data,27173,Yellow Medicine,MN,tie,Yellow Medicine,MN
+2029,-2.0,no data,no data,28001,Adams,MS,tie,Adams,MS
+2030,-2.0,no data,no data,28003,Alcorn,MS,tie,Alcorn,MS
+2031,-2.0,no data,no data,28005,Amite,MS,tie,Amite,MS
+2032,-2.0,no data,no data,28007,Attala,MS,tie,Attala,MS
+2033,-2.0,no data,no data,28013,Calhoun,MS,tie,Calhoun,MS
+2034,-2.0,no data,no data,28015,Carroll,MS,tie,Carroll,MS
+2035,-2.0,no data,no data,28017,Chickasaw,MS,tie,Chickasaw,MS
+2036,-2.0,no data,no data,28019,Choctaw,MS,tie,Choctaw,MS
+2037,-2.0,no data,no data,28021,Claiborne,MS,tie,Claiborne,MS
+2038,-2.0,no data,no data,28023,Clarke,MS,tie,Clarke,MS
+2039,-2.0,no data,no data,28025,Clay,MS,tie,Clay,MS
+2040,-2.0,no data,no data,28027,Coahoma,MS,tie,Coahoma,MS
+2041,-2.0,no data,no data,28029,Copiah,MS,tie,Copiah,MS
+2042,-2.0,no data,no data,28031,Covington,MS,tie,Covington,MS
+2043,-2.0,no data,no data,28037,Franklin,MS,tie,Franklin,MS
+2044,-2.0,no data,no data,28041,Greene,MS,tie,Greene,MS
+2045,-2.0,no data,no data,28051,Holmes,MS,tie,Holmes,MS
+2046,-2.0,no data,no data,28053,Humphreys,MS,tie,Humphreys,MS
+2047,-2.0,no data,no data,28055,Issaquena,MS,tie,Issaquena,MS
+2048,-2.0,no data,no data,28059,Jackson,MS,tie,Jackson,MS
+2049,-2.0,no data,no data,28061,Jasper,MS,tie,Jasper,MS
+2050,-2.0,no data,no data,28063,Jefferson,MS,tie,Jefferson,MS
+2051,-2.0,no data,no data,28065,Jefferson Davis,MS,tie,Jefferson Davis,MS
+2052,-2.0,no data,no data,28069,Kemper,MS,tie,Kemper,MS
+2053,-2.0,no data,no data,28073,Lamar,MS,tie,Lamar,MS
+2054,-2.0,no data,no data,28075,Lauderdale,MS,tie,Lauderdale,MS
+2055,-2.0,no data,no data,28077,Lawrence,MS,tie,Lawrence,MS
+2056,-2.0,no data,no data,28079,Leake,MS,tie,Leake,MS
+2057,-2.0,no data,no data,28083,Leflore,MS,tie,Leflore,MS
+2058,-2.0,no data,no data,28085,Lincoln,MS,tie,Lincoln,MS
+2059,-2.0,no data,no data,28093,Marshall,MS,tie,Marshall,MS
+2060,-2.0,no data,no data,28095,Monroe,MS,tie,Monroe,MS
+2061,-2.0,no data,no data,28097,Montgomery,MS,tie,Montgomery,MS
+2062,-2.0,no data,no data,28099,Neshoba,MS,tie,Neshoba,MS
+2063,-2.0,no data,no data,28101,Newton,MS,tie,Newton,MS
+2064,-2.0,no data,no data,28103,Noxubee,MS,tie,Noxubee,MS
+2065,-2.0,no data,no data,28107,Panola,MS,tie,Panola,MS
+2066,-2.0,no data,no data,28111,Perry,MS,tie,Perry,MS
+2067,-2.0,no data,no data,28113,Pike,MS,tie,Pike,MS
+2068,-2.0,no data,no data,28115,Pontotoc,MS,tie,Pontotoc,MS
+2069,-2.0,no data,no data,28117,Prentiss,MS,tie,Prentiss,MS
+2070,-2.0,no data,no data,28119,Quitman,MS,tie,Quitman,MS
+2071,-2.0,no data,no data,28123,Scott,MS,tie,Scott,MS
+2072,-2.0,no data,no data,28125,Sharkey,MS,tie,Sharkey,MS
+2073,-2.0,no data,no data,28127,Simpson,MS,tie,Simpson,MS
+2074,-2.0,no data,no data,28129,Smith,MS,tie,Smith,MS
+2075,-2.0,no data,no data,28131,Stone,MS,tie,Stone,MS
+2076,-2.0,no data,no data,28133,Sunflower,MS,tie,Sunflower,MS
+2077,-2.0,no data,no data,28135,Tallahatchie,MS,tie,Tallahatchie,MS
+2078,-2.0,no data,no data,28137,Tate,MS,tie,Tate,MS
+2079,-2.0,no data,no data,28139,Tippah,MS,tie,Tippah,MS
+2080,-2.0,no data,no data,28141,Tishomingo,MS,tie,Tishomingo,MS
+2081,-2.0,no data,no data,28143,Tunica,MS,tie,Tunica,MS
+2082,-2.0,no data,no data,28145,Union,MS,tie,Union,MS
+2083,-2.0,no data,no data,28147,Walthall,MS,tie,Walthall,MS
+2084,-2.0,no data,no data,28149,Warren,MS,tie,Warren,MS
+2085,-2.0,no data,no data,28151,Washington,MS,tie,Washington,MS
+2086,-2.0,no data,no data,28153,Wayne,MS,tie,Wayne,MS
+2087,-2.0,no data,no data,28155,Webster,MS,tie,Webster,MS
+2088,-2.0,no data,no data,28157,Wilkinson,MS,tie,Wilkinson,MS
+2089,-2.0,no data,no data,28159,Winston,MS,tie,Winston,MS
+2090,-2.0,no data,no data,28161,Yalobusha,MS,tie,Yalobusha,MS
+2091,-2.0,no data,no data,28163,Yazoo,MS,tie,Yazoo,MS
+2092,-2.0,no data,no data,29001,Adair,MO,tie,Adair,MO
+2093,-2.0,no data,no data,29003,Andrew,MO,tie,Andrew,MO
+2094,-2.0,no data,no data,29005,Atchison,MO,tie,Atchison,MO
+2095,-2.0,no data,no data,29007,Audrain,MO,tie,Audrain,MO
+2096,-2.0,no data,no data,29009,Barry,MO,tie,Barry,MO
+2097,-2.0,no data,no data,29011,Barton,MO,tie,Barton,MO
+2098,-2.0,no data,no data,29013,Bates,MO,tie,Bates,MO
+2099,-2.0,no data,no data,29015,Benton,MO,tie,Benton,MO
+2100,-2.0,no data,no data,29017,Bollinger,MO,tie,Bollinger,MO
+2101,-2.0,no data,no data,29023,Butler,MO,tie,Butler,MO
+2102,-2.0,no data,no data,29025,Caldwell,MO,tie,Caldwell,MO
+2103,-2.0,no data,no data,29029,Camden,MO,tie,Camden,MO
+2104,-2.0,no data,no data,29033,Carroll,MO,tie,Carroll,MO
+2105,-2.0,no data,no data,29035,Carter,MO,tie,Carter,MO
+2106,-2.0,no data,no data,29039,Cedar,MO,tie,Cedar,MO
+2107,-2.0,no data,no data,29041,Chariton,MO,tie,Chariton,MO
+2108,-2.0,no data,no data,29045,Clark,MO,tie,Clark,MO
+2109,-2.0,no data,no data,29049,Clinton,MO,tie,Clinton,MO
+2110,-2.0,no data,no data,29051,Cole,MO,tie,Cole,MO
+2111,-2.0,no data,no data,29053,Cooper,MO,tie,Cooper,MO
+2112,-2.0,no data,no data,29055,Crawford,MO,tie,Crawford,MO
+2113,-2.0,no data,no data,29057,Dade,MO,tie,Dade,MO
+2114,-2.0,no data,no data,29059,Dallas,MO,tie,Dallas,MO
+2115,-2.0,no data,no data,29061,Daviess,MO,tie,Daviess,MO
+2116,-2.0,no data,no data,29063,De Kalb,MO,tie,De Kalb,MO
+2117,-2.0,no data,no data,29065,Dent,MO,tie,Dent,MO
+2118,-2.0,no data,no data,29067,Douglas,MO,tie,Douglas,MO
+2119,-2.0,no data,no data,29069,Dunklin,MO,tie,Dunklin,MO
+2120,-2.0,no data,no data,29071,Franklin,MO,tie,Franklin,MO
+2121,-2.0,no data,no data,29075,Gentry,MO,tie,Gentry,MO
+2122,-2.0,no data,no data,29081,Harrison,MO,tie,Harrison,MO
+2123,-2.0,no data,no data,29083,Henry,MO,tie,Henry,MO
+2124,-2.0,no data,no data,29087,Holt,MO,tie,Holt,MO
+2125,-2.0,no data,no data,29089,Howard,MO,tie,Howard,MO
+2126,-2.0,no data,no data,29091,Howell,MO,tie,Howell,MO
+2127,-2.0,no data,no data,29093,Iron,MO,tie,Iron,MO
+2128,-2.0,no data,no data,29103,Knox,MO,tie,Knox,MO
+2129,-2.0,no data,no data,29107,Lafayette,MO,tie,Lafayette,MO
+2130,-2.0,no data,no data,29109,Lawrence,MO,tie,Lawrence,MO
+2131,-2.0,no data,no data,29111,Lewis,MO,tie,Lewis,MO
+2132,-2.0,no data,no data,29113,Lincoln,MO,tie,Lincoln,MO
+2133,-2.0,no data,no data,29115,Linn,MO,tie,Linn,MO
+2134,-2.0,no data,no data,29119,McDonald,MO,tie,McDonald,MO
+2135,-2.0,no data,no data,29121,Macon,MO,tie,Macon,MO
+2136,-2.0,no data,no data,29123,Madison,MO,tie,Madison,MO
+2137,-2.0,no data,no data,29125,Maries,MO,tie,Maries,MO
+2138,-2.0,no data,no data,29129,Mercer,MO,tie,Mercer,MO
+2139,-2.0,no data,no data,29131,Miller,MO,tie,Miller,MO
+2140,-2.0,no data,no data,29133,Mississippi,MO,tie,Mississippi,MO
+2141,-2.0,no data,no data,29135,Moniteau,MO,tie,Moniteau,MO
+2142,-2.0,no data,no data,29137,Monroe,MO,tie,Monroe,MO
+2143,-2.0,no data,no data,29141,Morgan,MO,tie,Morgan,MO
+2144,-2.0,no data,no data,29143,New Madrid,MO,tie,New Madrid,MO
+2145,-2.0,no data,no data,29145,Newton,MO,tie,Newton,MO
+2146,-2.0,no data,no data,29147,Nodaway,MO,tie,Nodaway,MO
+2147,-2.0,no data,no data,29149,Oregon,MO,tie,Oregon,MO
+2148,-2.0,no data,no data,29151,Osage,MO,tie,Osage,MO
+2149,-2.0,no data,no data,29153,Ozark,MO,tie,Ozark,MO
+2150,-2.0,no data,no data,29155,Pemiscot,MO,tie,Pemiscot,MO
+2151,-2.0,no data,no data,29157,Perry,MO,tie,Perry,MO
+2152,-2.0,no data,no data,29159,Pettis,MO,tie,Pettis,MO
+2153,-2.0,no data,no data,29161,Phelps,MO,tie,Phelps,MO
+2154,-2.0,no data,no data,29163,Pike,MO,tie,Pike,MO
+2155,-2.0,no data,no data,29167,Polk,MO,tie,Polk,MO
+2156,-2.0,no data,no data,29169,Pulaski,MO,tie,Pulaski,MO
+2157,-2.0,no data,no data,29171,Putnam,MO,tie,Putnam,MO
+2158,-2.0,no data,no data,29173,Ralls,MO,tie,Ralls,MO
+2159,-2.0,no data,no data,29175,Randolph,MO,tie,Randolph,MO
+2160,-2.0,no data,no data,29177,Ray,MO,tie,Ray,MO
+2161,-2.0,no data,no data,29179,Reynolds,MO,tie,Reynolds,MO
+2162,-2.0,no data,no data,29181,Ripley,MO,tie,Ripley,MO
+2163,-2.0,no data,no data,29186,Ste. Genevieve,MO,tie,Ste. Genevieve,MO
+2164,-2.0,no data,no data,29195,Saline,MO,tie,Saline,MO
+2165,-2.0,no data,no data,29197,Schuyler,MO,tie,Schuyler,MO
+2166,-2.0,no data,no data,29199,Scotland,MO,tie,Scotland,MO
+2167,-2.0,no data,no data,29201,Scott,MO,tie,Scott,MO
+2168,-2.0,no data,no data,29203,Shannon,MO,tie,Shannon,MO
+2169,-2.0,no data,no data,29205,Shelby,MO,tie,Shelby,MO
+2170,-2.0,no data,no data,29207,Stoddard,MO,tie,Stoddard,MO
+2171,-2.0,no data,no data,29211,Sullivan,MO,tie,Sullivan,MO
+2172,-2.0,no data,no data,29215,Texas,MO,tie,Texas,MO
+2173,-2.0,no data,no data,29217,Vernon,MO,tie,Vernon,MO
+2174,-2.0,no data,no data,29219,Warren,MO,tie,Warren,MO
+2175,-2.0,no data,no data,29221,Washington,MO,tie,Washington,MO
+2176,-2.0,no data,no data,29223,Wayne,MO,tie,Wayne,MO
+2177,-2.0,no data,no data,29227,Worth,MO,tie,Worth,MO
+2178,-2.0,no data,no data,29229,Wright,MO,tie,Wright,MO
+2179,-2.0,no data,no data,30001,Beaverhead,MT,tie,Beaverhead,MT
+2180,-2.0,no data,no data,30003,Big Horn,MT,tie,Big Horn,MT
+2181,-2.0,no data,no data,30005,Blaine,MT,tie,Blaine,MT
+2182,-2.0,no data,no data,30007,Broadwater,MT,tie,Broadwater,MT
+2183,-2.0,no data,no data,30009,Carbon,MT,tie,Carbon,MT
+2184,-2.0,no data,no data,30011,Carter,MT,tie,Carter,MT
+2185,-2.0,no data,no data,30013,Cascade,MT,tie,Cascade,MT
+2186,-2.0,no data,no data,30015,Chouteau,MT,tie,Chouteau,MT
+2187,-2.0,no data,no data,30017,Custer,MT,tie,Custer,MT
+2188,-2.0,no data,no data,30019,Daniels,MT,tie,Daniels,MT
+2189,-2.0,no data,no data,30021,Dawson,MT,tie,Dawson,MT
+2190,-2.0,no data,no data,30023,Deer Lodge,MT,tie,Deer Lodge,MT
+2191,-2.0,no data,no data,30025,Fallon,MT,tie,Fallon,MT
+2192,-2.0,no data,no data,30027,Fergus,MT,tie,Fergus,MT
+2193,-2.0,no data,no data,30033,Garfield,MT,tie,Garfield,MT
+2194,-2.0,no data,no data,30035,Glacier,MT,tie,Glacier,MT
+2195,-2.0,no data,no data,30037,Golden Valley,MT,tie,Golden Valley,MT
+2196,-2.0,no data,no data,30039,Granite,MT,tie,Granite,MT
+2197,-2.0,no data,no data,30041,Hill,MT,tie,Hill,MT
+2198,-2.0,no data,no data,30043,Jefferson,MT,tie,Jefferson,MT
+2199,-2.0,no data,no data,30047,Lake,MT,tie,Lake,MT
+2200,-2.0,no data,no data,30049,Lewis and Clark,MT,tie,Lewis and Clark,MT
+2201,-2.0,no data,no data,30051,Liberty,MT,tie,Liberty,MT
+2202,-2.0,no data,no data,30053,Lincoln,MT,tie,Lincoln,MT
+2203,-2.0,no data,no data,30055,McCone,MT,tie,McCone,MT
+2204,-2.0,no data,no data,30057,Madison,MT,tie,Madison,MT
+2205,-2.0,no data,no data,30059,Meagher,MT,tie,Meagher,MT
+2206,-2.0,no data,no data,30061,Mineral,MT,tie,Mineral,MT
+2207,-2.0,no data,no data,30065,Musselshell,MT,tie,Musselshell,MT
+2208,-2.0,no data,no data,30067,Park,MT,tie,Park,MT
+2209,-2.0,no data,no data,30069,Petroleum,MT,tie,Petroleum,MT
+2210,-2.0,no data,no data,30071,Phillips,MT,tie,Phillips,MT
+2211,-2.0,no data,no data,30073,Pondera,MT,tie,Pondera,MT
+2212,-2.0,no data,no data,30075,Powder River,MT,tie,Powder River,MT
+2213,-2.0,no data,no data,30077,Powell,MT,tie,Powell,MT
+2214,-2.0,no data,no data,30079,Prairie,MT,tie,Prairie,MT
+2215,-2.0,no data,no data,30081,Ravalli,MT,tie,Ravalli,MT
+2216,-2.0,no data,no data,30083,Richland,MT,tie,Richland,MT
+2217,-2.0,no data,no data,30085,Roosevelt,MT,tie,Roosevelt,MT
+2218,-2.0,no data,no data,30087,Rosebud,MT,tie,Rosebud,MT
+2219,-2.0,no data,no data,30089,Sanders,MT,tie,Sanders,MT
+2220,-2.0,no data,no data,30091,Sheridan,MT,tie,Sheridan,MT
+2221,-2.0,no data,no data,30095,Stillwater,MT,tie,Stillwater,MT
+2222,-2.0,no data,no data,30097,Sweet Grass,MT,tie,Sweet Grass,MT
+2223,-2.0,no data,no data,30099,Teton,MT,tie,Teton,MT
+2224,-2.0,no data,no data,30101,Toole,MT,tie,Toole,MT
+2225,-2.0,no data,no data,30103,Treasure,MT,tie,Treasure,MT
+2226,-2.0,no data,no data,30105,Valley,MT,tie,Valley,MT
+2227,-2.0,no data,no data,30107,Wheatland,MT,tie,Wheatland,MT
+2228,-2.0,no data,no data,30109,Wibaux,MT,tie,Wibaux,MT
+2229,-2.0,no data,no data,30113,Yellowstone Nat Park,MT,tie,Yellowstone Nat Park,MT
+2230,-2.0,no data,no data,31003,Antelope,NE,tie,Antelope,NE
+2231,-2.0,no data,no data,31005,Arthur,NE,tie,Arthur,NE
+2232,-2.0,no data,no data,31007,Banner,NE,tie,Banner,NE
+2233,-2.0,no data,no data,31009,Blaine,NE,tie,Blaine,NE
+2234,-2.0,no data,no data,31011,Boone,NE,tie,Boone,NE
+2235,-2.0,no data,no data,31013,Box Butte,NE,tie,Box Butte,NE
+2236,-2.0,no data,no data,31017,Brown,NE,tie,Brown,NE
+2237,-2.0,no data,no data,31021,Burt,NE,tie,Burt,NE
+2238,-2.0,no data,no data,31023,Butler,NE,tie,Butler,NE
+2239,-2.0,no data,no data,31025,Cass,NE,tie,Cass,NE
+2240,-2.0,no data,no data,31027,Cedar,NE,tie,Cedar,NE
+2241,-2.0,no data,no data,31029,Chase,NE,tie,Chase,NE
+2242,-2.0,no data,no data,31033,Cheyenne,NE,tie,Cheyenne,NE
+2243,-2.0,no data,no data,31035,Clay,NE,tie,Clay,NE
+2244,-2.0,no data,no data,31037,Colfax,NE,tie,Colfax,NE
+2245,-2.0,no data,no data,31039,Cuming,NE,tie,Cuming,NE
+2246,-2.0,no data,no data,31041,Custer,NE,tie,Custer,NE
+2247,-2.0,no data,no data,31043,Dakota,NE,tie,Dakota,NE
+2248,-2.0,no data,no data,31045,Dawes,NE,tie,Dawes,NE
+2249,-2.0,no data,no data,31047,Dawson,NE,tie,Dawson,NE
+2250,-2.0,no data,no data,31049,Deuel,NE,tie,Deuel,NE
+2251,-2.0,no data,no data,31051,Dixon,NE,tie,Dixon,NE
+2252,-2.0,no data,no data,31053,Dodge,NE,tie,Dodge,NE
+2253,-2.0,no data,no data,31057,Dundy,NE,tie,Dundy,NE
+2254,-2.0,no data,no data,31059,Fillmore,NE,tie,Fillmore,NE
+2255,-2.0,no data,no data,31061,Franklin,NE,tie,Franklin,NE
+2256,-2.0,no data,no data,31063,Frontier,NE,tie,Frontier,NE
+2257,-2.0,no data,no data,31065,Furnas,NE,tie,Furnas,NE
+2258,-2.0,no data,no data,31067,Gage,NE,tie,Gage,NE
+2259,-2.0,no data,no data,31069,Garden,NE,tie,Garden,NE
+2260,-2.0,no data,no data,31071,Garfield,NE,tie,Garfield,NE
+2261,-2.0,no data,no data,31073,Gosper,NE,tie,Gosper,NE
+2262,-2.0,no data,no data,31075,Grant,NE,tie,Grant,NE
+2263,-2.0,no data,no data,31077,Greeley,NE,tie,Greeley,NE
+2264,-2.0,no data,no data,31081,Hamilton,NE,tie,Hamilton,NE
+2265,-2.0,no data,no data,31085,Hayes,NE,tie,Hayes,NE
+2266,-2.0,no data,no data,31087,Hitchcock,NE,tie,Hitchcock,NE
+2267,-2.0,no data,no data,31089,Holt,NE,tie,Holt,NE
+2268,-2.0,no data,no data,31091,Hooker,NE,tie,Hooker,NE
+2269,-2.0,no data,no data,31093,Howard,NE,tie,Howard,NE
+2270,-2.0,no data,no data,31097,Johnson,NE,tie,Johnson,NE
+2271,-2.0,no data,no data,31099,Kearney,NE,tie,Kearney,NE
+2272,-2.0,no data,no data,31101,Keith,NE,tie,Keith,NE
+2273,-2.0,no data,no data,31103,Keya Paha,NE,tie,Keya Paha,NE
+2274,-2.0,no data,no data,31105,Kimball,NE,tie,Kimball,NE
+2275,-2.0,no data,no data,31107,Knox,NE,tie,Knox,NE
+2276,-2.0,no data,no data,31111,Lincoln,NE,tie,Lincoln,NE
+2277,-2.0,no data,no data,31113,Logan,NE,tie,Logan,NE
+2278,-2.0,no data,no data,31115,Loup,NE,tie,Loup,NE
+2279,-2.0,no data,no data,31117,McPherson,NE,tie,McPherson,NE
+2280,-2.0,no data,no data,31119,Madison,NE,tie,Madison,NE
+2281,-2.0,no data,no data,31121,Merrick,NE,tie,Merrick,NE
+2282,-2.0,no data,no data,31123,Morrill,NE,tie,Morrill,NE
+2283,-2.0,no data,no data,31125,Nance,NE,tie,Nance,NE
+2284,-2.0,no data,no data,31127,Nemaha,NE,tie,Nemaha,NE
+2285,-2.0,no data,no data,31129,Nuckolls,NE,tie,Nuckolls,NE
+2286,-2.0,no data,no data,31131,Otoe,NE,tie,Otoe,NE
+2287,-2.0,no data,no data,31133,Pawnee,NE,tie,Pawnee,NE
+2288,-2.0,no data,no data,31135,Perkins,NE,tie,Perkins,NE
+2289,-2.0,no data,no data,31139,Pierce,NE,tie,Pierce,NE
+2290,-2.0,no data,no data,31141,Platte,NE,tie,Platte,NE
+2291,-2.0,no data,no data,31143,Polk,NE,tie,Polk,NE
+2292,-2.0,no data,no data,31145,Red Willow,NE,tie,Red Willow,NE
+2293,-2.0,no data,no data,31147,Richardson,NE,tie,Richardson,NE
+2294,-2.0,no data,no data,31149,Rock,NE,tie,Rock,NE
+2295,-2.0,no data,no data,31151,Saline,NE,tie,Saline,NE
+2296,-2.0,no data,no data,31155,Saunders,NE,tie,Saunders,NE
+2297,-2.0,no data,no data,31157,Scotts Bluff,NE,tie,Scotts Bluff,NE
+2298,-2.0,no data,no data,31159,Seward,NE,tie,Seward,NE
+2299,-2.0,no data,no data,31161,Sheridan,NE,tie,Sheridan,NE
+2300,-2.0,no data,no data,31163,Sherman,NE,tie,Sherman,NE
+2301,-2.0,no data,no data,31165,Sioux,NE,tie,Sioux,NE
+2302,-2.0,no data,no data,31167,Stanton,NE,tie,Stanton,NE
+2303,-2.0,no data,no data,31169,Thayer,NE,tie,Thayer,NE
+2304,-2.0,no data,no data,31171,Thomas,NE,tie,Thomas,NE
+2305,-2.0,no data,no data,31173,Thurston,NE,tie,Thurston,NE
+2306,-2.0,no data,no data,31175,Valley,NE,tie,Valley,NE
+2307,-2.0,no data,no data,31177,Washington,NE,tie,Washington,NE
+2308,-2.0,no data,no data,31179,Wayne,NE,tie,Wayne,NE
+2309,-2.0,no data,no data,31181,Webster,NE,tie,Webster,NE
+2310,-2.0,no data,no data,31183,Wheeler,NE,tie,Wheeler,NE
+2311,-2.0,no data,no data,31185,York,NE,tie,York,NE
+2312,-2.0,no data,no data,32001,Churchill,NV,tie,Churchill,NV
+2313,-2.0,no data,no data,32011,Eureka,NV,tie,Eureka,NV
+2314,-2.0,no data,no data,32013,Humboldt,NV,tie,Humboldt,NV
+2315,-2.0,no data,no data,32015,Lander,NV,tie,Lander,NV
+2316,-2.0,no data,no data,32017,Lincoln,NV,tie,Lincoln,NV
+2317,-2.0,no data,no data,32019,Lyon,NV,tie,Lyon,NV
+2318,-2.0,no data,no data,32021,Mineral,NV,tie,Mineral,NV
+2319,-2.0,no data,no data,32023,Nye,NV,tie,Nye,NV
+2320,-2.0,no data,no data,32027,Pershing,NV,tie,Pershing,NV
+2321,-2.0,no data,no data,32029,Storey,NV,tie,Storey,NV
+2322,-2.0,no data,no data,32033,White Pine,NV,tie,White Pine,NV
+2323,-2.0,no data,no data,33017,Strafford,NH,tie,Strafford,NH
+2324,-2.0,no data,no data,33019,Sullivan,NH,tie,Sullivan,NH
+2325,-2.0,no data,no data,34011,Cumberland,NJ,tie,Cumberland,NJ
+2326,-2.0,no data,no data,34019,Hunterdon,NJ,tie,Hunterdon,NJ
+2327,-2.0,no data,no data,34041,Warren,NJ,tie,Warren,NJ
+2328,-2.0,no data,no data,35003,Catron,NM,tie,Catron,NM
+2329,-2.0,no data,no data,35005,Chaves,NM,tie,Chaves,NM
+2330,-2.0,no data,no data,35006,Cibola,NM,tie,Cibola,NM
+2331,-2.0,no data,no data,35007,Colfax,NM,tie,Colfax,NM
+2332,-2.0,no data,no data,35011,De Baca,NM,tie,De Baca,NM
+2333,-2.0,no data,no data,35013,Dona Ana,NM,tie,Dona Ana,NM
+2334,-2.0,no data,no data,35017,Grant,NM,tie,Grant,NM
+2335,-2.0,no data,no data,35019,Guadalupe,NM,tie,Guadalupe,NM
+2336,-2.0,no data,no data,35021,Harding,NM,tie,Harding,NM
+2337,-2.0,no data,no data,35023,Hidalgo,NM,tie,Hidalgo,NM
+2338,-2.0,no data,no data,35027,Lincoln,NM,tie,Lincoln,NM
+2339,-2.0,no data,no data,35031,McKinley,NM,tie,McKinley,NM
+2340,-2.0,no data,no data,35033,Mora,NM,tie,Mora,NM
+2341,-2.0,no data,no data,35037,Quay,NM,tie,Quay,NM
+2342,-2.0,no data,no data,35039,Rio Arriba,NM,tie,Rio Arriba,NM
+2343,-2.0,no data,no data,35041,Roosevelt,NM,tie,Roosevelt,NM
+2344,-2.0,no data,no data,35047,San Miguel,NM,tie,San Miguel,NM
+2345,-2.0,no data,no data,35051,Sierra,NM,tie,Sierra,NM
+2346,-2.0,no data,no data,35057,Torrance,NM,tie,Torrance,NM
+2347,-2.0,no data,no data,35059,Union,NM,tie,Union,NM
+2348,-2.0,no data,no data,36003,Allegany,NY,tie,Allegany,NY
+2349,-2.0,no data,no data,36025,Delaware,NY,tie,Delaware,NY
+2350,-2.0,no data,no data,36033,Franklin,NY,tie,Franklin,NY
+2351,-2.0,no data,no data,36041,Hamilton,NY,tie,Hamilton,NY
+2352,-2.0,no data,no data,36049,Lewis,NY,tie,Lewis,NY
+2353,-2.0,no data,no data,36077,Otsego,NY,tie,Otsego,NY
+2354,-2.0,no data,no data,36079,Putnam,NY,tie,Putnam,NY
+2355,-2.0,no data,no data,36095,Schoharie,NY,tie,Schoharie,NY
+2356,-2.0,no data,no data,36097,Schuyler,NY,tie,Schuyler,NY
+2357,-2.0,no data,no data,36099,Seneca,NY,tie,Seneca,NY
+2358,-2.0,no data,no data,36107,Tioga,NY,tie,Tioga,NY
+2359,-2.0,no data,no data,36117,Wayne,NY,tie,Wayne,NY
+2360,-2.0,no data,no data,36121,Wyoming,NY,tie,Wyoming,NY
+2361,-2.0,no data,no data,37003,Alexander,NC,tie,Alexander,NC
+2362,-2.0,no data,no data,37005,Alleghany,NC,tie,Alleghany,NC
+2363,-2.0,no data,no data,37015,Bertie,NC,tie,Bertie,NC
+2364,-2.0,no data,no data,37017,Bladen,NC,tie,Bladen,NC
+2365,-2.0,no data,no data,37027,Caldwell,NC,tie,Caldwell,NC
+2366,-2.0,no data,no data,37029,Camden,NC,tie,Camden,NC
+2367,-2.0,no data,no data,37033,Caswell,NC,tie,Caswell,NC
+2368,-2.0,no data,no data,37041,Chowan,NC,tie,Chowan,NC
+2369,-2.0,no data,no data,37043,Clay,NC,tie,Clay,NC
+2370,-2.0,no data,no data,37047,Columbus,NC,tie,Columbus,NC
+2371,-2.0,no data,no data,37053,Currituck,NC,tie,Currituck,NC
+2372,-2.0,no data,no data,37061,Duplin,NC,tie,Duplin,NC
+2373,-2.0,no data,no data,37065,Edgecombe,NC,tie,Edgecombe,NC
+2374,-2.0,no data,no data,37069,Franklin,NC,tie,Franklin,NC
+2375,-2.0,no data,no data,37073,Gates,NC,tie,Gates,NC
+2376,-2.0,no data,no data,37075,Graham,NC,tie,Graham,NC
+2377,-2.0,no data,no data,37079,Greene,NC,tie,Greene,NC
+2378,-2.0,no data,no data,37083,Halifax,NC,tie,Halifax,NC
+2379,-2.0,no data,no data,37085,Harnett,NC,tie,Harnett,NC
+2380,-2.0,no data,no data,37091,Hertford,NC,tie,Hertford,NC
+2381,-2.0,no data,no data,37095,Hyde,NC,tie,Hyde,NC
+2382,-2.0,no data,no data,37099,Jackson,NC,tie,Jackson,NC
+2383,-2.0,no data,no data,37103,Jones,NC,tie,Jones,NC
+2384,-2.0,no data,no data,37105,Lee,NC,tie,Lee,NC
+2385,-2.0,no data,no data,37107,Lenoir,NC,tie,Lenoir,NC
+2386,-2.0,no data,no data,37111,McDowell,NC,tie,McDowell,NC
+2387,-2.0,no data,no data,37113,Macon,NC,tie,Macon,NC
+2388,-2.0,no data,no data,37115,Madison,NC,tie,Madison,NC
+2389,-2.0,no data,no data,37117,Martin,NC,tie,Martin,NC
+2390,-2.0,no data,no data,37121,Mitchell,NC,tie,Mitchell,NC
+2391,-2.0,no data,no data,37131,Northampton,NC,tie,Northampton,NC
+2392,-2.0,no data,no data,37139,Pasquotank,NC,tie,Pasquotank,NC
+2393,-2.0,no data,no data,37141,Pender,NC,tie,Pender,NC
+2394,-2.0,no data,no data,37143,Perquimans,NC,tie,Perquimans,NC
+2395,-2.0,no data,no data,37145,Person,NC,tie,Person,NC
+2396,-2.0,no data,no data,37149,Polk,NC,tie,Polk,NC
+2397,-2.0,no data,no data,37157,Rockingham,NC,tie,Rockingham,NC
+2398,-2.0,no data,no data,37159,Rowan,NC,tie,Rowan,NC
+2399,-2.0,no data,no data,37161,Rutherford,NC,tie,Rutherford,NC
+2400,-2.0,no data,no data,37165,Scotland,NC,tie,Scotland,NC
+2401,-2.0,no data,no data,37167,Stanly,NC,tie,Stanly,NC
+2402,-2.0,no data,no data,37169,Stokes,NC,tie,Stokes,NC
+2403,-2.0,no data,no data,37177,Tyrrell,NC,tie,Tyrrell,NC
+2404,-2.0,no data,no data,37185,Warren,NC,tie,Warren,NC
+2405,-2.0,no data,no data,37187,Washington,NC,tie,Washington,NC
+2406,-2.0,no data,no data,37197,Yadkin,NC,tie,Yadkin,NC
+2407,-2.0,no data,no data,37199,Yancey,NC,tie,Yancey,NC
+2408,-2.0,no data,no data,38001,Adams,ND,tie,Adams,ND
+2409,-2.0,no data,no data,38003,Barnes,ND,tie,Barnes,ND
+2410,-2.0,no data,no data,38005,Benson,ND,tie,Benson,ND
+2411,-2.0,no data,no data,38007,Billings,ND,tie,Billings,ND
+2412,-2.0,no data,no data,38009,Bottineau,ND,tie,Bottineau,ND
+2413,-2.0,no data,no data,38011,Bowman,ND,tie,Bowman,ND
+2414,-2.0,no data,no data,38013,Burke,ND,tie,Burke,ND
+2415,-2.0,no data,no data,38019,Cavalier,ND,tie,Cavalier,ND
+2416,-2.0,no data,no data,38021,Dickey,ND,tie,Dickey,ND
+2417,-2.0,no data,no data,38023,Divide,ND,tie,Divide,ND
+2418,-2.0,no data,no data,38025,Dunn,ND,tie,Dunn,ND
+2419,-2.0,no data,no data,38027,Eddy,ND,tie,Eddy,ND
+2420,-2.0,no data,no data,38029,Emmons,ND,tie,Emmons,ND
+2421,-2.0,no data,no data,38031,Foster,ND,tie,Foster,ND
+2422,-2.0,no data,no data,38033,Golden Valley,ND,tie,Golden Valley,ND
+2423,-2.0,no data,no data,38037,Grant,ND,tie,Grant,ND
+2424,-2.0,no data,no data,38039,Griggs,ND,tie,Griggs,ND
+2425,-2.0,no data,no data,38041,Hettinger,ND,tie,Hettinger,ND
+2426,-2.0,no data,no data,38043,Kidder,ND,tie,Kidder,ND
+2427,-2.0,no data,no data,38045,La Moure,ND,tie,La Moure,ND
+2428,-2.0,no data,no data,38047,Logan,ND,tie,Logan,ND
+2429,-2.0,no data,no data,38049,McHenry,ND,tie,McHenry,ND
+2430,-2.0,no data,no data,38051,McIntosh,ND,tie,McIntosh,ND
+2431,-2.0,no data,no data,38053,McKenzie,ND,tie,McKenzie,ND
+2432,-2.0,no data,no data,38055,McLean,ND,tie,McLean,ND
+2433,-2.0,no data,no data,38057,Mercer,ND,tie,Mercer,ND
+2434,-2.0,no data,no data,38059,Morton,ND,tie,Morton,ND
+2435,-2.0,no data,no data,38061,Mountrail,ND,tie,Mountrail,ND
+2436,-2.0,no data,no data,38063,Nelson,ND,tie,Nelson,ND
+2437,-2.0,no data,no data,38065,Oliver,ND,tie,Oliver,ND
+2438,-2.0,no data,no data,38067,Pembina,ND,tie,Pembina,ND
+2439,-2.0,no data,no data,38069,Pierce,ND,tie,Pierce,ND
+2440,-2.0,no data,no data,38071,Ramsey,ND,tie,Ramsey,ND
+2441,-2.0,no data,no data,38073,Ransom,ND,tie,Ransom,ND
+2442,-2.0,no data,no data,38075,Renville,ND,tie,Renville,ND
+2443,-2.0,no data,no data,38079,Rolette,ND,tie,Rolette,ND
+2444,-2.0,no data,no data,38081,Sargent,ND,tie,Sargent,ND
+2445,-2.0,no data,no data,38083,Sheridan,ND,tie,Sheridan,ND
+2446,-2.0,no data,no data,38085,Sioux,ND,tie,Sioux,ND
+2447,-2.0,no data,no data,38087,Slope,ND,tie,Slope,ND
+2448,-2.0,no data,no data,38089,Stark,ND,tie,Stark,ND
+2449,-2.0,no data,no data,38091,Steele,ND,tie,Steele,ND
+2450,-2.0,no data,no data,38093,Stutsman,ND,tie,Stutsman,ND
+2451,-2.0,no data,no data,38095,Towner,ND,tie,Towner,ND
+2452,-2.0,no data,no data,38097,Traill,ND,tie,Traill,ND
+2453,-2.0,no data,no data,38099,Walsh,ND,tie,Walsh,ND
+2454,-2.0,no data,no data,38101,Ward,ND,tie,Ward,ND
+2455,-2.0,no data,no data,38103,Wells,ND,tie,Wells,ND
+2456,-2.0,no data,no data,38105,Williams,ND,tie,Williams,ND
+2457,-2.0,no data,no data,39001,Adams,OH,tie,Adams,OH
+2458,-2.0,no data,no data,39003,Allen,OH,tie,Allen,OH
+2459,-2.0,no data,no data,39007,Ashtabula,OH,tie,Ashtabula,OH
+2460,-2.0,no data,no data,39011,Auglaize,OH,tie,Auglaize,OH
+2461,-2.0,no data,no data,39013,Belmont,OH,tie,Belmont,OH
+2462,-2.0,no data,no data,39015,Brown,OH,tie,Brown,OH
+2463,-2.0,no data,no data,39021,Champaign,OH,tie,Champaign,OH
+2464,-2.0,no data,no data,39031,Coshocton,OH,tie,Coshocton,OH
+2465,-2.0,no data,no data,39033,Crawford,OH,tie,Crawford,OH
+2466,-2.0,no data,no data,39037,Darke,OH,tie,Darke,OH
+2467,-2.0,no data,no data,39047,Fayette,OH,tie,Fayette,OH
+2468,-2.0,no data,no data,39051,Fulton,OH,tie,Fulton,OH
+2469,-2.0,no data,no data,39053,Gallia,OH,tie,Gallia,OH
+2470,-2.0,no data,no data,39059,Guernsey,OH,tie,Guernsey,OH
+2471,-2.0,no data,no data,39065,Hardin,OH,tie,Hardin,OH
+2472,-2.0,no data,no data,39067,Harrison,OH,tie,Harrison,OH
+2473,-2.0,no data,no data,39069,Henry,OH,tie,Henry,OH
+2474,-2.0,no data,no data,39071,Highland,OH,tie,Highland,OH
+2475,-2.0,no data,no data,39073,Hocking,OH,tie,Hocking,OH
+2476,-2.0,no data,no data,39075,Holmes,OH,tie,Holmes,OH
+2477,-2.0,no data,no data,39079,Jackson,OH,tie,Jackson,OH
+2478,-2.0,no data,no data,39081,Jefferson,OH,tie,Jefferson,OH
+2479,-2.0,no data,no data,39087,Lawrence,OH,tie,Lawrence,OH
+2480,-2.0,no data,no data,39089,Licking,OH,tie,Licking,OH
+2481,-2.0,no data,no data,39091,Logan,OH,tie,Logan,OH
+2482,-2.0,no data,no data,39097,Madison,OH,tie,Madison,OH
+2483,-2.0,no data,no data,39101,Marion,OH,tie,Marion,OH
+2484,-2.0,no data,no data,39111,Monroe,OH,tie,Monroe,OH
+2485,-2.0,no data,no data,39115,Morgan,OH,tie,Morgan,OH
+2486,-2.0,no data,no data,39117,Morrow,OH,tie,Morrow,OH
+2487,-2.0,no data,no data,39121,Noble,OH,tie,Noble,OH
+2488,-2.0,no data,no data,39123,Ottawa,OH,tie,Ottawa,OH
+2489,-2.0,no data,no data,39125,Paulding,OH,tie,Paulding,OH
+2490,-2.0,no data,no data,39127,Perry,OH,tie,Perry,OH
+2491,-2.0,no data,no data,39131,Pike,OH,tie,Pike,OH
+2492,-2.0,no data,no data,39135,Preble,OH,tie,Preble,OH
+2493,-2.0,no data,no data,39137,Putnam,OH,tie,Putnam,OH
+2494,-2.0,no data,no data,39139,Richland,OH,tie,Richland,OH
+2495,-2.0,no data,no data,39149,Shelby,OH,tie,Shelby,OH
+2496,-2.0,no data,no data,39157,Tuscarawas,OH,tie,Tuscarawas,OH
+2497,-2.0,no data,no data,39161,Van Wert,OH,tie,Van Wert,OH
+2498,-2.0,no data,no data,39163,Vinton,OH,tie,Vinton,OH
+2499,-2.0,no data,no data,39167,Washington,OH,tie,Washington,OH
+2500,-2.0,no data,no data,39171,Williams,OH,tie,Williams,OH
+2501,-2.0,no data,no data,39175,Wyandot,OH,tie,Wyandot,OH
+2502,-2.0,no data,no data,40003,Alfalfa,OK,tie,Alfalfa,OK
+2503,-2.0,no data,no data,40005,Atoka,OK,tie,Atoka,OK
+2504,-2.0,no data,no data,40007,Beaver,OK,tie,Beaver,OK
+2505,-2.0,no data,no data,40009,Beckham,OK,tie,Beckham,OK
+2506,-2.0,no data,no data,40011,Blaine,OK,tie,Blaine,OK
+2507,-2.0,no data,no data,40021,Cherokee,OK,tie,Cherokee,OK
+2508,-2.0,no data,no data,40023,Choctaw,OK,tie,Choctaw,OK
+2509,-2.0,no data,no data,40025,Cimarron,OK,tie,Cimarron,OK
+2510,-2.0,no data,no data,40029,Coal,OK,tie,Coal,OK
+2511,-2.0,no data,no data,40031,Comanche,OK,tie,Comanche,OK
+2512,-2.0,no data,no data,40033,Cotton,OK,tie,Cotton,OK
+2513,-2.0,no data,no data,40037,Creek,OK,tie,Creek,OK
+2514,-2.0,no data,no data,40039,Custer,OK,tie,Custer,OK
+2515,-2.0,no data,no data,40041,Delaware,OK,tie,Delaware,OK
+2516,-2.0,no data,no data,40043,Dewey,OK,tie,Dewey,OK
+2517,-2.0,no data,no data,40045,Ellis,OK,tie,Ellis,OK
+2518,-2.0,no data,no data,40049,Garvin,OK,tie,Garvin,OK
+2519,-2.0,no data,no data,40051,Grady,OK,tie,Grady,OK
+2520,-2.0,no data,no data,40053,Grant,OK,tie,Grant,OK
+2521,-2.0,no data,no data,40055,Greer,OK,tie,Greer,OK
+2522,-2.0,no data,no data,40057,Harmon,OK,tie,Harmon,OK
+2523,-2.0,no data,no data,40059,Harper,OK,tie,Harper,OK
+2524,-2.0,no data,no data,40061,Haskell,OK,tie,Haskell,OK
+2525,-2.0,no data,no data,40063,Hughes,OK,tie,Hughes,OK
+2526,-2.0,no data,no data,40065,Jackson,OK,tie,Jackson,OK
+2527,-2.0,no data,no data,40067,Jefferson,OK,tie,Jefferson,OK
+2528,-2.0,no data,no data,40069,Johnston,OK,tie,Johnston,OK
+2529,-2.0,no data,no data,40071,Kay,OK,tie,Kay,OK
+2530,-2.0,no data,no data,40073,Kingfisher,OK,tie,Kingfisher,OK
+2531,-2.0,no data,no data,40075,Kiowa,OK,tie,Kiowa,OK
+2532,-2.0,no data,no data,40077,Latimer,OK,tie,Latimer,OK
+2533,-2.0,no data,no data,40079,Le Flore,OK,tie,Le Flore,OK
+2534,-2.0,no data,no data,40081,Lincoln,OK,tie,Lincoln,OK
+2535,-2.0,no data,no data,40083,Logan,OK,tie,Logan,OK
+2536,-2.0,no data,no data,40085,Love,OK,tie,Love,OK
+2537,-2.0,no data,no data,40087,McClain,OK,tie,McClain,OK
+2538,-2.0,no data,no data,40089,McCurtain,OK,tie,McCurtain,OK
+2539,-2.0,no data,no data,40091,McIntosh,OK,tie,McIntosh,OK
+2540,-2.0,no data,no data,40093,Major,OK,tie,Major,OK
+2541,-2.0,no data,no data,40095,Marshall,OK,tie,Marshall,OK
+2542,-2.0,no data,no data,40097,Mayes,OK,tie,Mayes,OK
+2543,-2.0,no data,no data,40099,Murray,OK,tie,Murray,OK
+2544,-2.0,no data,no data,40101,Muskogee,OK,tie,Muskogee,OK
+2545,-2.0,no data,no data,40103,Noble,OK,tie,Noble,OK
+2546,-2.0,no data,no data,40105,Nowata,OK,tie,Nowata,OK
+2547,-2.0,no data,no data,40107,Okfuskee,OK,tie,Okfuskee,OK
+2548,-2.0,no data,no data,40111,Okmulgee,OK,tie,Okmulgee,OK
+2549,-2.0,no data,no data,40113,Osage,OK,tie,Osage,OK
+2550,-2.0,no data,no data,40115,Ottawa,OK,tie,Ottawa,OK
+2551,-2.0,no data,no data,40117,Pawnee,OK,tie,Pawnee,OK
+2552,-2.0,no data,no data,40121,Pittsburg,OK,tie,Pittsburg,OK
+2553,-2.0,no data,no data,40123,Pontotoc,OK,tie,Pontotoc,OK
+2554,-2.0,no data,no data,40125,Pottawatomie,OK,tie,Pottawatomie,OK
+2555,-2.0,no data,no data,40127,Pushmataha,OK,tie,Pushmataha,OK
+2556,-2.0,no data,no data,40129,Roger Mills,OK,tie,Roger Mills,OK
+2557,-2.0,no data,no data,40131,Rogers,OK,tie,Rogers,OK
+2558,-2.0,no data,no data,40133,Seminole,OK,tie,Seminole,OK
+2559,-2.0,no data,no data,40135,Sequoyah,OK,tie,Sequoyah,OK
+2560,-2.0,no data,no data,40137,Stephens,OK,tie,Stephens,OK
+2561,-2.0,no data,no data,40139,Texas,OK,tie,Texas,OK
+2562,-2.0,no data,no data,40141,Tillman,OK,tie,Tillman,OK
+2563,-2.0,no data,no data,40145,Wagoner,OK,tie,Wagoner,OK
+2564,-2.0,no data,no data,40149,Washita,OK,tie,Washita,OK
+2565,-2.0,no data,no data,40151,Woods,OK,tie,Woods,OK
+2566,-2.0,no data,no data,40153,Woodward,OK,tie,Woodward,OK
+2567,-2.0,no data,no data,41001,Baker,OR,tie,Baker,OR
+2568,-2.0,no data,no data,41015,Curry,OR,tie,Curry,OR
+2569,-2.0,no data,no data,41021,Gilliam,OR,tie,Gilliam,OR
+2570,-2.0,no data,no data,41023,Grant,OR,tie,Grant,OR
+2571,-2.0,no data,no data,41025,Harney,OR,tie,Harney,OR
+2572,-2.0,no data,no data,41029,Jackson,OR,tie,Jackson,OR
+2573,-2.0,no data,no data,41035,Klamath,OR,tie,Klamath,OR
+2574,-2.0,no data,no data,41037,Lake,OR,tie,Lake,OR
+2575,-2.0,no data,no data,41045,Malheur,OR,tie,Malheur,OR
+2576,-2.0,no data,no data,41049,Morrow,OR,tie,Morrow,OR
+2577,-2.0,no data,no data,41055,Sherman,OR,tie,Sherman,OR
+2578,-2.0,no data,no data,41061,Union,OR,tie,Union,OR
+2579,-2.0,no data,no data,41063,Wallowa,OR,tie,Wallowa,OR
+2580,-2.0,no data,no data,41065,Wasco,OR,tie,Wasco,OR
+2581,-2.0,no data,no data,41069,Wheeler,OR,tie,Wheeler,OR
+2582,-2.0,no data,no data,42005,Armstrong,PA,tie,Armstrong,PA
+2583,-2.0,no data,no data,42015,Bradford,PA,tie,Bradford,PA
+2584,-2.0,no data,no data,42023,Cameron,PA,tie,Cameron,PA
+2585,-2.0,no data,no data,42031,Clarion,PA,tie,Clarion,PA
+2586,-2.0,no data,no data,42047,Elk,PA,tie,Elk,PA
+2587,-2.0,no data,no data,42053,Forest,PA,tie,Forest,PA
+2588,-2.0,no data,no data,42059,Greene,PA,tie,Greene,PA
+2589,-2.0,no data,no data,42063,Indiana,PA,tie,Indiana,PA
+2590,-2.0,no data,no data,42087,Mifflin,PA,tie,Mifflin,PA
+2591,-2.0,no data,no data,42097,Northumberland,PA,tie,Northumberland,PA
+2592,-2.0,no data,no data,42105,Potter,PA,tie,Potter,PA
+2593,-2.0,no data,no data,42109,Snyder,PA,tie,Snyder,PA
+2594,-2.0,no data,no data,42113,Sullivan,PA,tie,Sullivan,PA
+2595,-2.0,no data,no data,42115,Susquehanna,PA,tie,Susquehanna,PA
+2596,-2.0,no data,no data,42117,Tioga,PA,tie,Tioga,PA
+2597,-2.0,no data,no data,42119,Union,PA,tie,Union,PA
+2598,-2.0,no data,no data,42123,Warren,PA,tie,Warren,PA
+2599,-2.0,no data,no data,42131,Wyoming,PA,tie,Wyoming,PA
+2600,-2.0,no data,no data,45001,Abbeville,SC,tie,Abbeville,SC
+2601,-2.0,no data,no data,45005,Allendale,SC,tie,Allendale,SC
+2602,-2.0,no data,no data,45009,Bamberg,SC,tie,Bamberg,SC
+2603,-2.0,no data,no data,45011,Barnwell,SC,tie,Barnwell,SC
+2604,-2.0,no data,no data,45017,Calhoun,SC,tie,Calhoun,SC
+2605,-2.0,no data,no data,45021,Cherokee,SC,tie,Cherokee,SC
+2606,-2.0,no data,no data,45023,Chester,SC,tie,Chester,SC
+2607,-2.0,no data,no data,45025,Chesterfield,SC,tie,Chesterfield,SC
+2608,-2.0,no data,no data,45027,Clarendon,SC,tie,Clarendon,SC
+2609,-2.0,no data,no data,45029,Colleton,SC,tie,Colleton,SC
+2610,-2.0,no data,no data,45031,Darlington,SC,tie,Darlington,SC
+2611,-2.0,no data,no data,45033,Dillon,SC,tie,Dillon,SC
+2612,-2.0,no data,no data,45037,Edgefield,SC,tie,Edgefield,SC
+2613,-2.0,no data,no data,45039,Fairfield,SC,tie,Fairfield,SC
+2614,-2.0,no data,no data,45061,Lee,SC,tie,Lee,SC
+2615,-2.0,no data,no data,45065,McCormick,SC,tie,McCormick,SC
+2616,-2.0,no data,no data,45067,Marion,SC,tie,Marion,SC
+2617,-2.0,no data,no data,45071,Newberry,SC,tie,Newberry,SC
+2618,-2.0,no data,no data,45087,Union,SC,tie,Union,SC
+2619,-2.0,no data,no data,45089,Williamsburg,SC,tie,Williamsburg,SC
+2620,-2.0,no data,no data,46003,Aurora,SD,tie,Aurora,SD
+2621,-2.0,no data,no data,46005,Beadle,SD,tie,Beadle,SD
+2622,-2.0,no data,no data,46007,Bennett,SD,tie,Bennett,SD
+2623,-2.0,no data,no data,46009,Bon Homme,SD,tie,Bon Homme,SD
+2624,-2.0,no data,no data,46013,Brown,SD,tie,Brown,SD
+2625,-2.0,no data,no data,46015,Brule,SD,tie,Brule,SD
+2626,-2.0,no data,no data,46017,Buffalo,SD,tie,Buffalo,SD
+2627,-2.0,no data,no data,46019,Butte,SD,tie,Butte,SD
+2628,-2.0,no data,no data,46021,Campbell,SD,tie,Campbell,SD
+2629,-2.0,no data,no data,46023,Charles Mix,SD,tie,Charles Mix,SD
+2630,-2.0,no data,no data,46025,Clark,SD,tie,Clark,SD
+2631,-2.0,no data,no data,46027,Clay,SD,tie,Clay,SD
+2632,-2.0,no data,no data,46029,Codington,SD,tie,Codington,SD
+2633,-2.0,no data,no data,46031,Corson,SD,tie,Corson,SD
+2634,-2.0,no data,no data,46033,Custer,SD,tie,Custer,SD
+2635,-2.0,no data,no data,46037,Day,SD,tie,Day,SD
+2636,-2.0,no data,no data,46039,Deuel,SD,tie,Deuel,SD
+2637,-2.0,no data,no data,46041,Dewey,SD,tie,Dewey,SD
+2638,-2.0,no data,no data,46043,Douglas,SD,tie,Douglas,SD
+2639,-2.0,no data,no data,46045,Edmunds,SD,tie,Edmunds,SD
+2640,-2.0,no data,no data,46047,Fall River,SD,tie,Fall River,SD
+2641,-2.0,no data,no data,46049,Faulk,SD,tie,Faulk,SD
+2642,-2.0,no data,no data,46051,Grant,SD,tie,Grant,SD
+2643,-2.0,no data,no data,46053,Gregory,SD,tie,Gregory,SD
+2644,-2.0,no data,no data,46055,Haakon,SD,tie,Haakon,SD
+2645,-2.0,no data,no data,46059,Hand,SD,tie,Hand,SD
+2646,-2.0,no data,no data,46061,Hanson,SD,tie,Hanson,SD
+2647,-2.0,no data,no data,46063,Harding,SD,tie,Harding,SD
+2648,-2.0,no data,no data,46067,Hutchinson,SD,tie,Hutchinson,SD
+2649,-2.0,no data,no data,46069,Hyde,SD,tie,Hyde,SD
+2650,-2.0,no data,no data,46071,Jackson,SD,tie,Jackson,SD
+2651,-2.0,no data,no data,46073,Jerauld,SD,tie,Jerauld,SD
+2652,-2.0,no data,no data,46075,Jones,SD,tie,Jones,SD
+2653,-2.0,no data,no data,46077,Kingsbury,SD,tie,Kingsbury,SD
+2654,-2.0,no data,no data,46079,Lake,SD,tie,Lake,SD
+2655,-2.0,no data,no data,46083,Lincoln,SD,tie,Lincoln,SD
+2656,-2.0,no data,no data,46085,Lyman,SD,tie,Lyman,SD
+2657,-2.0,no data,no data,46087,McCook,SD,tie,McCook,SD
+2658,-2.0,no data,no data,46089,McPherson,SD,tie,McPherson,SD
+2659,-2.0,no data,no data,46091,Marshall,SD,tie,Marshall,SD
+2660,-2.0,no data,no data,46093,Meade,SD,tie,Meade,SD
+2661,-2.0,no data,no data,46095,Mellette,SD,tie,Mellette,SD
+2662,-2.0,no data,no data,46097,Miner,SD,tie,Miner,SD
+2663,-2.0,no data,no data,46101,Moody,SD,tie,Moody,SD
+2664,-2.0,no data,no data,46105,Perkins,SD,tie,Perkins,SD
+2665,-2.0,no data,no data,46107,Potter,SD,tie,Potter,SD
+2666,-2.0,no data,no data,46109,Roberts,SD,tie,Roberts,SD
+2667,-2.0,no data,no data,46111,Sanborn,SD,tie,Sanborn,SD
+2668,-2.0,no data,no data,46113,Shannon,SD,tie,Shannon,SD
+2669,-2.0,no data,no data,46115,Spink,SD,tie,Spink,SD
+2670,-2.0,no data,no data,46117,Stanley,SD,tie,Stanley,SD
+2671,-2.0,no data,no data,46119,Sully,SD,tie,Sully,SD
+2672,-2.0,no data,no data,46121,Todd,SD,tie,Todd,SD
+2673,-2.0,no data,no data,46123,Tripp,SD,tie,Tripp,SD
+2674,-2.0,no data,no data,46125,Turner,SD,tie,Turner,SD
+2675,-2.0,no data,no data,46127,Union,SD,tie,Union,SD
+2676,-2.0,no data,no data,46129,Walworth,SD,tie,Walworth,SD
+2677,-2.0,no data,no data,46135,Yankton,SD,tie,Yankton,SD
+2678,-2.0,no data,no data,46137,Ziebach,SD,tie,Ziebach,SD
+2679,-2.0,no data,no data,47003,Bedford,TN,tie,Bedford,TN
+2680,-2.0,no data,no data,47005,Benton,TN,tie,Benton,TN
+2681,-2.0,no data,no data,47007,Bledsoe,TN,tie,Bledsoe,TN
+2682,-2.0,no data,no data,47013,Campbell,TN,tie,Campbell,TN
+2683,-2.0,no data,no data,47015,Cannon,TN,tie,Cannon,TN
+2684,-2.0,no data,no data,47017,Carroll,TN,tie,Carroll,TN
+2685,-2.0,no data,no data,47019,Carter,TN,tie,Carter,TN
+2686,-2.0,no data,no data,47027,Clay,TN,tie,Clay,TN
+2687,-2.0,no data,no data,47031,Coffee,TN,tie,Coffee,TN
+2688,-2.0,no data,no data,47033,Crockett,TN,tie,Crockett,TN
+2689,-2.0,no data,no data,47035,Cumberland,TN,tie,Cumberland,TN
+2690,-2.0,no data,no data,47039,Decatur,TN,tie,Decatur,TN
+2691,-2.0,no data,no data,47043,Dickson,TN,tie,Dickson,TN
+2692,-2.0,no data,no data,47045,Dyer,TN,tie,Dyer,TN
+2693,-2.0,no data,no data,47049,Fentress,TN,tie,Fentress,TN
+2694,-2.0,no data,no data,47051,Franklin,TN,tie,Franklin,TN
+2695,-2.0,no data,no data,47053,Gibson,TN,tie,Gibson,TN
+2696,-2.0,no data,no data,47055,Giles,TN,tie,Giles,TN
+2697,-2.0,no data,no data,47061,Grundy,TN,tie,Grundy,TN
+2698,-2.0,no data,no data,47067,Hancock,TN,tie,Hancock,TN
+2699,-2.0,no data,no data,47069,Hardeman,TN,tie,Hardeman,TN
+2700,-2.0,no data,no data,47071,Hardin,TN,tie,Hardin,TN
+2701,-2.0,no data,no data,47073,Hawkins,TN,tie,Hawkins,TN
+2702,-2.0,no data,no data,47075,Haywood,TN,tie,Haywood,TN
+2703,-2.0,no data,no data,47077,Henderson,TN,tie,Henderson,TN
+2704,-2.0,no data,no data,47081,Hickman,TN,tie,Hickman,TN
+2705,-2.0,no data,no data,47083,Houston,TN,tie,Houston,TN
+2706,-2.0,no data,no data,47085,Humphreys,TN,tie,Humphreys,TN
+2707,-2.0,no data,no data,47087,Jackson,TN,tie,Jackson,TN
+2708,-2.0,no data,no data,47089,Jefferson,TN,tie,Jefferson,TN
+2709,-2.0,no data,no data,47091,Johnson,TN,tie,Johnson,TN
+2710,-2.0,no data,no data,47095,Lake,TN,tie,Lake,TN
+2711,-2.0,no data,no data,47097,Lauderdale,TN,tie,Lauderdale,TN
+2712,-2.0,no data,no data,47099,Lawrence,TN,tie,Lawrence,TN
+2713,-2.0,no data,no data,47101,Lewis,TN,tie,Lewis,TN
+2714,-2.0,no data,no data,47103,Lincoln,TN,tie,Lincoln,TN
+2715,-2.0,no data,no data,47105,Loudon,TN,tie,Loudon,TN
+2716,-2.0,no data,no data,47107,McMinn,TN,tie,McMinn,TN
+2717,-2.0,no data,no data,47109,McNairy,TN,tie,McNairy,TN
+2718,-2.0,no data,no data,47111,Macon,TN,tie,Macon,TN
+2719,-2.0,no data,no data,47113,Madison,TN,tie,Madison,TN
+2720,-2.0,no data,no data,47115,Marion,TN,tie,Marion,TN
+2721,-2.0,no data,no data,47117,Marshall,TN,tie,Marshall,TN
+2722,-2.0,no data,no data,47121,Meigs,TN,tie,Meigs,TN
+2723,-2.0,no data,no data,47127,Moore,TN,tie,Moore,TN
+2724,-2.0,no data,no data,47129,Morgan,TN,tie,Morgan,TN
+2725,-2.0,no data,no data,47131,Obion,TN,tie,Obion,TN
+2726,-2.0,no data,no data,47133,Overton,TN,tie,Overton,TN
+2727,-2.0,no data,no data,47135,Perry,TN,tie,Perry,TN
+2728,-2.0,no data,no data,47137,Pickett,TN,tie,Pickett,TN
+2729,-2.0,no data,no data,47139,Polk,TN,tie,Polk,TN
+2730,-2.0,no data,no data,47145,Roane,TN,tie,Roane,TN
+2731,-2.0,no data,no data,47151,Scott,TN,tie,Scott,TN
+2732,-2.0,no data,no data,47153,Sequatchie,TN,tie,Sequatchie,TN
+2733,-2.0,no data,no data,47159,Smith,TN,tie,Smith,TN
+2734,-2.0,no data,no data,47161,Stewart,TN,tie,Stewart,TN
+2735,-2.0,no data,no data,47167,Tipton,TN,tie,Tipton,TN
+2736,-2.0,no data,no data,47169,Trousdale,TN,tie,Trousdale,TN
+2737,-2.0,no data,no data,47171,Unicoi,TN,tie,Unicoi,TN
+2738,-2.0,no data,no data,47173,Union,TN,tie,Union,TN
+2739,-2.0,no data,no data,47175,Van Buren,TN,tie,Van Buren,TN
+2740,-2.0,no data,no data,47177,Warren,TN,tie,Warren,TN
+2741,-2.0,no data,no data,47181,Wayne,TN,tie,Wayne,TN
+2742,-2.0,no data,no data,48001,Anderson,TX,tie,Anderson,TX
+2743,-2.0,no data,no data,48003,Andrews,TX,tie,Andrews,TX
+2744,-2.0,no data,no data,48009,Archer,TX,tie,Archer,TX
+2745,-2.0,no data,no data,48011,Armstrong,TX,tie,Armstrong,TX
+2746,-2.0,no data,no data,48013,Atascosa,TX,tie,Atascosa,TX
+2747,-2.0,no data,no data,48015,Austin,TX,tie,Austin,TX
+2748,-2.0,no data,no data,48017,Bailey,TX,tie,Bailey,TX
+2749,-2.0,no data,no data,48019,Bandera,TX,tie,Bandera,TX
+2750,-2.0,no data,no data,48023,Baylor,TX,tie,Baylor,TX
+2751,-2.0,no data,no data,48025,Bee,TX,tie,Bee,TX
+2752,-2.0,no data,no data,48031,Blanco,TX,tie,Blanco,TX
+2753,-2.0,no data,no data,48033,Borden,TX,tie,Borden,TX
+2754,-2.0,no data,no data,48035,Bosque,TX,tie,Bosque,TX
+2755,-2.0,no data,no data,48037,Bowie,TX,tie,Bowie,TX
+2756,-2.0,no data,no data,48043,Brewster,TX,tie,Brewster,TX
+2757,-2.0,no data,no data,48045,Briscoe,TX,tie,Briscoe,TX
+2758,-2.0,no data,no data,48047,Brooks,TX,tie,Brooks,TX
+2759,-2.0,no data,no data,48051,Burleson,TX,tie,Burleson,TX
+2760,-2.0,no data,no data,48053,Burnet,TX,tie,Burnet,TX
+2761,-2.0,no data,no data,48055,Caldwell,TX,tie,Caldwell,TX
+2762,-2.0,no data,no data,48057,Calhoun,TX,tie,Calhoun,TX
+2763,-2.0,no data,no data,48059,Callahan,TX,tie,Callahan,TX
+2764,-2.0,no data,no data,48063,Camp,TX,tie,Camp,TX
+2765,-2.0,no data,no data,48065,Carson,TX,tie,Carson,TX
+2766,-2.0,no data,no data,48067,Cass,TX,tie,Cass,TX
+2767,-2.0,no data,no data,48069,Castro,TX,tie,Castro,TX
+2768,-2.0,no data,no data,48071,Chambers,TX,tie,Chambers,TX
+2769,-2.0,no data,no data,48073,Cherokee,TX,tie,Cherokee,TX
+2770,-2.0,no data,no data,48075,Childress,TX,tie,Childress,TX
+2771,-2.0,no data,no data,48077,Clay,TX,tie,Clay,TX
+2772,-2.0,no data,no data,48079,Cochran,TX,tie,Cochran,TX
+2773,-2.0,no data,no data,48081,Coke,TX,tie,Coke,TX
+2774,-2.0,no data,no data,48083,Coleman,TX,tie,Coleman,TX
+2775,-2.0,no data,no data,48087,Collingsworth,TX,tie,Collingsworth,TX
+2776,-2.0,no data,no data,48089,Colorado,TX,tie,Colorado,TX
+2777,-2.0,no data,no data,48093,Comanche,TX,tie,Comanche,TX
+2778,-2.0,no data,no data,48095,Concho,TX,tie,Concho,TX
+2779,-2.0,no data,no data,48097,Cooke,TX,tie,Cooke,TX
+2780,-2.0,no data,no data,48099,Coryell,TX,tie,Coryell,TX
+2781,-2.0,no data,no data,48101,Cottle,TX,tie,Cottle,TX
+2782,-2.0,no data,no data,48103,Crane,TX,tie,Crane,TX
+2783,-2.0,no data,no data,48105,Crockett,TX,tie,Crockett,TX
+2784,-2.0,no data,no data,48107,Crosby,TX,tie,Crosby,TX
+2785,-2.0,no data,no data,48109,Culberson,TX,tie,Culberson,TX
+2786,-2.0,no data,no data,48111,Dallam,TX,tie,Dallam,TX
+2787,-2.0,no data,no data,48115,Dawson,TX,tie,Dawson,TX
+2788,-2.0,no data,no data,48117,Deaf Smith,TX,tie,Deaf Smith,TX
+2789,-2.0,no data,no data,48119,Delta,TX,tie,Delta,TX
+2790,-2.0,no data,no data,48123,De Witt,TX,tie,De Witt,TX
+2791,-2.0,no data,no data,48125,Dickens,TX,tie,Dickens,TX
+2792,-2.0,no data,no data,48127,Dimmit,TX,tie,Dimmit,TX
+2793,-2.0,no data,no data,48129,Donley,TX,tie,Donley,TX
+2794,-2.0,no data,no data,48131,Duval,TX,tie,Duval,TX
+2795,-2.0,no data,no data,48133,Eastland,TX,tie,Eastland,TX
+2796,-2.0,no data,no data,48137,Edwards,TX,tie,Edwards,TX
+2797,-2.0,no data,no data,48143,Erath,TX,tie,Erath,TX
+2798,-2.0,no data,no data,48147,Fannin,TX,tie,Fannin,TX
+2799,-2.0,no data,no data,48151,Fisher,TX,tie,Fisher,TX
+2800,-2.0,no data,no data,48153,Floyd,TX,tie,Floyd,TX
+2801,-2.0,no data,no data,48155,Foard,TX,tie,Foard,TX
+2802,-2.0,no data,no data,48159,Franklin,TX,tie,Franklin,TX
+2803,-2.0,no data,no data,48161,Freestone,TX,tie,Freestone,TX
+2804,-2.0,no data,no data,48163,Frio,TX,tie,Frio,TX
+2805,-2.0,no data,no data,48165,Gaines,TX,tie,Gaines,TX
+2806,-2.0,no data,no data,48169,Garza,TX,tie,Garza,TX
+2807,-2.0,no data,no data,48173,Glasscock,TX,tie,Glasscock,TX
+2808,-2.0,no data,no data,48175,Goliad,TX,tie,Goliad,TX
+2809,-2.0,no data,no data,48177,Gonzales,TX,tie,Gonzales,TX
+2810,-2.0,no data,no data,48179,Gray,TX,tie,Gray,TX
+2811,-2.0,no data,no data,48189,Hale,TX,tie,Hale,TX
+2812,-2.0,no data,no data,48195,Hansford,TX,tie,Hansford,TX
+2813,-2.0,no data,no data,48197,Hardeman,TX,tie,Hardeman,TX
+2814,-2.0,no data,no data,48199,Hardin,TX,tie,Hardin,TX
+2815,-2.0,no data,no data,48205,Hartley,TX,tie,Hartley,TX
+2816,-2.0,no data,no data,48207,Haskell,TX,tie,Haskell,TX
+2817,-2.0,no data,no data,48211,Hemphill,TX,tie,Hemphill,TX
+2818,-2.0,no data,no data,48213,Henderson,TX,tie,Henderson,TX
+2819,-2.0,no data,no data,48219,Hockley,TX,tie,Hockley,TX
+2820,-2.0,no data,no data,48221,Hood,TX,tie,Hood,TX
+2821,-2.0,no data,no data,48225,Houston,TX,tie,Houston,TX
+2822,-2.0,no data,no data,48227,Howard,TX,tie,Howard,TX
+2823,-2.0,no data,no data,48229,Hudspeth,TX,tie,Hudspeth,TX
+2824,-2.0,no data,no data,48231,Hunt,TX,tie,Hunt,TX
+2825,-2.0,no data,no data,48233,Hutchinson,TX,tie,Hutchinson,TX
+2826,-2.0,no data,no data,48235,Irion,TX,tie,Irion,TX
+2827,-2.0,no data,no data,48237,Jack,TX,tie,Jack,TX
+2828,-2.0,no data,no data,48239,Jackson,TX,tie,Jackson,TX
+2829,-2.0,no data,no data,48243,Jeff Davis,TX,tie,Jeff Davis,TX
+2830,-2.0,no data,no data,48247,Jim Hogg,TX,tie,Jim Hogg,TX
+2831,-2.0,no data,no data,48253,Jones,TX,tie,Jones,TX
+2832,-2.0,no data,no data,48255,Karnes,TX,tie,Karnes,TX
+2833,-2.0,no data,no data,48261,Kenedy,TX,tie,Kenedy,TX
+2834,-2.0,no data,no data,48263,Kent,TX,tie,Kent,TX
+2835,-2.0,no data,no data,48265,Kerr,TX,tie,Kerr,TX
+2836,-2.0,no data,no data,48267,Kimble,TX,tie,Kimble,TX
+2837,-2.0,no data,no data,48269,King,TX,tie,King,TX
+2838,-2.0,no data,no data,48271,Kinney,TX,tie,Kinney,TX
+2839,-2.0,no data,no data,48275,Knox,TX,tie,Knox,TX
+2840,-2.0,no data,no data,48279,Lamb,TX,tie,Lamb,TX
+2841,-2.0,no data,no data,48281,Lampasas,TX,tie,Lampasas,TX
+2842,-2.0,no data,no data,48283,La Salle,TX,tie,La Salle,TX
+2843,-2.0,no data,no data,48285,Lavaca,TX,tie,Lavaca,TX
+2844,-2.0,no data,no data,48287,Lee,TX,tie,Lee,TX
+2845,-2.0,no data,no data,48289,Leon,TX,tie,Leon,TX
+2846,-2.0,no data,no data,48291,Liberty,TX,tie,Liberty,TX
+2847,-2.0,no data,no data,48293,Limestone,TX,tie,Limestone,TX
+2848,-2.0,no data,no data,48295,Lipscomb,TX,tie,Lipscomb,TX
+2849,-2.0,no data,no data,48297,Live Oak,TX,tie,Live Oak,TX
+2850,-2.0,no data,no data,48299,Llano,TX,tie,Llano,TX
+2851,-2.0,no data,no data,48301,Loving,TX,tie,Loving,TX
+2852,-2.0,no data,no data,48305,Lynn,TX,tie,Lynn,TX
+2853,-2.0,no data,no data,48307,McCulloch,TX,tie,McCulloch,TX
+2854,-2.0,no data,no data,48311,McMullen,TX,tie,McMullen,TX
+2855,-2.0,no data,no data,48313,Madison,TX,tie,Madison,TX
+2856,-2.0,no data,no data,48315,Marion,TX,tie,Marion,TX
+2857,-2.0,no data,no data,48317,Martin,TX,tie,Martin,TX
+2858,-2.0,no data,no data,48321,Matagorda,TX,tie,Matagorda,TX
+2859,-2.0,no data,no data,48323,Maverick,TX,tie,Maverick,TX
+2860,-2.0,no data,no data,48325,Medina,TX,tie,Medina,TX
+2861,-2.0,no data,no data,48331,Milam,TX,tie,Milam,TX
+2862,-2.0,no data,no data,48333,Mills,TX,tie,Mills,TX
+2863,-2.0,no data,no data,48335,Mitchell,TX,tie,Mitchell,TX
+2864,-2.0,no data,no data,48337,Montague,TX,tie,Montague,TX
+2865,-2.0,no data,no data,48341,Moore,TX,tie,Moore,TX
+2866,-2.0,no data,no data,48343,Morris,TX,tie,Morris,TX
+2867,-2.0,no data,no data,48345,Motley,TX,tie,Motley,TX
+2868,-2.0,no data,no data,48347,Nacogdoches,TX,tie,Nacogdoches,TX
+2869,-2.0,no data,no data,48351,Newton,TX,tie,Newton,TX
+2870,-2.0,no data,no data,48353,Nolan,TX,tie,Nolan,TX
+2871,-2.0,no data,no data,48357,Ochiltree,TX,tie,Ochiltree,TX
+2872,-2.0,no data,no data,48359,Oldham,TX,tie,Oldham,TX
+2873,-2.0,no data,no data,48363,Palo Pinto,TX,tie,Palo Pinto,TX
+2874,-2.0,no data,no data,48365,Panola,TX,tie,Panola,TX
+2875,-2.0,no data,no data,48369,Parmer,TX,tie,Parmer,TX
+2876,-2.0,no data,no data,48373,Polk,TX,tie,Polk,TX
+2877,-2.0,no data,no data,48383,Reagan,TX,tie,Reagan,TX
+2878,-2.0,no data,no data,48385,Real,TX,tie,Real,TX
+2879,-2.0,no data,no data,48387,Red River,TX,tie,Red River,TX
+2880,-2.0,no data,no data,48389,Reeves,TX,tie,Reeves,TX
+2881,-2.0,no data,no data,48391,Refugio,TX,tie,Refugio,TX
+2882,-2.0,no data,no data,48393,Roberts,TX,tie,Roberts,TX
+2883,-2.0,no data,no data,48395,Robertson,TX,tie,Robertson,TX
+2884,-2.0,no data,no data,48399,Runnels,TX,tie,Runnels,TX
+2885,-2.0,no data,no data,48403,Sabine,TX,tie,Sabine,TX
+2886,-2.0,no data,no data,48405,San Augustine,TX,tie,San Augustine,TX
+2887,-2.0,no data,no data,48407,San Jacinto,TX,tie,San Jacinto,TX
+2888,-2.0,no data,no data,48413,Schleicher,TX,tie,Schleicher,TX
+2889,-2.0,no data,no data,48415,Scurry,TX,tie,Scurry,TX
+2890,-2.0,no data,no data,48417,Shackelford,TX,tie,Shackelford,TX
+2891,-2.0,no data,no data,48419,Shelby,TX,tie,Shelby,TX
+2892,-2.0,no data,no data,48421,Sherman,TX,tie,Sherman,TX
+2893,-2.0,no data,no data,48425,Somervell,TX,tie,Somervell,TX
+2894,-2.0,no data,no data,48427,Starr,TX,tie,Starr,TX
+2895,-2.0,no data,no data,48429,Stephens,TX,tie,Stephens,TX
+2896,-2.0,no data,no data,48431,Sterling,TX,tie,Sterling,TX
+2897,-2.0,no data,no data,48433,Stonewall,TX,tie,Stonewall,TX
+2898,-2.0,no data,no data,48435,Sutton,TX,tie,Sutton,TX
+2899,-2.0,no data,no data,48437,Swisher,TX,tie,Swisher,TX
+2900,-2.0,no data,no data,48443,Terrell,TX,tie,Terrell,TX
+2901,-2.0,no data,no data,48445,Terry,TX,tie,Terry,TX
+2902,-2.0,no data,no data,48447,Throckmorton,TX,tie,Throckmorton,TX
+2903,-2.0,no data,no data,48451,Tom Green,TX,tie,Tom Green,TX
+2904,-2.0,no data,no data,48455,Trinity,TX,tie,Trinity,TX
+2905,-2.0,no data,no data,48457,Tyler,TX,tie,Tyler,TX
+2906,-2.0,no data,no data,48459,Upshur,TX,tie,Upshur,TX
+2907,-2.0,no data,no data,48461,Upton,TX,tie,Upton,TX
+2908,-2.0,no data,no data,48463,Uvalde,TX,tie,Uvalde,TX
+2909,-2.0,no data,no data,48473,Waller,TX,tie,Waller,TX
+2910,-2.0,no data,no data,48475,Ward,TX,tie,Ward,TX
+2911,-2.0,no data,no data,48477,Washington,TX,tie,Washington,TX
+2912,-2.0,no data,no data,48481,Wharton,TX,tie,Wharton,TX
+2913,-2.0,no data,no data,48483,Wheeler,TX,tie,Wheeler,TX
+2914,-2.0,no data,no data,48485,Wichita,TX,tie,Wichita,TX
+2915,-2.0,no data,no data,48487,Wilbarger,TX,tie,Wilbarger,TX
+2916,-2.0,no data,no data,48489,Willacy,TX,tie,Willacy,TX
+2917,-2.0,no data,no data,48493,Wilson,TX,tie,Wilson,TX
+2918,-2.0,no data,no data,48495,Winkler,TX,tie,Winkler,TX
+2919,-2.0,no data,no data,48501,Yoakum,TX,tie,Yoakum,TX
+2920,-2.0,no data,no data,48503,Young,TX,tie,Young,TX
+2921,-2.0,no data,no data,48505,Zapata,TX,tie,Zapata,TX
+2922,-2.0,no data,no data,48507,Zavala,TX,tie,Zavala,TX
+2923,-2.0,no data,no data,49001,Beaver,UT,tie,Beaver,UT
+2924,-2.0,no data,no data,49003,Box Elder,UT,tie,Box Elder,UT
+2925,-2.0,no data,no data,49005,Cache,UT,tie,Cache,UT
+2926,-2.0,no data,no data,49007,Carbon,UT,tie,Carbon,UT
+2927,-2.0,no data,no data,49009,Daggett,UT,tie,Daggett,UT
+2928,-2.0,no data,no data,49013,Duchesne,UT,tie,Duchesne,UT
+2929,-2.0,no data,no data,49015,Emery,UT,tie,Emery,UT
+2930,-2.0,no data,no data,49017,Garfield,UT,tie,Garfield,UT
+2931,-2.0,no data,no data,49021,Iron,UT,tie,Iron,UT
+2932,-2.0,no data,no data,49023,Juab,UT,tie,Juab,UT
+2933,-2.0,no data,no data,49025,Kane,UT,tie,Kane,UT
+2934,-2.0,no data,no data,49027,Millard,UT,tie,Millard,UT
+2935,-2.0,no data,no data,49029,Morgan,UT,tie,Morgan,UT
+2936,-2.0,no data,no data,49031,Piute,UT,tie,Piute,UT
+2937,-2.0,no data,no data,49033,Rich,UT,tie,Rich,UT
+2938,-2.0,no data,no data,49041,Sevier,UT,tie,Sevier,UT
+2939,-2.0,no data,no data,49051,Wasatch,UT,tie,Wasatch,UT
+2940,-2.0,no data,no data,49055,Wayne,UT,tie,Wayne,UT
+2941,-2.0,no data,no data,50001,Addison,VT,tie,Addison,VT
+2942,-2.0,no data,no data,50005,Caledonia,VT,tie,Caledonia,VT
+2943,-2.0,no data,no data,50009,Essex,VT,tie,Essex,VT
+2944,-2.0,no data,no data,50013,Grand Isle,VT,tie,Grand Isle,VT
+2945,-2.0,no data,no data,51001,Accomack,VA,tie,Accomack,VA
+2946,-2.0,no data,no data,51007,Amelia,VA,tie,Amelia,VA
+2947,-2.0,no data,no data,51015,Augusta,VA,tie,Augusta,VA
+2948,-2.0,no data,no data,51017,Bath,VA,tie,Bath,VA
+2949,-2.0,no data,no data,51021,Bland,VA,tie,Bland,VA
+2950,-2.0,no data,no data,51025,Brunswick,VA,tie,Brunswick,VA
+2951,-2.0,no data,no data,51027,Buchanan,VA,tie,Buchanan,VA
+2952,-2.0,no data,no data,51029,Buckingham,VA,tie,Buckingham,VA
+2953,-2.0,no data,no data,51031,Campbell,VA,tie,Campbell,VA
+2954,-2.0,no data,no data,51033,Caroline,VA,tie,Caroline,VA
+2955,-2.0,no data,no data,51035,Carroll,VA,tie,Carroll,VA
+2956,-2.0,no data,no data,51036,Charles City,VA,tie,Charles City,VA
+2957,-2.0,no data,no data,51037,Charlotte,VA,tie,Charlotte,VA
+2958,-2.0,no data,no data,51043,Clarke,VA,tie,Clarke,VA
+2959,-2.0,no data,no data,51045,Craig,VA,tie,Craig,VA
+2960,-2.0,no data,no data,51049,Cumberland,VA,tie,Cumberland,VA
+2961,-2.0,no data,no data,51051,Dickenson,VA,tie,Dickenson,VA
+2962,-2.0,no data,no data,51053,Dinwiddie,VA,tie,Dinwiddie,VA
+2963,-2.0,no data,no data,51057,Essex,VA,tie,Essex,VA
+2964,-2.0,no data,no data,51063,Floyd,VA,tie,Floyd,VA
+2965,-2.0,no data,no data,51065,Fluvanna,VA,tie,Fluvanna,VA
+2966,-2.0,no data,no data,51067,Franklin,VA,tie,Franklin,VA
+2967,-2.0,no data,no data,51071,Giles,VA,tie,Giles,VA
+2968,-2.0,no data,no data,51073,Gloucester,VA,tie,Gloucester,VA
+2969,-2.0,no data,no data,51077,Grayson,VA,tie,Grayson,VA
+2970,-2.0,no data,no data,51079,Greene,VA,tie,Greene,VA
+2971,-2.0,no data,no data,51081,Greensville,VA,tie,Greensville,VA
+2972,-2.0,no data,no data,51083,Halifax,VA,tie,Halifax,VA
+2973,-2.0,no data,no data,51089,Henry,VA,tie,Henry,VA
+2974,-2.0,no data,no data,51091,Highland,VA,tie,Highland,VA
+2975,-2.0,no data,no data,51093,Isle of Wight,VA,tie,Isle of Wight,VA
+2976,-2.0,no data,no data,51101,King William,VA,tie,King William,VA
+2977,-2.0,no data,no data,51103,Lancaster,VA,tie,Lancaster,VA
+2978,-2.0,no data,no data,51109,Louisa,VA,tie,Louisa,VA
+2979,-2.0,no data,no data,51111,Lunenburg,VA,tie,Lunenburg,VA
+2980,-2.0,no data,no data,51113,Madison,VA,tie,Madison,VA
+2981,-2.0,no data,no data,51115,Mathews,VA,tie,Mathews,VA
+2982,-2.0,no data,no data,51119,Middlesex,VA,tie,Middlesex,VA
+2983,-2.0,no data,no data,51125,Nelson,VA,tie,Nelson,VA
+2984,-2.0,no data,no data,51127,New Kent,VA,tie,New Kent,VA
+2985,-2.0,no data,no data,51133,Northumberland,VA,tie,Northumberland,VA
+2986,-2.0,no data,no data,51135,Nottoway,VA,tie,Nottoway,VA
+2987,-2.0,no data,no data,51139,Page,VA,tie,Page,VA
+2988,-2.0,no data,no data,51141,Patrick,VA,tie,Patrick,VA
+2989,-2.0,no data,no data,51143,Pittsylvania,VA,tie,Pittsylvania,VA
+2990,-2.0,no data,no data,51145,Powhatan,VA,tie,Powhatan,VA
+2991,-2.0,no data,no data,51147,Prince Edward,VA,tie,Prince Edward,VA
+2992,-2.0,no data,no data,51149,Prince George,VA,tie,Prince George,VA
+2993,-2.0,no data,no data,51155,Pulaski,VA,tie,Pulaski,VA
+2994,-2.0,no data,no data,51157,Rappahannock,VA,tie,Rappahannock,VA
+2995,-2.0,no data,no data,51159,Richmond,VA,tie,Richmond,VA
+2996,-2.0,no data,no data,51163,Rockbridge,VA,tie,Rockbridge,VA
+2997,-2.0,no data,no data,51165,Rockingham,VA,tie,Rockingham,VA
+2998,-2.0,no data,no data,51173,Smyth,VA,tie,Smyth,VA
+2999,-2.0,no data,no data,51175,Southampton,VA,tie,Southampton,VA
+3000,-2.0,no data,no data,51181,Surry,VA,tie,Surry,VA
+3001,-2.0,no data,no data,51183,Sussex,VA,tie,Sussex,VA
+3002,-2.0,no data,no data,51187,Warren,VA,tie,Warren,VA
+3003,-2.0,no data,no data,51191,Washington,VA,tie,Washington,VA
+3004,-2.0,no data,no data,51193,Westmoreland,VA,tie,Westmoreland,VA
+3005,-2.0,no data,no data,51195,Wise,VA,tie,Wise,VA
+3006,-2.0,no data,no data,51520,Bristol City,VA,tie,Bristol City,VA
+3007,-2.0,no data,no data,51530,Buena Vista City,VA,tie,Buena Vista City,VA
+3008,-2.0,no data,no data,51560,Clifton Forge City,VA,tie,Clifton Forge City,VA
+3009,-2.0,no data,no data,51580,Covington City,VA,tie,Covington City,VA
+3010,-2.0,no data,no data,51590,Danville City,VA,tie,Danville City,VA
+3011,-2.0,no data,no data,51595,Emporia City,VA,tie,Emporia City,VA
+3012,-2.0,no data,no data,51610,Falls Church City,VA,tie,Falls Church City,VA
+3013,-2.0,no data,no data,51620,Franklin City,VA,tie,Franklin City,VA
+3014,-2.0,no data,no data,51640,Galax City,VA,tie,Galax City,VA
+3015,-2.0,no data,no data,51670,Hopewell City,VA,tie,Hopewell City,VA
+3016,-2.0,no data,no data,51678,Lexington City,VA,tie,Lexington City,VA
+3017,-2.0,no data,no data,51685,Manassas Park City,VA,tie,Manassas Park City,VA
+3018,-2.0,no data,no data,51690,Martinsville City,VA,tie,Martinsville City,VA
+3019,-2.0,no data,no data,51720,Norton City,VA,tie,Norton City,VA
+3020,-2.0,no data,no data,51730,Petersburg City,VA,tie,Petersburg City,VA
+3021,-2.0,no data,no data,51735,Poquoson City,VA,tie,Poquoson City,VA
+3022,-2.0,no data,no data,51750,Radford City,VA,tie,Radford City,VA
+3023,-2.0,no data,no data,51780,South Boston City,VA,tie,South Boston City,VA
+3024,-2.0,no data,no data,51830,Williamsburg City,VA,tie,Williamsburg City,VA
+3025,-2.0,no data,no data,53001,Adams,WA,tie,Adams,WA
+3026,-2.0,no data,no data,53003,Asotin,WA,tie,Asotin,WA
+3027,-2.0,no data,no data,53013,Columbia,WA,tie,Columbia,WA
+3028,-2.0,no data,no data,53017,Douglas,WA,tie,Douglas,WA
+3029,-2.0,no data,no data,53019,Ferry,WA,tie,Ferry,WA
+3030,-2.0,no data,no data,53023,Garfield,WA,tie,Garfield,WA
+3031,-2.0,no data,no data,53025,Grant,WA,tie,Grant,WA
+3032,-2.0,no data,no data,53039,Klickitat,WA,tie,Klickitat,WA
+3033,-2.0,no data,no data,53041,Lewis,WA,tie,Lewis,WA
+3034,-2.0,no data,no data,53043,Lincoln,WA,tie,Lincoln,WA
+3035,-2.0,no data,no data,53045,Mason,WA,tie,Mason,WA
+3036,-2.0,no data,no data,53047,Okanogan,WA,tie,Okanogan,WA
+3037,-2.0,no data,no data,53049,Pacific,WA,tie,Pacific,WA
+3038,-2.0,no data,no data,53065,Stevens,WA,tie,Stevens,WA
+3039,-2.0,no data,no data,53069,Wahkiakum,WA,tie,Wahkiakum,WA
+3040,-2.0,no data,no data,53075,Whitman,WA,tie,Whitman,WA
+3041,-2.0,no data,no data,54001,Barbour,WV,tie,Barbour,WV
+3042,-2.0,no data,no data,54003,Berkeley,WV,tie,Berkeley,WV
+3043,-2.0,no data,no data,54005,Boone,WV,tie,Boone,WV
+3044,-2.0,no data,no data,54007,Braxton,WV,tie,Braxton,WV
+3045,-2.0,no data,no data,54009,Brooke,WV,tie,Brooke,WV
+3046,-2.0,no data,no data,54013,Calhoun,WV,tie,Calhoun,WV
+3047,-2.0,no data,no data,54015,Clay,WV,tie,Clay,WV
+3048,-2.0,no data,no data,54017,Doddridge,WV,tie,Doddridge,WV
+3049,-2.0,no data,no data,54021,Gilmer,WV,tie,Gilmer,WV
+3050,-2.0,no data,no data,54023,Grant,WV,tie,Grant,WV
+3051,-2.0,no data,no data,54025,Greenbrier,WV,tie,Greenbrier,WV
+3052,-2.0,no data,no data,54027,Hampshire,WV,tie,Hampshire,WV
+3053,-2.0,no data,no data,54029,Hancock,WV,tie,Hancock,WV
+3054,-2.0,no data,no data,54031,Hardy,WV,tie,Hardy,WV
+3055,-2.0,no data,no data,54035,Jackson,WV,tie,Jackson,WV
+3056,-2.0,no data,no data,54041,Lewis,WV,tie,Lewis,WV
+3057,-2.0,no data,no data,54043,Lincoln,WV,tie,Lincoln,WV
+3058,-2.0,no data,no data,54047,McDowell,WV,tie,McDowell,WV
+3059,-2.0,no data,no data,54051,Marshall,WV,tie,Marshall,WV
+3060,-2.0,no data,no data,54053,Mason,WV,tie,Mason,WV
+3061,-2.0,no data,no data,54055,Mercer,WV,tie,Mercer,WV
+3062,-2.0,no data,no data,54057,Mineral,WV,tie,Mineral,WV
+3063,-2.0,no data,no data,54059,Mingo,WV,tie,Mingo,WV
+3064,-2.0,no data,no data,54063,Monroe,WV,tie,Monroe,WV
+3065,-2.0,no data,no data,54065,Morgan,WV,tie,Morgan,WV
+3066,-2.0,no data,no data,54071,Pendleton,WV,tie,Pendleton,WV
+3067,-2.0,no data,no data,54073,Pleasants,WV,tie,Pleasants,WV
+3068,-2.0,no data,no data,54075,Pocahontas,WV,tie,Pocahontas,WV
+3069,-2.0,no data,no data,54077,Preston,WV,tie,Preston,WV
+3070,-2.0,no data,no data,54079,Putnam,WV,tie,Putnam,WV
+3071,-2.0,no data,no data,54081,Raleigh,WV,tie,Raleigh,WV
+3072,-2.0,no data,no data,54083,Randolph,WV,tie,Randolph,WV
+3073,-2.0,no data,no data,54085,Ritchie,WV,tie,Ritchie,WV
+3074,-2.0,no data,no data,54087,Roane,WV,tie,Roane,WV
+3075,-2.0,no data,no data,54089,Summers,WV,tie,Summers,WV
+3076,-2.0,no data,no data,54091,Taylor,WV,tie,Taylor,WV
+3077,-2.0,no data,no data,54095,Tyler,WV,tie,Tyler,WV
+3078,-2.0,no data,no data,54097,Upshur,WV,tie,Upshur,WV
+3079,-2.0,no data,no data,54101,Webster,WV,tie,Webster,WV
+3080,-2.0,no data,no data,54103,Wetzel,WV,tie,Wetzel,WV
+3081,-2.0,no data,no data,54105,Wirt,WV,tie,Wirt,WV
+3082,-2.0,no data,no data,54109,Wyoming,WV,tie,Wyoming,WV
+3083,-2.0,no data,no data,55001,Adams,WI,tie,Adams,WI
+3084,-2.0,no data,no data,55003,Ashland,WI,tie,Ashland,WI
+3085,-2.0,no data,no data,55005,Barron,WI,tie,Barron,WI
+3086,-2.0,no data,no data,55007,Bayfield,WI,tie,Bayfield,WI
+3087,-2.0,no data,no data,55011,Buffalo,WI,tie,Buffalo,WI
+3088,-2.0,no data,no data,55013,Burnett,WI,tie,Burnett,WI
+3089,-2.0,no data,no data,55015,Calumet,WI,tie,Calumet,WI
+3090,-2.0,no data,no data,55017,Chippewa,WI,tie,Chippewa,WI
+3091,-2.0,no data,no data,55019,Clark,WI,tie,Clark,WI
+3092,-2.0,no data,no data,55021,Columbia,WI,tie,Columbia,WI
+3093,-2.0,no data,no data,55023,Crawford,WI,tie,Crawford,WI
+3094,-2.0,no data,no data,55027,Dodge,WI,tie,Dodge,WI
+3095,-2.0,no data,no data,55033,Dunn,WI,tie,Dunn,WI
+3096,-2.0,no data,no data,55037,Florence,WI,tie,Florence,WI
+3097,-2.0,no data,no data,55041,Forest,WI,tie,Forest,WI
+3098,-2.0,no data,no data,55043,Grant,WI,tie,Grant,WI
+3099,-2.0,no data,no data,55047,Green Lake,WI,tie,Green Lake,WI
+3100,-2.0,no data,no data,55051,Iron,WI,tie,Iron,WI
+3101,-2.0,no data,no data,55053,Jackson,WI,tie,Jackson,WI
+3102,-2.0,no data,no data,55057,Juneau,WI,tie,Juneau,WI
+3103,-2.0,no data,no data,55061,Kewaunee,WI,tie,Kewaunee,WI
+3104,-2.0,no data,no data,55063,La Crosse,WI,tie,La Crosse,WI
+3105,-2.0,no data,no data,55067,Langlade,WI,tie,Langlade,WI
+3106,-2.0,no data,no data,55077,Marquette,WI,tie,Marquette,WI
+3107,-2.0,no data,no data,55078,Menominee,WI,tie,Menominee,WI
+3108,-2.0,no data,no data,55081,Monroe,WI,tie,Monroe,WI
+3109,-2.0,no data,no data,55083,Oconto,WI,tie,Oconto,WI
+3110,-2.0,no data,no data,55091,Pepin,WI,tie,Pepin,WI
+3111,-2.0,no data,no data,55099,Price,WI,tie,Price,WI
+3112,-2.0,no data,no data,55103,Richland,WI,tie,Richland,WI
+3113,-2.0,no data,no data,55107,Rusk,WI,tie,Rusk,WI
+3114,-2.0,no data,no data,55109,St Croix,WI,tie,St Croix,WI
+3115,-2.0,no data,no data,55111,Sauk,WI,tie,Sauk,WI
+3116,-2.0,no data,no data,55113,Sawyer,WI,tie,Sawyer,WI
+3117,-2.0,no data,no data,55117,Sheboygan,WI,tie,Sheboygan,WI
+3118,-2.0,no data,no data,55119,Taylor,WI,tie,Taylor,WI
+3119,-2.0,no data,no data,55121,Trempealeau,WI,tie,Trempealeau,WI
+3120,-2.0,no data,no data,55123,Vernon,WI,tie,Vernon,WI
+3121,-2.0,no data,no data,55125,Vilas,WI,tie,Vilas,WI
+3122,-2.0,no data,no data,55129,Washburn,WI,tie,Washburn,WI
+3123,-2.0,no data,no data,55135,Waupaca,WI,tie,Waupaca,WI
+3124,-2.0,no data,no data,55137,Waushara,WI,tie,Waushara,WI
+3125,-2.0,no data,no data,55141,Wood,WI,tie,Wood,WI
+3126,-2.0,no data,no data,56001,Albany,WY,tie,Albany,WY
+3127,-2.0,no data,no data,56003,Big Horn,WY,tie,Big Horn,WY
+3128,-2.0,no data,no data,56005,Campbell,WY,tie,Campbell,WY
+3129,-2.0,no data,no data,56009,Converse,WY,tie,Converse,WY
+3130,-2.0,no data,no data,56011,Crook,WY,tie,Crook,WY
+3131,-2.0,no data,no data,56015,Goshen,WY,tie,Goshen,WY
+3132,-2.0,no data,no data,56017,Hot Springs,WY,tie,Hot Springs,WY
+3133,-2.0,no data,no data,56019,Johnson,WY,tie,Johnson,WY
+3134,-2.0,no data,no data,56021,Laramie,WY,tie,Laramie,WY
+3135,-2.0,no data,no data,56023,Lincoln,WY,tie,Lincoln,WY
+3136,-2.0,no data,no data,56027,Niobrara,WY,tie,Niobrara,WY
+3137,-2.0,no data,no data,56031,Platte,WY,tie,Platte,WY
+3138,-2.0,no data,no data,56037,Sweetwater,WY,tie,Sweetwater,WY
+3139,-2.0,no data,no data,56041,Uinta,WY,tie,Uinta,WY
+3140,-2.0,no data,no data,56043,Washakie,WY,tie,Washakie,WY
+3141,-2.0,no data,no data,56045,Weston,WY,tie,Weston,WY
+3142,-2.0,no data,no data,60010,Unknown,AS,tie,Unknown,AS
+3143,-2.0,no data,no data,60020,Manua,AS,tie,Manua,AS
+3144,-2.0,no data,no data,60020,Manua,AS,tie,Ofu,AS
+3145,-2.0,no data,no data,60020,Manua,AS,tie,Olosega,AS
+3146,-2.0,no data,no data,60020,Ofu,AS,tie,Manua,AS
+3147,-2.0,no data,no data,60020,Ofu,AS,tie,Ofu,AS
+3148,-2.0,no data,no data,60020,Ofu,AS,tie,Olosega,AS
+3149,-2.0,no data,no data,60020,Olosega,AS,tie,Manua,AS
+3150,-2.0,no data,no data,60020,Olosega,AS,tie,Ofu,AS
+3151,-2.0,no data,no data,60020,Olosega,AS,tie,Olosega,AS
+3152,-2.0,no data,no data,60050,Tutuila,AS,tie,Tutuila,AS
+3153,-2.0,no data,no data,66010,Cocos Island,MP,tie,Cocos Island,MP
+3154,-2.0,no data,no data,66010,Cocos Island,MP,tie,Guam,GU
+3155,-2.0,no data,no data,66010,Guam,GU,tie,Cocos Island,MP
+3156,-2.0,no data,no data,66010,Guam,GU,tie,Guam,GU
+3157,-2.0,no data,no data,69100,Rota,MP,tie,Rota,MP
+3158,-2.0,no data,no data,69110,Saipan,MP,tie,Saipan,MP
+3159,-2.0,no data,no data,69120,Aguijan,MP,tie,Aguijan,MP
+3160,-2.0,no data,no data,69120,Aguijan,MP,tie,Tinian,MP
+3161,-2.0,no data,no data,69120,Tinian,MP,tie,Aguijan,MP
+3162,-2.0,no data,no data,69120,Tinian,MP,tie,Tinian,MP
+3163,-2.0,no data,no data,72001,Adjuntas,PR,tie,Adjuntas,PR
+3164,-2.0,no data,no data,72003,Aguada,PR,tie,Aguada,PR
+3165,-2.0,no data,no data,72005,Aguadilla,PR,tie,Aguadilla,PR
+3166,-2.0,no data,no data,72007,Aguas Buenas,PR,tie,Aguas Buenas,PR
+3167,-2.0,no data,no data,72009,Aibonito,PR,tie,Aibonito,PR
+3168,-2.0,no data,no data,72011,Anasco,PR,tie,Anasco,PR
+3169,-2.0,no data,no data,72013,Arecibo,PR,tie,Arecibo,PR
+3170,-2.0,no data,no data,72015,Arroyo,PR,tie,Arroyo,PR
+3171,-2.0,no data,no data,72017,Barceloneta,PR,tie,Barceloneta,PR
+3172,-2.0,no data,no data,72019,Barranquitas,PR,tie,Barranquitas,PR
+3173,-2.0,no data,no data,72021,Bayamon,PR,tie,Bayamon,PR
+3174,-2.0,no data,no data,72023,Cabo Rojo,PR,tie,Cabo Rojo,PR
+3175,-2.0,no data,no data,72025,Caguas,PR,tie,Caguas,PR
+3176,-2.0,no data,no data,72027,Camuy,PR,tie,Camuy,PR
+3177,-2.0,no data,no data,72029,Canovanas,PR,tie,Canovanas,PR
+3178,-2.0,no data,no data,72031,Carolina,PR,tie,Carolina,PR
+3179,-2.0,no data,no data,72033,Catano,PR,tie,Catano,PR
+3180,-2.0,no data,no data,72035   Cayey,PR,,tie,PR,
+3181,-2.0,no data,no data,72037,Ceiba,PR,tie,Ceiba,PR
+3182,-2.0,no data,no data,72041,Cidra,PR,tie,Cidra,PR
+3183,-2.0,no data,no data,72043,Coamo,PR,tie,Coamo,PR
+3184,-2.0,no data,no data,72045,Comerio,PR,tie,Comerio,PR
+3185,-2.0,no data,no data,72047,Corozal,PR,tie,Corozal,PR
+3186,-2.0,no data,no data,72049,Culebra,PR,tie,Culebra,PR
+3187,-2.0,no data,no data,72051,Dorado,PR,tie,Dorado,PR
+3188,-2.0,no data,no data,72053,Fajardo,PR,tie,Fajardo,PR
+3189,-2.0,no data,no data,72054,Florida,PR,tie,Florida,PR
+3190,-2.0,no data,no data,72055,Guanica,PR,tie,Guanica,PR
+3191,-2.0,no data,no data,72057,Guayama,PR,tie,Guayama,PR
+3192,-2.0,no data,no data,72059,Guayanilla,PR,tie,Guayanilla,PR
+3193,-2.0,no data,no data,72061,Guaynabo,PR,tie,Guaynabo,PR
+3194,-2.0,no data,no data,72063,Gurabo,PR,tie,Gurabo,PR
+3195,-2.0,no data,no data,72065,Hatillo,PR,tie,Hatillo,PR
+3196,-2.0,no data,no data,72067,Hormigueros,PR,tie,Hormigueros,PR
+3197,-2.0,no data,no data,72071,Isabela,PR,tie,Isabela,PR
+3198,-2.0,no data,no data,72073,Jayuya,PR,tie,Jayuya,PR
+3199,-2.0,no data,no data,72075,Juana Diaz,PR,tie,Juana Diaz,PR
+3200,-2.0,no data,no data,72077,Juncos,PR,tie,Juncos,PR
+3201,-2.0,no data,no data,72079,Lajas,PR,tie,Lajas,PR
+3202,-2.0,no data,no data,72081,Lares,PR,tie,Lares,PR
+3203,-2.0,no data,no data,72083,Las Marias,PR,tie,Las Marias,PR
+3204,-2.0,no data,no data,72085,Las Piedras,PR,tie,Las Piedras,PR
+3205,-2.0,no data,no data,72087,Loiza,PR,tie,Loiza,PR
+3206,-2.0,no data,no data,72089,Luquillo,PR,tie,Luquillo,PR
+3207,-2.0,no data,no data,72091,Manati,PR,tie,Manati,PR
+3208,-2.0,no data,no data,72093,Maricao,PR,tie,Maricao,PR
+3209,-2.0,no data,no data,72095,Maunabo,PR,tie,Maunabo,PR
+3210,-2.0,no data,no data,72097,Mayaguez,PR,tie,Mayaguez,PR
+3211,-2.0,no data,no data,72099,Moca,PR,tie,Moca,PR
+3212,-2.0,no data,no data,72101,Morovis,PR,tie,Morovis,PR
+3213,-2.0,no data,no data,72103,Nabuabo,PR,tie,Nabuabo,PR
+3214,-2.0,no data,no data,72105,Naranjito,PR,tie,Naranjito,PR
+3215,-2.0,no data,no data,72107,Orocovis,PR,tie,Orocovis,PR
+3216,-2.0,no data,no data,72109,Patillas,PR,tie,Patillas,PR
+3217,-2.0,no data,no data,72111,Penuelas,PR,tie,Penuelas,PR
+3218,-2.0,no data,no data,72113,Ponce,PR,tie,Ponce,PR
+3219,-2.0,no data,no data,72115,Quebradillas,PR,tie,Quebradillas,PR
+3220,-2.0,no data,no data,72117,Rincon,PR,tie,Rincon,PR
+3221,-2.0,no data,no data,72119,Rio Grande,PR,tie,Rio Grande,PR
+3222,-2.0,no data,no data,72121,Sabana Grande,PR,tie,Sabana Grande,PR
+3223,-2.0,no data,no data,72123,Salinas,PR,tie,Salinas,PR
+3224,-2.0,no data,no data,72125,San German,PR,tie,San German,PR
+3225,-2.0,no data,no data,72127,San Juan,PR,tie,San Juan,PR
+3226,-2.0,no data,no data,72129,San Lorenzo,PR,tie,San Lorenzo,PR
+3227,-2.0,no data,no data,72131,San Sabastian,PR,tie,San Sabastian,PR
+3228,-2.0,no data,no data,72133,Santa Isabel,PR,tie,Santa Isabel,PR
+3229,-2.0,no data,no data,72135,Toa Alta,PR,tie,Toa Alta,PR
+3230,-2.0,no data,no data,72137,Toa Baja,PR,tie,Toa Baja,PR
+3231,-2.0,no data,no data,72139,Trujillo Alto,PR,tie,Trujillo Alto,PR
+3232,-2.0,no data,no data,72141,Utuado,PR,tie,Utuado,PR
+3233,-2.0,no data,no data,72143,Vega Alta,PR,tie,Vega Alta,PR
+3234,-2.0,no data,no data,72145,Vega Baja,PR,tie,Vega Baja,PR
+3235,-2.0,no data,no data,72147,Vieques,PR,tie,Vieques,PR
+3236,-2.0,no data,no data,72149,Villalba,PR,tie,Villalba,PR
+3237,-2.0,no data,no data,72151,Yabucoa PR,,tie,Yabucoa PR,
+3238,-2.0,no data,no data,72153,Yauco,PR,tie,Yauco,PR
+3239,-2.0,no data,no data,78010,St. Croix,VI,tie,St. Croix,VI
+3240,-2.0,no data,no data,78020,St. John,VI,tie,St. John,VI
+3241,-2.0,no data,no data,78030,St. Thomas,VI,tie,St. Thomas,VI
