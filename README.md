@@ -98,6 +98,7 @@ I additionally pulled social media twitter data through the Twitter API to analy
 <p align="center"> 
 <img src="images/healthy_wc.png">
 </p>
+
 ## Data Pre-Processing
 
 <p align="center"> 
