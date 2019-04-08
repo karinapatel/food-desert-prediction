@@ -183,12 +183,12 @@ Looking further into the features, we see that the most to least important featu
 ## Interactive Visualizations
 
 I created an [interactive flask webapp](http://0.0.0.0:333/) to visualize the results of my twitter sentiment analysis. 
-1. Tweet Map: Map of all geotagged tweets with the category and the sentiment of the tweet
-2. State Map: Summarizing healthy vs. unhealthy sentiment distribution across the U.S. by state
+* Tweet Map: Map of all geotagged tweets with the category and the sentiment of the tweet
+* State Map: Summarizing healthy vs. unhealthy sentiment distribution across the U.S. by state
     - Takes the weighted maximum between healthy foods and unhealthy foods to gauge the sentiment of the state as a whole
     - Blue indicates the state displays higher sentiment towards healthy foods
     -Purple indicates the state displays higher sentiment towards unheatlhy foods
-3. County Map: Summarizing healthy vs. unhealthy sentiment distribution across the U.S. by county
+* County Map: Summarizing healthy vs. unhealthy sentiment distribution across the U.S. by county
     - Takes the weighted maximum between healthy foods and unhealthy foods to gauge the sentiment of the county
     - Blue indicates the state displays higher sentiment towards healthy foods
     - Purple indicates the state displays higher sentiment towards unheatlhy foods
