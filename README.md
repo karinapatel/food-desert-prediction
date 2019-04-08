@@ -211,9 +211,10 @@ I created an [interactive flask webapp](http://0.0.0.0:333/) to visualize the re
 1. Twitter API
 2. FCC API
 3. Amazon Web Services
-3. MongoDB
-4. NLTK
-5. Carto API
-6. Carto.js
-7. Flask
-8. Beautiful Soup
+4. MongoDB
+5. NLTK
+6. Carto API
+7. Carto.js
+8. SQL
+9. Flask
+10. Beautiful Soup
