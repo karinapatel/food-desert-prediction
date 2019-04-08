@@ -61,6 +61,7 @@
         <p class="bodytext3">
             I utilized health behavioral data from the Population Health Division of the Center for Disease Control and Prevention. This dataset contains statistics regarding overall health for census tracts across the United States.
             <br/>
+            <br/>
             I additionally pulled social media twitter data through the Twitter API to analyze patterns of healthy vs. unhealthy consumption. To accomplish this filtered search, I created lists for the following 4 topics and pulled any mention of any of the words in these lists over a span of 1.5 weeks:
         </p>
 
@@ -103,28 +104,41 @@
                 </li>
             <li>    Because I was interested in mapping these tweets back to my population health dataset, I needed to filter these tweets to just geotagged tweets from the United States
                 </li>
-            <li>    I mapped back each of the latitude, longitude coordinate pairs from the twitter data to a corresponding US census tract. I used the Federal Comminucations Commission (FCC) API
+                <ol>
+                    <li>
+                        Removed any tweets with country code other than "US" and language other than "eng"</li>                    <br/>
+                    <br/>
+                    <li>
+                        Filtered out the tweets without coordinate information - Cleaned tweet text of any emojis or URLS</li>>
+                    <br/>
+                    <li>
+                        Calculated sentiment on the cleaned text using NLTK's Vader Sentiment Analyzer
+                    </li>
+                </ol>
+            <li>    
+                I mapped back each of the latitude, longitude coordinate pairs from the twitter data to a corresponding US census tract. I used the Federal Comminucations Commission (FCC) API. This returned the census block which the latitude, longitude pair belonged to, which was further converted to census tracts to merge the population health data and food desert targets
+
+            </li>
+            <li>    
+                There were a lot of census tracts without any twitter data, and others where there were many tweets falling inside a single tract. 
+            </li>
+            <ol>
+                <li>
+                    For those with tweets in the tract, I took the average sentiment for any tweets classified as healthy foods, unhealthy foods, fast food restaurants, or grocery stores and averaged the sentiment individually. 
                 </li>
-            <li>    There were a lot of census tracts without any twitter data, and others where there were many tweets falling inside a single tract. 
+                <br/>
+                <li>
+                    To account for the variance among the tracts, I filled any tracts without any tweets with the average sentiment of it's corresponding county for the same four categories
                 </li>
-            <li>    This was the final step of my pre-processing. My final feature matrix contained the population health features and 4 additional twitter sentiment features for each of my twitter pulls            
-                </li>
+            </ol>
+            <li>    
+                This was the final step of my pre-processing. My final feature matrix contained the population health features and 4 additional twitter sentiment features for each of my twitter pulls            
+            </li>
         </ol>
 
      
 <!-- 
-            5. Because I was interested in mapping these tweets back to my population health dataset, I needed to filter these tweets to just geotagged tweets from the United States
-            <br/>
-            <br/>
-                - Removed any tweets with country code other than "US" and language other than "eng"
-                <br/>
-                <br/>
-                - Filtered out the tweets without coordinate information - Cleaned tweet text of any emojis or URLS
-                <br/>
-                <br/>
-                - Calculated sentiment on the cleaned text using NLTK's Vader Sentiment Analyzer
-                <br/>
-                <br/>            
+           
             6. I mapped back each of the latitude, longitude coordinate pairs from the twitter data to a corresponding US census tract. I used the Federal Comminucations Commission (FCC) API
             <br/>
             <br/>
