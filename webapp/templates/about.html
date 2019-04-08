@@ -94,19 +94,27 @@
             Steps:
         </h4>
 
-        <p class="bodytext6">
-            1. I first merged the food desert target data with population health records using census tract as the key. Because there are over 72,000 census tracts in the United States, I first filtered to census tracts in 500 largest US cities. This allowed me to scope down to about 29,000 tracts
-            <br/>
-            <br/>
-            2. After merging these two data sets, I narrowed my feature matrix from over 300 features down to about 15 using correlation analysis and through health intuation
-            <br/>
-            <br/>           
-            3. Upon running intial models on the population health data alone, I decided that twitter data would allow me to get a well-rounded dataset of how people feel about different food categories
-            <br/>
-            <br/>           
-            4. Over the span of 1.5 weeks, I was able to collect over 3 million tweets, each falling into the category of healthy foods, unhealthy foods, fast food restaurants, or grocery stores
-            <br/>
-            <br/>            
+        <ol class="bodytext6">
+            <li>I first merged the food desert target data with population health records using census tract as the key. Because there are over 72,000 census tracts in the United States, I first filtered to census tracts in 500 largest US cities. This allowed me to scope down to about 29,000 tracts
+                </li>
+            <li>After merging these two data sets, I narrowed my feature matrix from over 300 features down to about 15 using correlation analysis and through health intuation
+                </li>
+            <li>Upon running intial models on the population health data alone, I decided that twitter data would allow me to get a well-rounded dataset of how people feel about different food categories
+                </li>
+            <li>Over the span of 1.5 weeks, I was able to collect over 3 million tweets, each falling into the category of healthy foods, unhealthy foods, fast food restaurants, or grocery stores
+                </li>
+            <li>Because I was interested in mapping these tweets back to my population health dataset, I needed to filter these tweets to just geotagged tweets from the United States
+                </li>
+            <li>I mapped back each of the latitude, longitude coordinate pairs from the twitter data to a corresponding US census tract. I used the Federal Comminucations Commission (FCC) API
+                </li>
+            <li>There were a lot of census tracts without any twitter data, and others where there were many tweets falling inside a single tract. 
+                </li>
+            <li>This was the final step of my pre-processing. My final feature matrix contained the population health features and 4 additional twitter sentiment features for each of my twitter pulls            
+                </li>
+        </ol>
+
+     
+<!-- 
             5. Because I was interested in mapping these tweets back to my population health dataset, I needed to filter these tweets to just geotagged tweets from the United States
             <br/>
             <br/>
@@ -134,8 +142,7 @@
                 - To account for the variance among the tracts, I filled any tracts without any tweets with the average sentiment of it's corresponding county for the same four categories
                 <br/>
                 <br/>                
-            8. This was the final step of my pre-processing. My final feature matrix contained the population health features and 4 additional twitter sentiment features for each of my twitter pulls            
-        </p>
+            8. This was the final step of my pre-processing. My final feature matrix contained the population health features and 4 additional twitter sentiment features for each of my twitter pulls             -->
 
             
 
