@@ -69,6 +69,20 @@
     padding-left: 2em;
   }
 
+  #results{
+    font: 20px/1.3 'Atma', Helvetica, sans-serif;
+    color: rgba(178, 52, 220, 0.904);
+  }
+
+  .bodytext7 {
+    font: 10 17px/1.3 'Times New Roman', Helvetica, sans-serif;
+    padding-left: 2em;
+  }
+
+  .bodytext8 {
+    font: 10 17px/1.3 'Times New Roman', Helvetica, sans-serif;
+    padding-left: 2em;
+  }
 
 
   /* Add a black background color to the top navigation */

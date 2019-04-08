@@ -140,41 +140,34 @@
                 This was the final step of my pre-processing. My final feature matrix contained the population health features and 4 additional twitter sentiment features for each of my twitter pulls            
             </li>
         </ol>
-
-     
-<!-- 
-           
-            6. I mapped back each of the latitude, longitude coordinate pairs from the twitter data to a corresponding US census tract. I used the Federal Comminucations Commission (FCC) API
-            <br/>
-            <br/>
-                - This returned the census block which the latitude, longitude pair belonged to, which was further converted to census tracts to merge the population health data and food desert targets
-                <br/>
-                <br/>            
-            7. There were a lot of census tracts without any twitter data, and others where there were many tweets falling inside a single tract. 
-            <br/>
-            <br/>
-                - For those with tweets in the tract, I took the average sentiment for any tweets classified as healthy foods, unhealthy foods, fast food restaurants, or grocery stores and averaged the sentiment individually. 
-                <br/>
-                <br/>
-                - To account for the variance among the tracts, I filled any tracts without any tweets with the average sentiment of it's corresponding county for the same four categories
-                <br/>
-                <br/>                
-            8. This was the final step of my pre-processing. My final feature matrix contained the population health features and 4 additional twitter sentiment features for each of my twitter pulls             -->
-
-            
-
-    <p>
-        <p align="center"> 
-            <a href="https://ibb.co/CW78Snb"><img src="https://i.ibb.co/0QM2zfC/ROC-compare.png" alt="ROC-compare" border="0"></a>
+        
+        <h3 id='results' > 
+            Results:
+        </h3>
+    
+        <p class="bodytext7">
+            I ran a number of different models on my data to compare performance of different binary classifiers. Comparing ROC-AUC scores for SVM, KNN, Logistic Regression, Random Forest, and Gradient Boosting below, it is clear that certain models performed better than others.
+            <p align="center"> 
+                <a href="https://ibb.co/CW78Snb"><img src="https://i.ibb.co/0QM2zfC/ROC-compare.png" alt="ROC-compare" border="0"></a>
+            </p>
         </p>
-    </p>
-    <p>
-        <p align="center"> 
+
+        <!-- <p align="center"> 
             <a href="https://ibb.co/Q68mhhs"><img src="https://i.ibb.co/kh3czzY/final-permimp.png" alt="final-permimp" border="0"></a>
+        </p> -->
+
+        <p class="bodytext8">
+            The best model I found was using Gradient Boosting with a depth of 5, learning rate of 0.1, and number of estimators set to 100. Predicting food deserts for the test set based off this model, I was able to achieve the following results:
+
+            | Metric | Score |
+            | ------ | ------ |
+            | ROC-AUC score | 0.88 |
+            | Accuracy | 0.89 |
+            |F1 Score | 0.84 |
+            | Recall | 0.83 |
+            | Precision | 0.86 |
+            |  |  |
         </p>
-    </p>
-
-
 
     </body>
 
