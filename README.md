@@ -99,6 +99,10 @@ I additionally pulled social media twitter data through the Twitter API to analy
 <img src="images/healthy_wc.png">
 </p>
 
+After pulling data from twitter, the prevalence of each of the words/phrases is proportional to the size of the word in the clusters above. Each of these datasets were pulled into MongoDB, and stored for pre-processing.
+
+The target data, a classification of whether each census tract is currently classified as a food desert or not, came from US Department of Agriculture (USDA) dataset.
+
 ## Data Pre-Processing
 
 <p align="center"> 
