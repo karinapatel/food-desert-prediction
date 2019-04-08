@@ -196,14 +196,14 @@ I created an [interactive flask webapp](http://0.0.0.0:333/) to visualize the re
 
 ## Future Steps
 
-- Break down tweets into food composition
+* Break down tweets into food composition
     - New features for calories, protein, sugar, carbohydrate, and fat breakdown for the food(s) mentioned in the tweet
     - Allow us to approximate the measure of nutrition for a given tweet to help determine food intake across the U.S.
 
-- Expand dataset: continue to pull more twitter data to get more accurate estimates of sentiment in all census tracts
+* Expand dataset: continue to pull more twitter data to get more accurate estimates of sentiment in all census tracts
     - Some census tracts had no tweets within the tract boundaries which limits the analysis I was able to perform
 
-- Diversify my queries
+* Diversify my queries
     - By splitting the four categories of tweets I pull, I would be able to get a clearer estimate of what sorts of foods different areas have preference for
     - Additionally, pulling more types of foods each time I queried from Twitter's API would allow for me to get a more expansive dataset spanning the distribution of foods across the U.S. more extensively
 
