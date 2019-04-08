@@ -109,7 +109,6 @@
                 <br/>
             <li>    Because I was interested in mapping these tweets back to my population health dataset, I needed to filter these tweets to just geotagged tweets from the United States
                 </li>
-                <br/>
                 <ul>
                     <li>
                         Removed any tweets with country code other than "US" and language other than "eng"</li>
@@ -119,14 +118,15 @@
                         Calculated sentiment on the cleaned text using NLTK's Vader Sentiment Analyzer
                     </li>
                 </ul>
+                <br/>
             <li>    
                 I mapped back each of the latitude, longitude coordinate pairs from the twitter data to a corresponding US census tract. I used the Federal Comminucations Commission (FCC) API. This returned the census block which the latitude, longitude pair belonged to, which was further converted to census tracts to merge the population health data and food desert targets
 
             </li>
+            <br/>
             <li>    
                 There were a lot of census tracts without any twitter data, and others where there were many tweets falling inside a single tract. 
             </li>
-            <br/>
             <ul>
                 <li>
                     For those with tweets in the tract, I took the average sentiment for any tweets classified as healthy foods, unhealthy foods, fast food restaurants, or grocery stores and averaged the sentiment individually. 
