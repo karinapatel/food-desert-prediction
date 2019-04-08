@@ -2,11 +2,15 @@
 #AboutHeader {
     font: 120 45px/1.3 'Atma', Helvetica, sans-serif;
     color: rgba(205, 116, 235, 0.904);
+    text-shadow: 1px 1px 0px rgb(0, 0, 0);
+
   }
   
   #Inspiration{
     font: 20px/1.3 'Atma', Helvetica, sans-serif;
     color: rgba(205, 116, 235, 0.904);
+    text-shadow: 1px 1px 0px rgb(0, 0, 0);
+
   }
   
   body {
