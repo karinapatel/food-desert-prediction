@@ -47,9 +47,12 @@
             I am predicting food deserts using population health and twitter sentiment to provide more up-to-date predicitons of at-risk census tracts. I utilize factors/features that are not currently being used by the United States Department of Agriculture
             Economic Research Service (USDA ERA) to predict food deserts in hopes that other census data can help us flag the same food desert regions. This analysis allows us to uncover what population health factors are correlated with food deserts and just how big of an impact these conditions have on health of individuals. 
             <br/>
+            <br/>
             Calculating the sentiment in social media is a great way to find out how residents feel about different types of foods and restaurants. Twitter is a social media platform where people are able to express opinions quickly, concisely, and at scale. Collecting and calculating the sentiment of tweets allows me to grasp information that is being provided by people in census tracts across the US. 
             <br/>
+            <br/>
             Combining population health and social media sentiment, I aim to map how different opinions and statistics about health map to the areas of food deserts.
+            <br/>
             <br/>
             My model would help to inform the public of at-risk areas where there is room for growth. Action could be taken to reverse risk of food deserts through possible grocery store implementation plans or fresh food initiatives. These grocery stores could also benefit from this predictive modeling when deciding on areas to consider building. Opening in areas with fewer grocery stores present could result in additional profit given the low competition while also benefiting the census tract by providing access to nutritional meals.
         </p>
@@ -100,21 +103,22 @@
                 <br/>
             <li>    Upon running intial models on the population health data alone, I decided that twitter data would allow me to get a well-rounded dataset of how people feel about different food categories
                 </li>
+                <br/>
             <li>    Over the span of 1.5 weeks, I was able to collect over 3 million tweets, each falling into the category of healthy foods, unhealthy foods, fast food restaurants, or grocery stores
                 </li>
+                <br/>
             <li>    Because I was interested in mapping these tweets back to my population health dataset, I needed to filter these tweets to just geotagged tweets from the United States
                 </li>
-                <ol>
+                <br/>
+                <ul>
                     <li>
-                        Removed any tweets with country code other than "US" and language other than "eng"</li>                    <br/>
-                    <br/>
+                        Removed any tweets with country code other than "US" and language other than "eng"</li>
                     <li>
-                        Filtered out the tweets without coordinate information - Cleaned tweet text of any emojis or URLS</li>>
-                    <br/>
+                        Filtered out the tweets without coordinate information - Cleaned tweet text of any emojis or URLS</li>
                     <li>
                         Calculated sentiment on the cleaned text using NLTK's Vader Sentiment Analyzer
                     </li>
-                </ol>
+                </ul>
             <li>    
                 I mapped back each of the latitude, longitude coordinate pairs from the twitter data to a corresponding US census tract. I used the Federal Comminucations Commission (FCC) API. This returned the census block which the latitude, longitude pair belonged to, which was further converted to census tracts to merge the population health data and food desert targets
 
@@ -122,15 +126,16 @@
             <li>    
                 There were a lot of census tracts without any twitter data, and others where there were many tweets falling inside a single tract. 
             </li>
-            <ol>
+            <br/>
+            <ul>
                 <li>
                     For those with tweets in the tract, I took the average sentiment for any tweets classified as healthy foods, unhealthy foods, fast food restaurants, or grocery stores and averaged the sentiment individually. 
                 </li>
-                <br/>
                 <li>
                     To account for the variance among the tracts, I filled any tracts without any tweets with the average sentiment of it's corresponding county for the same four categories
                 </li>
-            </ol>
+            </ul>
+            <br/>
             <li>    
                 This was the final step of my pre-processing. My final feature matrix contained the population health features and 4 additional twitter sentiment features for each of my twitter pulls            
             </li>
