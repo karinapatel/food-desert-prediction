@@ -14,7 +14,7 @@
     background-color: lightblue;
     }
   .bodytext1 {
-    font: 10 17px/1.3 'Times', Helvetica, sans-serif;
+    font: 10 17px/1.3 'Times New Roman', Helvetica, sans-serif;
     padding-left: 2em;
   
   }
@@ -24,6 +24,7 @@
     color: rgb(0, 0, 0);}
   
   .bodytext2 {
+    font: 10 17px/1.3 'Times New Roman', Helvetica, sans-serif;
     padding-left: 2em;
   
   }
@@ -33,6 +34,7 @@
     color: rgb(0, 0, 0);}
   
   .bodytext3 {
+    font: 10 17px/1.3 'Times New Roman', Helvetica, sans-serif;
     padding-left: 2em;
   
   }

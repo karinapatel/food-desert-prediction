@@ -14,6 +14,7 @@ body {
   background-color: lightblue;
   }
 .bodytext {
+  font: 10 17px/1.3 'Times New Roman', Helvetica, sans-serif;
   padding-left: 2em;
 
 }
