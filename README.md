@@ -184,23 +184,28 @@ Looking further into the features, we see that the most to least important featu
 
 I created an [interactive flask webapp](http://0.0.0.0:333/) to visualize the results of my twitter sentiment analysis. 
 1. Tweet Map: Map of all geotagged tweets with the category and the sentiment of the tweet
-2. State Map: Summarizing sentiment towards healthy foods, grocery stores, unhealthy foods, and fast food restaurants
-    - Takes the weighted max between healthy foods/grocery stores and unhealthy foods/fast food restaurants to gauge the sentiment of the state as a whole
-    - Blue indicates the state displays higher sentiment towards healthy foods and grocery stores
-    -Purple indicates the state displays higher sentiment towards unheatlhy foods and fast food restaurants
+2. State Map: Summarizing healthy vs. unhealthy sentiment distribution across the U.S. by state
+    - Takes the weighted maximum between healthy foods and unhealthy foods to gauge the sentiment of the state as a whole
+    - Blue indicates the state displays higher sentiment towards healthy foods
+    -Purple indicates the state displays higher sentiment towards unheatlhy foods
+3. County Map: Summarizing healthy vs. unhealthy sentiment distribution across the U.S. by county
+    - Takes the weighted maximum between healthy foods and unhealthy foods to gauge the sentiment of the county
+    - Blue indicates the state displays higher sentiment towards healthy foods
+    - Purple indicates the state displays higher sentiment towards unheatlhy foods
+    - Green indicates that there were no tweets within the period of data collection allowing for sentiment analysis of that county
 
 ## Future Steps
 
 - Break down tweets into food composition
-    * New features for calories, protein, sugar, carbohydrate, and fat breakdown for the food(s) mentioned in the tweet
-    * Allow us to approximate the measure of nutrition for a given tweet to help determine food intake across the U.S.
+    - New features for calories, protein, sugar, carbohydrate, and fat breakdown for the food(s) mentioned in the tweet
+    - Allow us to approximate the measure of nutrition for a given tweet to help determine food intake across the U.S.
 
 - Expand dataset: continue to pull more twitter data to get more accurate estimates of sentiment in all census tracts
-    * Some census tracts had no tweets within the tract boundaries which limits the analysis I was able to perform
+    - Some census tracts had no tweets within the tract boundaries which limits the analysis I was able to perform
 
 - Diversify my queries
-    * By splitting the four categories of tweets I pull, I would be able to get a clearer estimate of what sorts of foods different areas have preference for
-    * Additionally, pulling more types of foods each time I queried from Twitter's API would allow for me to get a more expansive dataset spanning the distribution of foods across the U.S. more extensively
+    - By splitting the four categories of tweets I pull, I would be able to get a clearer estimate of what sorts of foods different areas have preference for
+    - Additionally, pulling more types of foods each time I queried from Twitter's API would allow for me to get a more expansive dataset spanning the distribution of foods across the U.S. more extensively
 
 ## Top Tools Used ####
 1. Twitter API

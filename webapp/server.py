@@ -25,6 +25,12 @@ def state_map():
 def county_map():
     return render_template('county_map.html')
 
+@app.route('/about', methods = ['GET'])
+
+def about():
+    return render_template('about.html')
+
+
 #model = pickle.load(open('linreg.p','rb'))
 '''
 @app.route('/inference',methods=["POST"])
