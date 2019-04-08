@@ -100,7 +100,9 @@ I additionally pulled social media twitter data through the Twitter API to analy
 </p>
 ## Data Pre-Processing
 
+<p align="center"> 
 <img src="images/visual.png">
+</p>
 
 1. I first merged the food desert target data with population health records using census tract as the key. Because there are over 72,000 census tracts in the United States, I first filtered to census tracts in 500 largest US cities. This allowed me to scope down to about 29,000 tracts
 
