@@ -5,6 +5,10 @@
   text-shadow: 1px 1px 0px rgb(0, 0, 0);
 }
 
+#by_karina{
+  font: 20px/1.3 'Atma', Helvetica, sans-serif;
+  color: rgba(178, 52, 220, 0.904);
+}
 
 body {
   font: 10 17px/1.3 'Atma', Helvetica, sans-serif;
