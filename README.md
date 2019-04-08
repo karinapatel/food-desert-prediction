@@ -103,12 +103,14 @@ After pulling data from twitter, the prevalence of each of the words/phrases is 
 
 The target data, a classification of whether each census tract is currently classified as a food desert or not, came from US Department of Agriculture (USDA) dataset.
 
-## Data Pre-Processing
+## Data Collection and Processing
 
+The steps taken to collect/combine datasets and prepare my feature matrices for modeling are summarized as follows:
 <p align="center"> 
 <img src="images/visual.png">
 </p>
 
+### Steps
 1. I first merged the food desert target data with population health records using census tract as the key. Because there are over 72,000 census tracts in the United States, I first filtered to census tracts in 500 largest US cities. This allowed me to scope down to about 29,000 tracts
 
 2. After merging these two data sets, I narrowed my feature matrix from over 300 features down to about 15 using correlation analysis and through health intuation
