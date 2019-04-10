@@ -24,7 +24,7 @@ def permutation_importance(model, X_test, y_test, scorer=f1_score):
         for each feature
     
     '''
-    
+    #calc feat imp
     feat_importances = np.zeros(X_test.shape[1])
     test_score = scorer(model.predict(X_test), y_test)
     for i in range(X_test.shape[1]):
