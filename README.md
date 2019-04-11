@@ -186,13 +186,11 @@ I created an [interactive flask webapp](http://54.81.218.173:3332) to visualize 
 * Tweet Map: Map of all geotagged tweets with the category and the sentiment of the tweet
 * State Map: Summarizing healthy vs. unhealthy sentiment distribution across the U.S. by state
     - Takes the weighted maximum between healthy foods and unhealthy foods to gauge the sentiment of the state as a whole
-    - Blue indicates the state displays higher sentiment towards healthy foods
-    -Purple indicates the state displays higher sentiment towards unheatlhy foods
+    - Displays whether the state has higher sentiment towards healthy foods or unhealthy foods
 * County Map: Summarizing healthy vs. unhealthy sentiment distribution across the U.S. by county
     - Takes the weighted maximum between healthy foods and unhealthy foods to gauge the sentiment of the county
-    - Blue indicates the state displays higher sentiment towards healthy foods
-    - Purple indicates the state displays higher sentiment towards unheatlhy foods
-    - Green indicates that there were no tweets within the period of data collection allowing for sentiment analysis of that county
+    - Displays whether the state has higher sentiment towards healthy foods or unhealthy foods
+    - Grey areas signify that there is not enough data in that region for me to conclude majority sentiment
 
 ## Future Steps
 
