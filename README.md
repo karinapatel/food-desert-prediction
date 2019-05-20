@@ -1,6 +1,6 @@
 # Predicting Food Deserts Across United States Census Tracts Using Population Health and Twitter Sentiment Analysis
 
-[Interactive Webapp](http://54.81.218.173:3332)
+[Interactive Webapp](http://18.234.243.186:3332)
 
 ## Inspiration
 Nutrition and overall access to food is a critical component to well-being and the overall health of an individual. Unfortunately, many regions around the world lack access and/or the ability to consume fresh and quality foods. As a result, many Americans find it hard to check off essential components of a healthy diet. Food deserts are defined as areas across the United States, often low-income, where there is limited access to nutritious and affordable food, especially fruits vegetables, whole grains, and low-fat milk. More specifically, food deserts are census tracts where more than 500 people or over 33 percent of the population in that tract must travel over a mile for fresh groceries. 
@@ -182,7 +182,7 @@ Looking further into the features, we see that the most to least important featu
 | | | |
 ## Interactive Visualizations
 
-I created an [interactive flask webapp](http://54.81.218.173:3332) to visualize the results of my twitter sentiment analysis. 
+I created an [interactive flask webapp](http://18.234.243.186:3332) to visualize the results of my twitter sentiment analysis. 
 * Tweet Map: Map of all geotagged tweets with the category and the sentiment of the tweet
 * State Map: Summarizing healthy vs. unhealthy sentiment distribution across the U.S. by state
     - Takes the weighted maximum between healthy foods and unhealthy foods to gauge the sentiment of the state as a whole
